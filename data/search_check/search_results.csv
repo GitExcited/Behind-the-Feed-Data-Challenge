@@ -1,0 +1,488 @@
+story_id,engine,rank,source,headline,published,group,on_story,size_group
+b3c9f581,gnews,1,Northumberland News,"Cobourg names its first woman deputy chief, bringing a 30-ye",2026-10-08T15:31,major,True,major
+b3c9f581,gnews,2,GRANT HAVEN MEDIA,Cobourg Police Service Board names new deputy chief,2026-10-09T12:52,local_en,True,small
+b3c9f581,gnews,3,PTBO Today,Former Peterborough officer Tina Maier named Cobourg Police ,2026-10-08T11:39,local_en,True,small
+b3c9f581,gnews,4,Northumberland News,Cobourg’s Oct. 9 forecast: Chance of showers,2026-10-09T10:10,major,False,major
+b3c9f581,gnews,5,Northumberland News,"In Port Hope, two longtime friends share a retirement home, ",2026-10-09T15:25,major,False,major
+b3c9f581,gnews,6,Northumberland News,Capitol Theatre Port Hope unveils its 2027 season,2026-10-09T16:39,major,False,major
+b3c9f581,gsearch,1,Northumberland News,"Cobourg names its first woman deputy chief, bringing a 30-year policin",,major,True,major
+b3c9f581,gsearch,2,GRANT HAVEN MEDIA,Cobourg Police Service Board names new deputy chief,,local_en,True,small
+b3c9f581,gsearch,3,PTBO Today,Former Peterborough officer Tina Maier named Cobourg Police Deputy Chi,,local_en,True,small
+b3c9f581,gsearch,4,Northumberland News,Cobourg’s Oct. 9 forecast: Chance of showers,,major,False,major
+b3c9f581,gsearch,5,Northumberland News,"In Port Hope, two longtime friends share a retirement home, but their ",,major,False,major
+b3c9f581,gsearch,6,Northumberland News,Capitol Theatre Port Hope unveils its 2027 season,,major,False,major
+b7b11d36,gnews,1,CTV News,Six-year-old Whitby girl who went missing over the weekend found ‘safe,2026-10-06T17:32,major,True,major
+b7b11d36,gnews,2,DurhamRegion.com,"UPDATED: Alert sent out Tuesday after Whitby girl, 6, was reported mis",2026-10-06T11:18,major,True,major
+b7b11d36,gnews,3,INsauga,Missing six-year-old Whitby girl found in Mississauga,2026-10-06T20:43,local_en,True,small
+b7b11d36,gnews,4,Toronto Sun,Missing Whitby girl found safe in Mississauga,2026-10-06T17:18,major,True,major
+b7b11d36,gnews,5,CP24,Six-year-old Whitby girl who went missing over the weekend found ‘safe,2026-10-06T17:32,major,True,major
+b7b11d36,gnews,6,Durham Radio News,"Missing 6-year-old Whitby girl has been found, why wasn’t there an ale",2026-10-06T18:00,local_en,True,small
+b7b11d36,gnews,7,Yahoo News Canada,"News of the day: Missing Whitby girl found safe in Mississauga, and mo",2026-10-06T21:21,foreign,True,other
+b7b11d36,gnews,8,CityNews Toronto,"Police say missing girl, 6, last seen in Whitby over weekend",2026-10-06T13:01,major,True,major
+b7b11d36,gnews,9,Seek Your Sounds,"Missing 6-year-old girl last seen with man known to her father, Durham",2026-10-07T04:16,unknown,True,other
+b7b11d36,gnews,10,INsauga,Six-year-old girl missing from Whitby,2026-10-06T16:37,local_en,True,small
+b7b11d36,gsearch,1,CTV News,Six-year-old Whitby girl who went missing over the weekend found ‘safe,,major,True,major
+b7b11d36,gsearch,2,DurhamRegion.com,"UPDATED: Alert sent out Tuesday after Whitby girl, 6, was reported mis",,major,True,major
+b7b11d36,gsearch,3,INsauga,Missing six-year-old Whitby girl found in Mississauga,,local_en,True,small
+b7b11d36,gsearch,4,Toronto Sun,Missing Whitby girl found safe in Mississauga,,major,True,major
+b7b11d36,gsearch,5,CP24,Six-year-old Whitby girl who went missing over the weekend found ‘safe,,major,True,major
+b7b11d36,gsearch,6,Durham Radio News,"Missing 6-year-old Whitby girl has been found, why wasn’t there an ale",,local_en,True,small
+b7b11d36,gsearch,7,Yahoo News Canada,"News of the day: Missing Whitby girl found safe in Mississauga, and mo",,foreign,True,other
+b7b11d36,gsearch,8,CityNews Toronto,"Police say missing girl, 6, last seen in Whitby over weekend",,major,True,major
+b7b11d36,gsearch,9,Seek Your Sounds,"Missing 6-year-old girl last seen with man known to her father, Durham",,unknown,True,other
+b7b11d36,gsearch,10,INsauga,Six-year-old girl missing from Whitby,,local_en,True,small
+94948021,gnews,1,Owen Sound Sun-Times,Owen Sound Attack can’t complete comeback in Guelph,2026-10-10T02:23,major,True,major
+94948021,gnews,2,Bayshore Broadcasting News Centre,Attack Comeback Bid Comes Up Short In Guelph,2026-10-10T02:51,local_en,True,small
+94948021,gsearch,1,Owen Sound Sun-Times,Owen Sound Attack can’t complete comeback in Guelph,,major,True,major
+94948021,gsearch,2,Bayshore Broadcasting News Centre,Attack Comeback Bid Comes Up Short In Guelph,,local_en,True,small
+6c59aff6,gnews,1,Global News,"2 dead after plane crash, fire near Fergus, Ont.",2026-10-10T19:22,major,True,major
+6c59aff6,gnews,2,CBC,"2 dead in plane crash near Fergus, Ont., Friday morning",2026-10-10T19:35,major,True,major
+6c59aff6,gnews,3,CityNews Toronto,2 people killed in small plane crash near Guelph,2026-10-10T19:29,major,True,major
+6c59aff6,gnews,4,Guelph News,Small plane crashes into field just north of Fergus,2026-10-09T16:30,local_en,True,small
+6c59aff6,gnews,5,CTV News,"Two people dead after small plane crashes near Fergus, Ont.",2026-10-09T15:12,major,True,major
+6c59aff6,gnews,6,Wellington Advertiser,Small plane crashes into field near Fergus,2026-10-09T17:01,local_en,True,small
+6c59aff6,gnews,7,Grand 101.1 FM,UPDATE: Two lives lost in small aircraft crash near Fergus,2026-10-10T19:24,local_en,True,small
+6c59aff6,gnews,8,The Globe and Mail,"Two dead in small plane crash near Fergus, Ont.",2026-10-10T19:46,major,True,major
+6c59aff6,gnews,9,The Record,Two people killed in plane crash outside Fergus,2026-10-10T19:19,major,True,major
+6c59aff6,gnews,10,CK News Today,OPP investigate small plane crash near Fergus,2026-10-10T11:42,local_en,True,small
+6c59aff6,gsearch,1,Global News,"2 dead after plane crash, fire near Ferg",,major,True,major
+6c59aff6,gsearch,2,The Record,"Guelph pilot, entrepreneur Steve Zago re",,major,True,major
+6c59aff6,gsearch,3,Toronto Sun,Guelph pilot and coffee entrepreneur Ste,,major,True,major
+6c59aff6,gsearch,4,CBC,"2 dead in plane crash near Fergus, Ont.,",,major,True,major
+6c59aff6,gsearch,5,CityNews Toronto,2 people killed in small plane crash nea,,major,True,major
+6c59aff6,gsearch,6,Guelph News,Small plane crashes into field just nort,,local_en,True,small
+6c59aff6,gsearch,7,CTV News,Two people dead after small plane crashe,,major,True,major
+6c59aff6,gsearch,8,Wellington Advertiser,Small plane crashes into field near Ferg,,local_en,True,small
+6c59aff6,gsearch,9,Grand 101.1 FM,UPDATE: Two lives lost in small aircraft,,local_en,True,small
+6c59aff6,gsearch,10,The Globe and Mail,Two dead in small plane crash near Fergu,,major,True,major
+afd5c76b,gnews,1,Brantford Expositor,"Two male youths, aged 16 and 17, charged with attempted murder followi",2026-10-08T19:50,major,True,major
+afd5c76b,gnews,2,CP24,Teens charged with attempted murder following stabbing in Brantford,2026-10-07T18:02,major,True,major
+afd5c76b,gnews,3,Brant Beacon,Two Brantford teens charged with Attempted Murder,2026-10-08T17:01,local_en,True,small
+afd5c76b,gnews,4,The Spec,Teens face attempted murder charges in double-stabbing in Brantford,2026-10-07T19:00,major,True,major
+afd5c76b,gnews,5,Hamilton Police Service,Two Youths Charged Following Hate-Motivated Assault,2026-10-07T15:31,cdn_unpaid,False,other
+afd5c76b,gnews,6,Reddit,Sister (Tara Brown) of homicide victim (Jason John Brown) turns grief ,2026-10-09T04:53,unknown,False,other
+afd5c76b,gnews,7,CHCH,"Police charge Niagara Falls man with animal cruelty, bestiality",2026-10-07T17:44,local_en,False,small
+afd5c76b,gnews,8,CHCH,Hamilton council approves maximum heat bylaw pilot project for Ward 2,2026-10-07T19:05,local_en,False,small
+afd5c76b,gsearch,1,Brantford Expositor,"Two male youths, aged 16 and 17, charged",,major,True,major
+afd5c76b,gsearch,2,CP24,Teens charged with attempted murder foll,,major,True,major
+afd5c76b,gsearch,3,Brant Beacon,Two Brantford teens charged with Attempt,,local_en,True,small
+afd5c76b,gsearch,4,The Spec,Teens face attempted murder charges in d,,major,True,major
+afd5c76b,gsearch,5,Hamilton Police Service,Two Youths Charged Following Hate-Motiva,,cdn_unpaid,False,other
+afd5c76b,gsearch,6,Reddit,Sister (Tara Brown) of homicide victim (,,unknown,False,other
+afd5c76b,gsearch,7,CHCH,Police charge Niagara Falls man with ani,,local_en,False,small
+afd5c76b,gsearch,8,CHCH,Hamilton council approves maximum heat b,,local_en,False,small
+7429690a,gnews,1,CTV News,"Kitchener man charged after police seize suspected fentanyl,",2026-10-10T15:49,major,True,major
+7429690a,gnews,2,CityNews Kitchener,"Man in Kitchener arrested, Waterloo regional police seize dr",2026-10-11T12:18,major,True,major
+7429690a,gnews,3,CambridgeToday.ca,"Police say suspected fentanyl, meth seized after arrest in K",2026-10-10T02:17,local_en,True,small
+7429690a,gnews,4,CityNews Kitchener,"Brass knuckles, knife found on drug trafficking suspect in G",2026-10-09T11:17,major,False,major
+7429690a,gnews,5,CambridgeToday.ca,"Police investigate vehicle theft in Kitchener, seek help ide",2026-10-09T23:38,local_en,False,small
+7429690a,gnews,6,CambridgeToday.ca,"Police investigate theft from vehicle in North Dumfries, sto",2026-10-09T21:56,local_en,False,small
+7429690a,gnews,7,CTV News,Longueuil police arrest potentially armed man after alleged ,2026-10-11T13:25,major,False,major
+7429690a,gnews,8,CTV News,Assault reported at Guelph restaurant during Homecoming,2026-10-09T18:11,major,False,major
+7429690a,gnews,9,CTV News,‘They've already leveled up their game right now’: Mount For,2026-10-11T19:53,major,False,major
+7429690a,gnews,10,CTV News,"Stratford man charged after police seize handgun, drugs and ",2026-10-10T17:18,major,False,major
+7429690a,gsearch,1,CTV News,Kitchener man charged after police seize,,major,True,major
+7429690a,gsearch,2,CityNews Kitchener,"Man in Kitchener arrested, Waterloo regi",,major,True,major
+7429690a,gsearch,3,CambridgeToday.ca,"Police say suspected fentanyl, meth seiz",,local_en,True,small
+7429690a,gsearch,4,CityNews Kitchener,"Brass knuckles, knife found on drug traf",,major,False,major
+7429690a,gsearch,5,CambridgeToday.ca,Police investigate vehicle theft in Kitc,,local_en,False,small
+7429690a,gsearch,6,CTV News,Waterloo Regional Police investigating a,,major,False,major
+7429690a,gsearch,7,CambridgeToday.ca,Police investigate theft from vehicle in,,local_en,False,small
+7429690a,gsearch,8,CTV News,WRPS investigating distraction thefts in,,major,False,major
+7429690a,gsearch,9,CTV News,Longueuil police arrest potentially arme,,major,False,major
+7429690a,gsearch,10,CTV News,Assault reported at Guelph restaurant du,,major,False,major
+e98a8aa6,gnews,1,CBC,"Part of downtown Stratford, Ont., shut down after person bro",2026-10-09T19:06,major,True,major
+e98a8aa6,gnews,2,Stratford Beacon Herald,Grenade scare closes section of downtown Stratford near poli,2026-10-09T16:21,major,True,major
+e98a8aa6,gnews,3,StratfordToday.ca,Grenade shuts down section of downtown Stratford,2026-10-09T13:45,local_en,True,small
+e98a8aa6,gnews,4,My Stratford Now,Area closed off after possible Second World War grenade brou,2026-10-09T14:08,local_en,True,small
+e98a8aa6,gnews,5,CKNX News Today,Suspected Second World War grenade prompts closure of downto,2026-10-09T16:01,local_en,True,small
+e98a8aa6,gnews,6,CTV News,Suspected WWII grenade prompts closure around Stratford poli,2026-10-09T13:47,major,True,major
+e98a8aa6,gnews,7,CTV News,Suspected WWII grenade prompts closure around Stratford poli,2026-10-09T13:47,major,True,major
+e98a8aa6,gsearch,1,CBC,"Part of downtown Stratford, Ont., shut d",,major,True,major
+e98a8aa6,gsearch,2,Stratford Beacon Herald,Grenade scare closes section of downtown,,major,True,major
+e98a8aa6,gsearch,3,StratfordToday.ca,Grenade shuts down section of downtown S,,local_en,True,small
+e98a8aa6,gsearch,4,My Stratford Now,Area closed off after possible Second Wo,,local_en,True,small
+e98a8aa6,gsearch,5,CKNX News Today,Suspected Second World War grenade promp,,local_en,True,small
+e98a8aa6,gsearch,6,CTV News,Suspected WWII grenade prompts closure a,,major,True,major
+e98a8aa6,gsearch,7,CityNews Kitchener,Bomb disposal unit called after WWII gre,,major,True,major
+e98a8aa6,gsearch,8,CTV News,Suspected WWII grenade prompts closure a,,major,True,major
+6b6b42fd,gnews,1,Owen Sound Sun-Times,Two youth charged in relation to incident at Kincardine busi,2026-10-12T15:51,major,True,major
+6b6b42fd,gnews,2,Bayshore Broadcasting News Centre,Pair Of Youths Charged After Confrontation At Business In Ki,2026-10-11T10:50,local_en,True,small
+6b6b42fd,gnews,3,CTV News,Two youths charged after disturbance at Kincardine business ,2026-10-10T20:43,major,True,major
+6b6b42fd,gnews,4,The Kincardine Record,South Bruce OPP report disturbance in downtown Kincardine; a,2026-10-10T17:16,cdn_unpaid,True,other
+6b6b42fd,gnews,5,CKNX News Today,Teens charged after fight in Kincardine,2026-10-10T12:51,local_en,True,small
+6b6b42fd,gnews,6,CTV News,Nova Scotia alcohol vending company expands to top American ,2026-10-11T09:00,major,False,major
+6b6b42fd,gnews,7,CTV News,Oshawa tops Windsor 5-1 at WFCU Centre,2026-10-11T13:38,major,False,major
+6b6b42fd,gnews,8,CTV News,Tenant eviction dispute in Regina leads to 4 arrests,2026-10-11T10:00,major,False,major
+6b6b42fd,gnews,9,CTV News,"19 years later, family of murdered woman still calling for j",2026-10-10T22:02,major,False,major
+6b6b42fd,gnews,10,CTV News,Investigation underway into suspicious death on Siksika Firs,2026-10-10T21:05,major,False,major
+6b6b42fd,gsearch,1,Owen Sound Sun-Times,Two youth charged in relation to inciden,,major,True,major
+6b6b42fd,gsearch,2,Bayshore Broadcasting News Centre,Pair Of Youths Charged After Confrontati,,local_en,True,small
+6b6b42fd,gsearch,3,CTV News,Two youths charged after disturbance at ,,major,True,major
+6b6b42fd,gsearch,4,The Kincardine Record,South Bruce OPP report disturbance in do,,cdn_unpaid,True,other
+6b6b42fd,gsearch,5,CKNX News Today,Teens charged after fight in Kincardine,,local_en,True,small
+6b6b42fd,gsearch,6,CTV News,Nova Scotia alcohol vending company expa,,major,False,major
+6b6b42fd,gsearch,7,CTV News,Oshawa tops Windsor 5-1 at WFCU Centre,,major,False,major
+6b6b42fd,gsearch,8,CTV News,Tenant eviction dispute in Regina leads ,,major,False,major
+6b6b42fd,gsearch,9,CTV News,"19 years later, family of murdered woman",,major,False,major
+6b6b42fd,gsearch,10,CTV News,Investigation underway into suspicious d,,major,False,major
+26b18168,gnews,1,Owen Sound Sun-Times,Man charged with attempted murder following shooting in Hano,2026-10-07T22:19,major,True,major
+26b18168,gnews,2,CTV News,"Hanover shooting leaves man injured, suspect charged with at",2026-10-08T02:58,major,True,major
+26b18168,gnews,3,Bayshore Broadcasting News Centre,Attempted Murder Charge In Hanover Shooting,2026-10-08T11:04,local_en,True,small
+26b18168,gnews,4,The Owen Sound Current,Man Charged With Attempted Murder After Hanover Shooting,2026-10-07T22:03,cdn_unpaid,True,other
+26b18168,gnews,5,CKNX News Today,Hanover shooting suspect charged with attempted murder,2026-10-08T02:29,local_en,True,small
+26b18168,gnews,6,The Ranch 100.1,Shooting Suspect Charged in Hanover,2026-10-08T14:28,cdn_unpaid,True,other
+26b18168,gsearch,1,Owen Sound Sun-Times,Man charged with attempted murder follow,,major,True,major
+26b18168,gsearch,2,CTV News,"Hanover shooting leaves man injured, sus",,major,True,major
+26b18168,gsearch,3,Bayshore Broadcasting News Centre,Attempted Murder Charge In Hanover Shoot,,local_en,True,small
+26b18168,gsearch,4,The Owen Sound Current,Man Charged With Attempted Murder After ,,cdn_unpaid,True,other
+26b18168,gsearch,5,CKNX News Today,Hanover shooting suspect charged with at,,local_en,True,small
+26b18168,gsearch,6,The Ranch 100.1,Shooting Suspect Charged in Hanover,,cdn_unpaid,True,other
+26b18168,gsearch,7,Daily Voice,KAAP VOL LYKE - Bishop Lavis and Hanover,,foreign,False,other
+7cfde01a,gnews,1,CollingwoodToday.ca,Grey County council chooses new integrity commissioner,2026-10-09T17:06,local_en,True,small
+7cfde01a,gsearch,1,CollingwoodToday.ca,Grey County council chooses new integrit,,local_en,True,small
+f6d27fad,gnews,1,Owen Sound Sun-Times,"Owen Sound police surveying perceptions, priorities",2026-10-08T20:14,major,True,major
+f6d27fad,gnews,2,Bayshore Broadcasting News Centre,Community Feedback Sought In Owen Sound Police Survey,2026-10-07T09:59,local_en,True,small
+f6d27fad,gnews,3,City of Owen Sound,What’s Open & Closed in Owen Sound for Thanksgiving Weekend ,2026-10-07T15:09,cdn_unpaid,False,other
+f6d27fad,gnews,4,CK News Today,Owen Sound residents asked to weigh in on policing prioritie,2026-10-07T14:51,local_en,True,small
+f6d27fad,gnews,5,The Owen Sound Current,Thurs Oct 8: Grey-Bruce & Owen Sound News,2026-10-08T09:50,cdn_unpaid,False,other
+f6d27fad,gnews,6,CTV News,"Owen Sound, Ont. baker whisks her way to national holiday ba",2026-10-08T20:43,major,False,major
+f6d27fad,gnews,7,Owen Sound Sun-Times,Dealing fentanyl in Owen Sound park draws 4.5-year prison se,2026-10-07T13:28,major,False,major
+f6d27fad,gnews,8,Muskoka411,15-Year-Old Charged With Impaired After Collision Along Shor,2026-10-06T13:54,cdn_unpaid,False,other
+f6d27fad,gnews,9,The Owen Sound Current,Arran-Elderslie Driver Charged With Impaired Driving After H,2026-10-08T20:55,cdn_unpaid,False,other
+f6d27fad,gnews,10,CKNX News Today,Haunt at Harrison offers spooky fun in Owen Sound,2026-10-07T17:16,local_en,False,small
+f6d27fad,gsearch,1,Owen Sound Sun-Times,"Owen Sound police surveying perceptions,",,major,True,major
+f6d27fad,gsearch,2,Bayshore Broadcasting News Centre,Community Feedback Sought In Owen Sound ,,local_en,True,small
+f6d27fad,gsearch,3,City of Owen Sound,What’s Open & Closed in Owen Sound for T,,cdn_unpaid,False,other
+f6d27fad,gsearch,4,CKNX News Today,Owen Sound residents asked to weigh in o,,local_en,True,small
+f6d27fad,gsearch,5,The Owen Sound Current,Thurs Oct 8: Grey-Bruce & Owen Sound New,,cdn_unpaid,False,other
+f6d27fad,gsearch,6,CTV News,"Owen Sound, Ont. baker whisks her way to",,major,False,major
+f6d27fad,gsearch,7,Owen Sound Sun-Times,Dealing fentanyl in Owen Sound park draw,,major,False,major
+f6d27fad,gsearch,8,Muskoka411,15-Year-Old Charged With Impaired After ,,cdn_unpaid,False,other
+f6d27fad,gsearch,9,The Owen Sound Current,Arran-Elderslie Driver Charged With Impa,,cdn_unpaid,False,other
+f6d27fad,gsearch,10,Owen Sound Sun-Times,Man charged with attempted murder follow,,major,False,major
+6461fe56,gnews,1,OrilliaMatters.com,It's a sign: Simcoe sunrise? Go with the flow? Or Feels like,2026-10-06T11:45,local_en,True,small
+6461fe56,gsearch,1,OrilliaMatters.com,It's a sign: Simcoe sunrise? Go with the,,local_en,True,small
+070ba8a8,gnews,1,OrilliaMatters.com,OPP investigate fatal crash on Hwy. 11 involving wrong-way d,2026-10-10T22:18,local_en,True,small
+070ba8a8,gnews,2,CTV News,One dead in Highway 11 Severn Township crash involving wrong,2026-10-10T14:21,major,True,major
+070ba8a8,gnews,3,CBC,"1 dead, 1 hospitalized after 2-vehicle crash in Severn: OPP",2026-10-10T22:53,major,True,major
+070ba8a8,gnews,4,Barrie 360,OPP investigating deadly wrong-way collision on Highway 11 n,2026-10-10T22:56,local_en,True,small
+070ba8a8,gnews,5,Bayshore Broadcasting News Centre,Highway 11 Crash In Severn Township Claims One Life,2026-10-11T12:24,local_en,True,small
+070ba8a8,gnews,6,MuskokaTODAY.com,ACCIDENT INVOLVING WRONG-WAY DRIVER CLAIMS ONE PERSON EARLY ,2026-10-11T16:43,cdn_unpaid,True,other
+070ba8a8,gnews,7,OrilliaMatters.com,'Serious' crash shuts down Hwy. 11 north of Orillia,2026-10-10T12:02,local_en,True,small
+070ba8a8,gnews,8,CTV News,Highway 11 closed in Severn after crash,2026-10-10T14:21,major,True,major
+070ba8a8,gnews,9,CTV News,Police investigate armed robbery at Oneida Nation of the Tha,2026-10-11T15:23,major,False,major
+070ba8a8,gnews,10,CTV News,Man who planned to attack Poland’s prime minister has been a,2026-10-11T11:41,major,False,major
+070ba8a8,gsearch,1,OrilliaMatters.com,OPP investigate fatal crash on Hwy. 11 i,,local_en,True,small
+070ba8a8,gsearch,2,CTV News,One dead in Highway 11 Severn Township c,,major,True,major
+070ba8a8,gsearch,3,CBC,"1 dead, 1 hospitalized after 2-vehicle c",,major,True,major
+070ba8a8,gsearch,4,Barrie 360,OPP investigating deadly wrong-way colli,,local_en,True,small
+070ba8a8,gsearch,5,Bayshore Broadcasting News Centre,Highway 11 Crash In Severn Township Clai,,local_en,True,small
+070ba8a8,gsearch,6,MuskokaTODAY.com,ACCIDENT INVOLVING WRONG-WAY DRIVER CLAI,,cdn_unpaid,True,other
+070ba8a8,gsearch,7,OrilliaMatters.com,'Serious' crash shuts down Hwy. 11 north,,local_en,True,small
+070ba8a8,gsearch,8,CTV News,Highway 11 closed in Severn after crash,,major,True,major
+070ba8a8,gsearch,9,CTV News,"Clouds, showers expected in Ottawa as Th",,major,False,major
+070ba8a8,gsearch,10,CTV News,Police investigate armed robbery at Onei,,major,False,major
+2fb9948a,gnews,1,CTV News,Two Arnprior residents charged with second-degree murder fol,2026-10-02T07:00,major,True,major
+2fb9948a,gnews,2,CBC,"Man and woman from Arnprior, Ont., charged with murdering ma",2026-10-03T07:00,major,True,major
+2fb9948a,gnews,3,My Kemptville Now,Arnprior residents arrested in connection with Mississippi M,2026-10-02T19:08,local_en,True,small
+2fb9948a,gnews,4,Inside Ottawa Valley,Two Arnprior residents charged with second-degree murder in ,2026-10-02T07:00,major,True,major
+2fb9948a,gnews,5,news8000.com,UPDATE: Missing Utica man found dead,2026-10-02T07:00,foreign,False,other
+2fb9948a,gnews,6,KATV,Is there 'a serial killer' in Michigan? | Police say River T,2026-10-02T07:00,foreign,False,other
+2fb9948a,gnews,7,KATV,2 people charged with homicide by child abuse in death of 4-,2026-10-03T07:00,foreign,False,other
+2fb9948a,gsearch,1,CTV News,Two Arnprior residents charged with seco,,major,True,major
+2fb9948a,gsearch,2,CBC,"Man and woman from Arnprior, Ont., charg",,major,True,major
+2fb9948a,gsearch,3,My Kemptville Now,Arnprior residents arrested in connectio,,local_en,True,small
+2fb9948a,gsearch,4,Inside Ottawa Valley,Two Arnprior residents charged with seco,,major,True,major
+2fb9948a,gsearch,5,news8000.com,UPDATE: Missing Utica man found dead,,foreign,False,other
+2fb9948a,gsearch,6,WBMA,Is there 'a serial killer' in Michigan? ,,foreign,False,other
+2fb9948a,gsearch,7,KATV,2 people charged with homicide by child ,,foreign,False,other
+77277a94,gnews,1,North Bay Nugget,Motorcycle collision closes section of Highway 94 in Calland,2026-10-08T19:43,major,True,major
+77277a94,gnews,2,My North Bay Now,Fatal crash on Highway 94 in Callander on Thursday,2026-10-09T12:55,local_en,True,small
+77277a94,gnews,3,CTV News,82-year-old motorcyclist dies after crash on Hwy. 94: OPP,2026-10-09T21:01,major,True,major
+77277a94,gnews,4,Almaguin News,Motorcycle crash in Callander on Thursday afternoon leaves r,2026-10-09T13:53,major,True,major
+77277a94,gnews,5,North Bay Nugget,East Ferris resident killed in two-vehicle collision,2026-10-09T17:35,major,True,major
+77277a94,gnews,6,CTV News,OPP investigate fatal Highway 94 crash involving motorcycle,2026-10-09T21:01,major,True,major
+77277a94,gsearch,1,North Bay Nugget,Motorcycle collision closes section of H,,major,True,major
+77277a94,gsearch,2,BayToday.ca,82 year old motorcyclist dies in Calland,,local_en,True,small
+77277a94,gsearch,3,CTV News,82-year-old motorcyclist dies after cras,,major,True,major
+77277a94,gsearch,4,My North Bay Now,Fatal crash on Highway 94 in Callander o,,local_en,True,small
+77277a94,gsearch,5,Almaguin News,Motorcycle crash in Callander on Thursda,,major,True,major
+77277a94,gsearch,6,North Bay Nugget,East Ferris resident killed in two-vehic,,major,True,major
+77277a94,gsearch,7,CTV News,OPP investigate fatal Highway 94 crash i,,major,True,major
+2969f88f,gnews,1,Near North District School Board,Near North District School Board Students Improve in Every E,2026-10-07T07:00,cdn_unpaid,False,other
+2969f88f,gnews,2,My Parry Sound Now,Parry Sound High School students selling ‘Lest We Forget’ la,2026-10-09T17:51,local_en,False,small
+2969f88f,gnews,3,CTV News,"Repairs near completion at Parry Sound High School, board sa",2026-10-08T00:42,major,True,major
+2969f88f,gnews,4,My Parry Sound Now,Parry Sound High School portables expected to be open by Oct,2026-10-08T18:39,local_en,True,small
+2969f88f,gnews,5,Near North District School Board,Parry Sound High School and Francis Pegahmagabow Elementary ,2026-10-07T20:42,cdn_unpaid,True,other
+2969f88f,gnews,6,My Parry Sound Now,Parry Sound included in phase one of affordable housing pipe,2026-10-09T17:55,local_en,False,small
+2969f88f,gnews,7,CTV News,Mould cleanup progresses at new Parry Sound school,2026-10-08T03:34,major,True,major
+2969f88f,gnews,8,My Parry Sound Now,Five individuals charged in relation to recreational shootin,2026-10-09T18:31,local_en,False,small
+2969f88f,gnews,9,My Parry Sound Now,OPP investigating report of active shooter at Killbear Provi,2026-10-07T20:06,local_en,False,small
+2969f88f,gsearch,1,My Parry Sound Now,Parry Sound High School students selling,,local_en,False,small
+2969f88f,gsearch,2,Near North District School Board,Near North District School Board Student,,cdn_unpaid,False,other
+2969f88f,gsearch,3,CTV News,Repairs near completion at Parry Sound H,,major,True,major
+2969f88f,gsearch,4,My Parry Sound Now,Parry Sound High School portables expect,,local_en,True,small
+2969f88f,gsearch,5,Near North District School Board,Parry Sound High School and Francis Pega,,cdn_unpaid,True,other
+2969f88f,gsearch,6,My Parry Sound Now,Parry Sound included in phase one of aff,,local_en,False,small
+2969f88f,gsearch,7,CTV News,Mould cleanup progresses at new Parry So,,major,True,major
+2969f88f,gsearch,8,CTV News,The Near North District School Board say,,major,True,major
+2969f88f,gsearch,9,My Parry Sound Now,Five individuals charged in relation to ,,local_en,False,small
+2969f88f,gsearch,10,My Parry Sound Now,OPP investigating report of active shoot,,local_en,False,small
+4bdfaa40,gnews,1,TimminsToday.com,Blanche River Health could take over Englehart long-term car,2026-10-04T20:00,local_en,True,small
+4bdfaa40,gsearch,1,TimminsToday.com,Blanche River Health could take over Eng,,local_en,True,small
+4bdfaa40,gsearch,2,Northern News,Blanche River Health working on transfer,,major,True,major
+f1989f2f,gnews,1,SooToday.com,"Man tried to stab his sibling on a lawn in Iron Bridge, poli",2026-10-06T20:30,local_en,True,small
+f1989f2f,gnews,2,Sault Star,Iron Bridge man tried to stab family member: OPP,2026-10-06T19:54,major,True,major
+f1989f2f,gnews,3,CTV News,Attempted stabbing as sibling fight ends in front yard: OPP,2026-10-06T19:04,major,True,major
+f1989f2f,gnews,4,Northern News Now,UPDATE: Beaver Bay man facing attempted murder charge in con,2026-10-05T21:35,foreign,False,other
+f1989f2f,gsearch,1,SooToday.com,Man tried to stab his sibling on a lawn ,,local_en,True,small
+f1989f2f,gsearch,2,Sault Star,Iron Bridge man tried to stab family mem,,major,True,major
+f1989f2f,gsearch,3,CTV News,Attempted stabbing as sibling fight ends,,major,True,major
+f1989f2f,gsearch,4,Northern News Now,UPDATE: Beaver Bay man facing attempted ,,foreign,False,other
+ee1da8df,gnews,1,CBC,Carney dismisses 'unelected' Trump officials' explanation fo,2026-09-03T07:00,major,True,major
+ee1da8df,gnews,2,Politico,Carney brushes off Lutnick’s take on what killed trade talks,2026-09-03T07:00,foreign,True,other
+ee1da8df,gnews,3,CTV News,PM Carney says U.S. officials have changed red lines in trad,2026-09-03T07:00,major,True,major
+ee1da8df,gnews,4,Reuters,Canada's Carney says US needs to start being serious before ,2026-09-01T07:00,foreign,True,other
+ee1da8df,gnews,5,The New York Times,"Canada’s Carney Tells Trump Officials to ‘Stop Doing Memes, ",2026-09-01T07:00,foreign,True,other
+ee1da8df,gnews,6,iPolitics,Prime Minister Carney rejects Ford blame for collapse of U.S,2026-09-01T07:00,local_en,True,small
+ee1da8df,gnews,7,Toronto Star,Mark Carney says trade talks will resume when Americans ‘sta,2026-09-01T07:00,major,True,major
+ee1da8df,gnews,8,Global News,Carney says Canada’s decision to walk away from U.S. trade t,2026-09-01T07:00,major,True,major
+ee1da8df,gnews,9,National Post,Carney rejects U.S. claim that Canadian politics ended trade,2026-09-03T07:00,major,True,major
+ee1da8df,gnews,10,Yahoo! Finance Canada,Carney pushes back on Trump administration claims about coll,2026-09-03T07:00,foreign,True,other
+ee1da8df,gsearch,1,CBC,Carney dismisses 'unelected' Trump offic,,major,True,major
+ee1da8df,gsearch,2,Politico,Carney brushes off Lutnick’s take on wha,,foreign,True,other
+ee1da8df,gsearch,3,CTV News,PM Carney says U.S. officials have chang,,major,True,major
+ee1da8df,gsearch,4,Reuters,Canada's Carney says US needs to start b,,foreign,True,other
+ee1da8df,gsearch,5,The New York Times,Canada’s Carney Tells Trump Officials to,,foreign,True,other
+ee1da8df,gsearch,6,iPolitics,Prime Minister Carney rejects Ford blame,,local_en,True,small
+ee1da8df,gsearch,7,Toronto Star,Mark Carney says trade talks will resume,,major,True,major
+ee1da8df,gsearch,8,Global News,Carney says Canada’s decision to walk aw,,major,True,major
+ee1da8df,gsearch,9,National Post,Carney rejects U.S. claim that Canadian ,,major,True,major
+ee1da8df,gsearch,10,Yahoo! Finance Canada,Carney pushes back on Trump administrati,,foreign,True,other
+83eb8db8,gnews,1,CBC,Ex-B.C. Conservative MLAs and party president say a private ,2026-09-17T07:00,major,True,major
+83eb8db8,gnews,2,Abbotsford News,B.C. Conservative party official allegedly hired private inv,2026-09-17T07:00,major,True,major
+83eb8db8,gnews,3,Vancouver Sun,B.C. Conservatives accused of hiring private eye to spy on M,2026-09-17T07:00,major,True,major
+83eb8db8,gnews,4,CHEK News,B.C. Conservatives hire private investigator to investigate ,2026-09-17T07:00,local_en,True,small
+83eb8db8,gnews,5,CityNews Vancouver,Former BC Conservative President Calls Private Investigator ,2026-09-18T15:00,major,True,major
+83eb8db8,gnews,6,CJDC-TV,B.C. Conservatives accused of hiring private investigator to,2026-09-17T21:57,unknown,True,other
+83eb8db8,gnews,7,Times Colonist,B.C. Conservatives accused of hiring private eye to spy on M,2026-09-18T07:00,local_en,True,small
+83eb8db8,gnews,8,CBC,Ex-B.C. Conservative MLAs say a private investigator was hir,2026-09-17T07:00,major,True,major
+83eb8db8,gnews,9,CTV News,"Rustad, Halford and Rattée expelled from B.C. Conservative c",2026-09-18T07:00,major,True,major
+83eb8db8,gnews,10,CBC,3 more B.C. Conservative MLAs out of caucus amid growing cal,2026-09-18T07:00,major,True,major
+83eb8db8,gsearch,1,CBC,Ex-B.C. Conservative MLAs and party pres,,major,True,major
+83eb8db8,gsearch,2,Abbotsford News,B.C. Conservative party official alleged,,major,True,major
+83eb8db8,gsearch,3,Vancouver Sun,B.C. Conservatives accused of hiring pri,,major,True,major
+83eb8db8,gsearch,4,CHEK News,B.C. Conservatives hire private investig,,local_en,True,small
+83eb8db8,gsearch,5,CityNews Vancouver,Former BC Conservative President Calls P,,major,True,major
+83eb8db8,gsearch,6,CJDC-TV,B.C. Conservatives accused of hiring pri,,unknown,True,other
+83eb8db8,gsearch,7,Times Colonist,B.C. Conservatives accused of hiring pri,,local_en,True,small
+83eb8db8,gsearch,8,Global News,Former BC Conservative director accused ,,major,True,major
+83eb8db8,gsearch,9,CBC,Ex-B.C. Conservative MLAs say a private ,,major,True,major
+83eb8db8,gsearch,10,The Globe and Mail,B.C. Conservative leader vows to stay as,,major,True,major
+faf0323a,gnews,1,CIJA - The Centre for Israel and Jewish Affairs,After the Belleville Synagogue Shooting: A Hero Deserves Our,2026-09-22T07:00,cdn_unpaid,True,other
+faf0323a,gnews,2,CBC,Synagogue shooter's online username alluded to killing Jews ,2026-09-23T07:00,major,True,major
+faf0323a,gnews,3,CTV News,"Suspect in Belleville, Ont., shooting is dead",2026-09-22T07:00,major,True,major
+faf0323a,gnews,4,Global News,Belleville synagogue shooting suspect dies in hospital: SIU,2026-09-22T07:00,major,True,major
+faf0323a,gnews,5,CP24,"‘All hell broke loose’: Belleville, Ont., synagogue presiden",2026-09-21T07:00,major,True,major
+faf0323a,gnews,6,CityNews Toronto,Suspect in Belleville synagogue shooting has died,2026-09-22T07:00,major,True,major
+faf0323a,gnews,7,Toronto Star,New details about Belleville synagogue shooting suspect emer,2026-09-22T07:00,major,True,major
+faf0323a,gnews,8,OSV News,Canadian Catholics stand with Jewish brethren following syna,2026-09-23T07:00,foreign,True,other
+faf0323a,gnews,9,Kingston Whig-Standard,"Belleville synagogue shooting suspect, a former Canadian sol",2026-09-23T07:00,major,True,major
+faf0323a,gnews,10,CBC,"'This is not going to stop us,' Belleville, Ont., synagogue ",2026-09-22T07:00,major,True,major
+faf0323a,gsearch,1,CIJA - The Centre for Israel and Jewish Affairs,After the Belleville Synagogue Shooting:,,cdn_unpaid,True,other
+faf0323a,gsearch,2,CBC,Synagogue shooter's online username allu,,major,True,major
+faf0323a,gsearch,3,CTV News,"Suspect in Belleville, Ont., shooting is",,major,True,major
+faf0323a,gsearch,4,Global News,Belleville synagogue shooting suspect di,,major,True,major
+faf0323a,gsearch,5,CP24,"‘All hell broke loose’: Belleville, Ont.",,major,True,major
+faf0323a,gsearch,6,CityNews Toronto,Suspect in Belleville synagogue shooting,,major,True,major
+faf0323a,gsearch,7,Toronto Star,New details about Belleville synagogue s,,major,True,major
+faf0323a,gsearch,8,Quinte News,Officer among those injured in reported ,,local_en,True,small
+faf0323a,gsearch,9,Kingston Whig-Standard,"Belleville synagogue shooting suspect, a",,major,True,major
+faf0323a,gsearch,10,OSV News,Canadian Catholics stand with Jewish bre,,foreign,True,other
+43235349,gnews,1,Le Quotidien,Un écrasement d’hélicoptère fait quatre morts,2026-09-26T07:00,major,True,major
+43235349,gnews,2,Radio-Canada,4 personnes mortes dans l’écrasement d’un hélicoptère,2026-09-26T07:00,major,True,major
+43235349,gnews,3,TVA Nouvelles,Quatre morts dans un écrasement d’hélicoptère en Montérégie,2026-09-26T07:00,major,True,major
+43235349,gnews,4,La Presse,Montérégie | Quatre morts dans un écrasement d’hélicoptère,2026-09-26T07:00,major,True,major
+43235349,gnews,5,Vingt55,Décès dans l’écrasement d’un hélicoptère : l’enquête se pour,2026-09-27T07:00,cdn_unpaid,True,other
+43235349,gnews,6,Noovo Info,Quatre morts dans l’écrasement d’un hélicoptère à Sainte-Bri,2026-09-26T07:00,major,True,major
+43235349,gnews,7,L’Avenir et des Rivières,Décès de quatre personnes dans un écrasement d’hélicoptère à,2026-09-26T21:33,franco,True,small
+43235349,gnews,8,QUB radio,Accident d'hélicoptère: quatre morts dans un écrasement en M,2026-09-27T14:23,major,True,major
+43235349,gnews,9,Le Journal de Montréal,"Elle perd son chum, son frère et sa mère dans l'accident d'h",2026-09-28T07:00,major,True,major
+43235349,gnews,10,98.5 Montréal,Quatre personnes ont perdu la vie | Accident d’hélicoptère: ,2026-09-28T07:00,franco,True,small
+43235349,gsearch,1,Le Quotidien,Un écrasement d’hélicoptère fait quatre ,,major,True,major
+43235349,gsearch,2,Radio-Canada,4 personnes mortes dans l’écrasement d’u,,major,True,major
+43235349,gsearch,3,TVA Nouvelles,Quatre morts dans un écrasement d’hélico,,major,True,major
+43235349,gsearch,4,La Presse,Montérégie | Quatre morts dans un écrase,,major,True,major
+43235349,gsearch,5,Vingt55,Décès dans l’écrasement d’un hélicoptère,,cdn_unpaid,True,other
+43235349,gsearch,6,Noovo Info,Quatre morts dans l’écrasement d’un héli,,major,True,major
+43235349,gsearch,7,L’Avenir et des Rivières,Décès de quatre personnes dans un écrase,,franco,True,small
+43235349,gsearch,8,QUB radio,Accident d'hélicoptère: quatre morts dan,,major,True,major
+43235349,gsearch,9,Le Journal de Montréal,"Elle perd son chum, son frère et sa mère",,major,True,major
+43235349,gsearch,10,98.5 Montréal,Quatre personnes ont perdu la vie | Acci,,franco,True,small
+32a61525,gnews,1,CityNews Edmonton,Carney reflects on 'dark chapter' at Truth and Reconciliatio,2026-09-30T07:00,major,True,major
+32a61525,gnews,2,CBC,Carney marks 6th National Day for Truth and Reconciliation s,2026-09-30T07:00,major,True,major
+32a61525,gnews,3,CTV News,‘The work of reconciliation is far from finished’: Carney re,2026-09-30T07:00,major,True,major
+32a61525,gnews,4,The Globe and Mail,Video: Carney reflects on 'dark chapter' of Canada's history,2026-09-30T07:00,major,True,major
+32a61525,gnews,5,Yahoo News Canada,Carney reflects on 'dark chapter' at Truth and Reconciliatio,2026-09-30T07:00,foreign,True,other
+32a61525,gnews,6,CHCH,Carney speaks in Edmonton as ceremonies held across Canada f,2026-09-30T07:00,local_en,True,small
+32a61525,gnews,7,Edmonton Journal,"'Reconciliation is a journey, not a destination': Prime mini",2026-09-30T07:00,major,True,major
+32a61525,gnews,8,Edmonton Journal,Mark Carney returns to Edmonton to attend National Truth and,2026-09-30T07:00,major,True,major
+32a61525,gnews,9,Yahoo News Canada,"'Reconciliation is a journey, not a destination': Prime mini",2026-09-30T07:00,foreign,True,other
+32a61525,gnews,10,iPolitics,PM Carney to mark National Day for Truth and Reconciliation ,2026-09-30T10:05,local_en,True,small
+32a61525,gsearch,1,CityNews Edmonton,Carney reflects on 'dark chapter' at Tru,,major,True,major
+32a61525,gsearch,2,CBC,Carney marks 6th National Day for Truth ,,major,True,major
+32a61525,gsearch,3,CTV News,‘The work of reconciliation is far from ,,major,True,major
+32a61525,gsearch,4,The Globe and Mail,Video: Carney reflects on 'dark chapter',,major,True,major
+32a61525,gsearch,5,Yahoo News Canada,Carney reflects on 'dark chapter' at Tru,,foreign,True,other
+32a61525,gsearch,6,CHCH,Carney speaks in Edmonton as ceremonies ,,local_en,True,small
+32a61525,gsearch,7,Edmonton Journal,"'Reconciliation is a journey, not a dest",,major,True,major
+32a61525,gsearch,8,Edmonton Journal,Mark Carney returns to Edmonton to atten,,major,True,major
+32a61525,gsearch,9,Yahoo News Canada,"'Reconciliation is a journey, not a dest",,foreign,True,other
+32a61525,gsearch,10,Alberta Native News,Truth Is the Foundation: Edmonton Marks ,,local_en,True,small
+b07525bc,gnews,1,Radio-Canada,Exécution ratée : Christa Pike sous assistance respiratoire,2026-10-02T07:00,major,True,major
+b07525bc,gnews,2,La Presse,Américaine condamnée à mort | Christa Pike n’aurait pas repr,2026-10-04T07:00,major,True,major
+b07525bc,gnews,3,Le Devoir,Christa Pike est sous respirateur artificiel après l’échec d,2026-10-02T07:00,franco,True,small
+b07525bc,gnews,4,Noovo Info,Ce qui attend Christa Pike après son exécution ratée,2026-10-02T07:00,major,True,major
+b07525bc,gnews,5,TVA Nouvelles,Exécution ratée aux États-Unis: Christa Pike dans un état cr,2026-10-04T17:09,major,True,major
+b07525bc,gnews,6,La Presse,"Une peine cruelle, tout le temps | La Presse",2026-10-03T07:00,major,True,major
+b07525bc,gnews,7,BBC,Christa Pike est dans un état critique après avoir survécu à,2026-10-02T07:00,foreign,True,other
+b07525bc,gnews,8,QUB radio,Exécution ratée: le chef de l’administration pénitentiaire d,2026-10-03T07:00,major,True,major
+b07525bc,gnews,9,BFM,"La condamnée à mort, Christa Pike, dans un état critique apr",2026-10-02T07:00,foreign,True,other
+b07525bc,gnews,10,Noovo Info,Exécution ratée de Christa Pike: le chef du système carcéral,2026-10-03T16:29,major,True,major
+b07525bc,gsearch,1,BBC,"J'ai vu près de 500 exécutions, mais jam",,foreign,True,other
+b07525bc,gsearch,2,Le Monde.fr,Christa Pike : la condamnée à mort se tr,,foreign,True,other
+b07525bc,gsearch,3,BFM,La condamnée à mort Christa Pike sous as,,foreign,True,other
+b07525bc,gsearch,4,TF1 Info,Échec de l'exécution de Christa Pike : e,,foreign,True,other
+b07525bc,gsearch,5,France 24,Exécution ratée de Christa Pike : le che,,foreign,True,other
+b07525bc,gsearch,6,parismatch.com,"« Ses bras étaient enflés, brûlés et cou",,foreign,True,other
+b07525bc,gsearch,7,Le Monde.fr,"Aux Etats-Unis, après l’exécution ratée ",,foreign,True,other
+b07525bc,gsearch,8,CBC,Tennessee prisons chief to resign after ,,major,True,major
+b07525bc,gsearch,9,Global News,"Christa Pike unconscious, on ventilator ",,major,True,major
+b07525bc,gsearch,10,Amnesty International Canada,Outcome: USA – Christa Pike hospitalized,,cdn_unpaid,True,other
+6cb6a5d6,gnews,1,Global News,Debris spotted from missing Ontario air ambulance,2026-10-04T12:30,major,True,major
+6cb6a5d6,gnews,2,CTV News,Debris from missing Ontario-based air ambulance located: U.S,2026-10-03T14:40,major,True,major
+6cb6a5d6,gnews,3,Toronto Star,Debris found during search for Hamilton air ambulance jet th,2026-10-04T07:00,major,True,major
+6cb6a5d6,gnews,4,TorontoToday.ca,'Praying for a safe outcome': Debris spotted from missing On,2026-10-04T13:00,local_en,True,small
+6cb6a5d6,gnews,5,The Guardian,Debris found as US Coast Guard search for missing medical pl,2026-10-04T07:00,foreign,True,other
+6cb6a5d6,gnews,6,The Globe and Mail,Video: Crews find 'debris field' from air ambulance that dis,2026-10-04T19:59,major,True,major
+6cb6a5d6,gnews,7,Al Jazeera,"Debris from missing medical plane found, US coastguard says",2026-10-03T23:04,foreign,True,other
+6cb6a5d6,gnews,8,CP24,Debris from missing Ontario-based air ambulance located,2026-10-03T07:00,major,True,major
+6cb6a5d6,gnews,9,Castanet,Search suspended for six people after debris found from miss,2026-10-04T07:00,local_en,True,small
+6cb6a5d6,gnews,10,CBC,U.S. Coast Guard suspends search for 6 people aboard missing,2026-10-04T13:38,major,True,major
+6cb6a5d6,gsearch,1,Global News,Debris spotted from missing Ontario air ,,major,True,major
+6cb6a5d6,gsearch,2,CTV News,Debris from missing Ontario-based air am,,major,True,major
+6cb6a5d6,gsearch,3,Toronto Star,Debris found during search for Hamilton ,,major,True,major
+6cb6a5d6,gsearch,4,TorontoToday.ca,'Praying for a safe outcome': Debris spo,,local_en,True,small
+6cb6a5d6,gsearch,5,The Guardian,Debris found as US Coast Guard search fo,,foreign,True,other
+6cb6a5d6,gsearch,6,The Globe and Mail,Video: Crews find 'debris field' from ai,,major,True,major
+6cb6a5d6,gsearch,7,The Spec,U.S. Coast Guard suspends search for sur,,major,True,major
+6cb6a5d6,gsearch,8,Al Jazeera,"Debris from missing medical plane found,",,foreign,True,other
+6cb6a5d6,gsearch,9,CP24,Debris from missing Ontario-based air am,,major,True,major
+6cb6a5d6,gsearch,10,Castanet,Search suspended for six people after de,,local_en,True,small
+5660fcb1,gnews,1,TVA Nouvelles,Avion-ambulance disparu au Massachusetts: des débris localis,2026-10-03T07:00,major,True,major
+5660fcb1,gnews,2,Le Canada Français,Des débris de l’avion médical disparu repérés au large de Na,2026-10-06T01:39,franco,True,small
+5660fcb1,gnews,3,La Presse,Les autorités identifient les personnes à bord de l’avion mé,2026-10-06T04:17,major,True,major
+5660fcb1,gnews,4,Le Soleil,Des débris de l’avion médical disparu repérés au large de Na,2026-10-03T16:58,major,True,major
+5660fcb1,gnews,5,Le Devoir,Les recherches continuent pour retrouver les six passagers d,2026-10-04T07:00,franco,True,small
+5660fcb1,gnews,6,Radio-Canada,Avion de transport médical disparu : des débris retrouvés,2026-10-03T07:00,major,True,major
+5660fcb1,gnews,7,QUB radio,Avion disparu: des débris localisés au large de l'île de Nan,2026-10-04T22:35,major,True,major
+5660fcb1,gnews,8,Radio-Canada,Avion disparu : les recherches de survivants sont suspendues,2026-10-04T16:07,major,True,major
+5660fcb1,gnews,9,La Presse,Au large du Massachusetts | Le BST enquêtera sur l’accident ,2026-10-05T18:42,major,True,major
+5660fcb1,gnews,10,Radio-Canada,Avion disparu : le Bureau de la sécurité des transports du C,2026-10-05T14:10,major,True,major
+5660fcb1,gsearch,1,Le Devoir,Les autorités identifient les personnes ,,franco,True,small
+5660fcb1,gsearch,2,TVA Nouvelles,Avion-ambulance disparu au Massachusetts,,major,True,major
+5660fcb1,gsearch,3,Le Canada Français,Des débris de l’avion médical disparu re,,franco,True,small
+5660fcb1,gsearch,4,Le Soleil,Des débris de l’avion médical disparu re,,major,True,major
+5660fcb1,gsearch,5,Radio-Canada,Avion de transport médical disparu : des,,major,True,major
+5660fcb1,gsearch,6,QUB radio,Avion disparu: des débris localisés au l,,major,True,major
+5660fcb1,gsearch,7,La Presse,Au large du Massachusetts | Le BST enquê,,major,True,major
+5660fcb1,gsearch,8,Le Devoir,Les recherches continuent pour retrouver,,franco,True,small
+5660fcb1,gsearch,9,Radio-Canada,Avion disparu : les recherches de surviv,,major,True,major
+5660fcb1,gsearch,10,TVA Nouvelles,Avion-ambulance disparu: l’identité des ,,major,True,major
+d70f170e,gnews,1,The Spec,U.S. Coast Guard suspends search for survivors of missing Ha,2026-10-06T14:35,major,True,major
+d70f170e,gnews,2,CBC,U.S. Coast Guard suspends search for 6 people aboard missing,2026-10-04T13:38,major,True,major
+d70f170e,gnews,3,CTV News,‘Heartbreaking reality:’ Six people aboard missing Ontario a,2026-10-04T15:32,major,True,major
+d70f170e,gnews,4,Global News,U.S. Coast Guard identifies all six aboard missing Canadian ,2026-10-05T12:18,major,True,major
+d70f170e,gnews,5,Toronto Star,Search called off for 6 people on Ontario air ambulance that,2026-10-05T17:53,major,True,major
+d70f170e,gnews,6,The Globe and Mail,"Search ends for 4 Canadians, 2 Bermudians on air ambulance t",2026-10-04T16:48,major,True,major
+d70f170e,gnews,7,National Post,Search suspended for missing Ontario-based air ambulance wit,2026-10-04T16:17,major,True,major
+d70f170e,gnews,8,CityNews Toronto,Search continues for survivors aboard missing Ontario air am,2026-10-04T15:11,major,True,major
+d70f170e,gnews,9,CHCH,U.S. Coast Guard suspends search for missing Hamilton-based ,2026-10-05T14:50,local_en,True,small
+d70f170e,gnews,10,Wings Magazine,Search suspended for 6 people on missing medical flight from,2026-10-05T00:16,cdn_unpaid,True,other
+d70f170e,gsearch,1,The Spec,U.S. Coast Guard suspends search for sur,,major,True,major
+d70f170e,gsearch,2,CBC,U.S. Coast Guard suspends search for 6 p,,major,True,major
+d70f170e,gsearch,3,CTV News,‘Heartbreaking reality:’ Six people aboa,,major,True,major
+d70f170e,gsearch,4,Global News,U.S. Coast Guard identifies all six aboa,,major,True,major
+d70f170e,gsearch,5,Toronto Star,Search called off for 6 people on Ontari,,major,True,major
+d70f170e,gsearch,6,The Globe and Mail,"Search ends for 4 Canadians, 2 Bermudian",,major,True,major
+d70f170e,gsearch,7,National Post,Search suspended for missing Ontario-bas,,major,True,major
+d70f170e,gsearch,8,CityNews Toronto,Search continues for survivors aboard mi,,major,True,major
+d70f170e,gsearch,9,CHCH,U.S. Coast Guard suspends search for mis,,local_en,True,small
+d70f170e,gsearch,10,Wings Magazine,Search suspended for 6 people on missing,,cdn_unpaid,True,other
+a791fa31,gnews,1,Radio-Canada,Une femme décède après l’incendie de son campement,2026-10-07T12:50,major,True,major
+a791fa31,gnews,2,La Presse,Montréal-Nord | Une femme sans-abri perd la vie après un inc,2026-10-07T12:41,major,True,major
+a791fa31,gnews,3,Le Journal de Montréal,« C’est la pire mort possible » : le décès d’une itinérante ,2026-10-07T16:00,major,True,major
+a791fa31,gnews,4,TVA Nouvelles,Une mère de cinq enfants meurt lors d'un incendie dans un ca,2026-10-07T12:12,major,True,major
+a791fa31,gnews,5,Le Devoir,Une femme meurt dans l’incendie d’un campement de sans-abri ,2026-10-07T13:06,franco,True,small
+a791fa31,gnews,6,La Voix de l'Est,Une femme décède lors d’un feu dans un campement à Montréal,2026-10-07T12:47,major,True,major
+a791fa31,gnews,7,Noovo Info,«Tragédie»: une femme meurt après un incendie dans un campem,2026-10-07T21:14,major,True,major
+a791fa31,gnews,8,98.5 Montréal,La crise de l'itinérance se poursuit | Incendie dans un camp,2026-10-07T17:12,franco,True,small
+a791fa31,gnews,9,Journal Métro,Décès dans un incendie dans un campement itinérant de Montré,2026-10-07T13:55,cdn_unpaid,True,other
+a791fa31,gnews,10,En Beauce.Com,Une femme est décédée lors d'un feu dans un campement à Mont,2026-10-07T12:36,franco,True,small
+a791fa31,gsearch,1,Radio-Canada,Une femme décède après l’incendie de son,,major,True,major
+a791fa31,gsearch,2,La Presse,Montréal-Nord | Une femme sans-abri perd,,major,True,major
+a791fa31,gsearch,3,Le Journal de Montréal,« C’est la pire mort possible » : le déc,,major,True,major
+a791fa31,gsearch,4,TVA Nouvelles,Une mère de cinq enfants meurt lors d'un,,major,True,major
+a791fa31,gsearch,5,Le Devoir,Une femme meurt dans l’incendie d’un cam,,franco,True,small
+a791fa31,gsearch,6,La Voix de l'Est,Une femme décède lors d’un feu dans un c,,major,True,major
+a791fa31,gsearch,7,Noovo Info,«Tragédie»: une femme meurt après un inc,,major,True,major
+a791fa31,gsearch,8,98.5 Montréal,La crise de l'itinérance se poursuit | I,,franco,True,small
+a791fa31,gsearch,9,Journal Métro,Décès dans un incendie dans un campement,,cdn_unpaid,True,other
+a791fa31,gsearch,10,En Beauce.Com,Une femme est décédée lors d'un feu dans,,franco,True,small
+650dbb28,gnews,1,Le Devoir,La souveraineté que veulent les Québécois est par rapport au,2026-10-08T17:35,franco,True,small
+650dbb28,gnews,2,Noovo Info,"Le Québec, un pays? Mark Carney répond à Elon Musk",2026-10-08T17:12,major,True,major
+650dbb28,gnews,3,Radio-Canada,Carney répond à Musk que l’avenir du Canada dépend seulement,2026-10-08T20:11,major,True,major
+650dbb28,gnews,4,TVA Nouvelles,Elon Musk clame pour l’indépendance du Québec : «Il se décré,2026-10-07T22:04,major,True,major
+650dbb28,gnews,5,Les Affaires,«La place du Québec au Canada fort est au centre du Canada f,2026-10-08T04:40,franco,True,small
+650dbb28,gnews,6,QUB radio,Elon Musk veut voir le Québec devenir un pays… Pourquoi? | M,2026-10-08T11:54,major,True,major
+650dbb28,gnews,7,Noovo Info,"Le Québec devrait devenir un pays, croit Elon Musk",2026-10-07T19:02,major,True,major
+650dbb28,gsearch,1,Le Devoir,La souveraineté que veulent les Québécoi,,franco,True,small
+650dbb28,gsearch,2,Noovo Info,"Le Québec, un pays? Mark Carney répond à",,major,True,major
+650dbb28,gsearch,3,Radio-Canada,Carney répond à Musk que l’avenir du Can,,major,True,major
+650dbb28,gsearch,4,Les Affaires,«La place du Québec au Canada fort est a,,franco,True,small
+650dbb28,gsearch,5,QUB radio,Elon Musk veut voir le Québec devenir un,,major,True,major
+650dbb28,gsearch,6,Noovo Info,"Le Québec devrait devenir un pays, croit",,major,True,major
+a51f84a9,gnews,1,CBC,Trolling or part of a larger plan? Why Elon Musk waded into ,2026-10-10T08:00,major,True,major
+a51f84a9,gnews,2,Montreal Gazette,Carney hits back at Musk over Quebec independence: Big tech ,2026-10-08T21:21,major,True,major
+a51f84a9,gnews,3,AP News,Carney says Canadians will decide their future after Elon Mu,2026-10-08T23:25,foreign,True,other
+a51f84a9,gnews,4,CTV News,"Canada’s future ‘will be decided by Canadians,’ Carney says ",2026-10-08T17:46,major,True,major
+a51f84a9,gnews,5,Yahoo! Finance Canada,Carney fires back after Elon Musk calls for 3 provinces to s,2026-10-09T19:30,foreign,True,other
+a51f84a9,gnews,6,Global News,"After Elon Musk called on Quebec to separate, Carney and Poi",2026-10-09T17:56,major,True,major
+a51f84a9,gnews,7,Winnipeg Sun,Musk urges Alberta and Saskatchewan to leave Canada too,2026-10-08T09:58,major,True,major
+a51f84a9,gnews,8,Radio-Canada,"Sask., Alberta premiers reject Elon Musk’s call for province",2026-10-08T19:35,major,True,major
+a51f84a9,gnews,9,CityNews Ottawa,Carney says Canada’s future up to Canadians after Musk voice,2026-10-08T19:32,major,True,major
+a51f84a9,gnews,10,650 CKOM,Carney says Canada’s future up to Canadians after Musk voice,2026-10-08T18:04,local_en,True,small
+a51f84a9,gsearch,1,CBC,Trolling or part of a larger plan? Why E,,major,True,major
+a51f84a9,gsearch,2,Montreal Gazette,Carney hits back at Musk over Quebec ind,,major,True,major
+a51f84a9,gsearch,3,AP News,Carney says Canadians will decide their ,,foreign,True,other
+a51f84a9,gsearch,4,CTV News,Canada’s future ‘will be decided by Cana,,major,True,major
+a51f84a9,gsearch,5,Yahoo! Finance Canada,Carney fires back after Elon Musk calls ,,foreign,True,other
+a51f84a9,gsearch,6,Global News,After Elon Musk called on Quebec to sepa,,major,True,major
+a51f84a9,gsearch,7,Winnipeg Sun,Musk urges Alberta and Saskatchewan to l,,major,True,major
+a51f84a9,gsearch,8,Radio-Canada,"Sask., Alberta premiers reject Elon Musk",,major,True,major
+a51f84a9,gsearch,9,CityNews Ottawa,Carney says Canada’s future up to Canadi,,major,True,major
+a51f84a9,gsearch,10,650 CKOM,Carney says Canada’s future up to Canadi,,local_en,True,small
+af6f3e7a,gnews,1,24 heures,Une mort suspecte à Baie-Saint-Paul traitée comme un homicid,2026-10-12T21:04,major,True,major
+af6f3e7a,gnews,2,TVA - CIMT-CHAU,Un possible homicide survenu hier à Baie-Saint-Paul,2026-10-12T15:27,franco,True,small
+af6f3e7a,gnews,3,Radio-Canada,Homicide à Baie-Saint-Paul,2026-10-12T12:58,major,True,major
+af6f3e7a,gnews,4,Le Soleil,Meurtre à Baie-Saint-Paul,2026-10-12T13:16,major,True,major
+af6f3e7a,gnews,5,Le Canada Français,La SQ mène une enquête pour homicide à Baie-Saint-Paul,2026-10-12T11:25,franco,True,small
+af6f3e7a,gnews,6,Zone911,Décès suspect à Baie-Saint-Paul : la Sûreté du Québec enquêt,2026-10-12T14:34,cdn_unpaid,True,other
+af6f3e7a,gsearch,1,24 heures,Une mort suspecte à Baie-Saint-Paul trai,,major,True,major
+af6f3e7a,gsearch,2,TVA - CIMT-CHAU,Un possible homicide survenu hier à Baie,,franco,True,small
+af6f3e7a,gsearch,3,Radio-Canada,Homicide à Baie-Saint-Paul,,major,True,major
+af6f3e7a,gsearch,4,Le Soleil,Meurtre à Baie-Saint-Paul,,major,True,major
+af6f3e7a,gsearch,5,Le Canada Français,La SQ mène une enquête pour homicide à B,,franco,True,small
+af6f3e7a,gsearch,6,Zone911,Décès suspect à Baie-Saint-Paul : la Sûr,,cdn_unpaid,True,other
+af6f3e7a,gsearch,7,CTV News,Homicide investigation ongoing in Baie-S,,major,True,major

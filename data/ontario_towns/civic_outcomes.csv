@@ -1,0 +1,415 @@
+town_id,short_name,population_2021,has_own_outlet,turnout_2022,head_acclaimed_2022,council_fully_acclaimed_2022,contested_2026,head_acclaimed_2026
+3501005,South Glengarry,13330,False,0.41758854699265596,False,False,True,True
+3501011,South Stormont,13570,False,0.4238460100915717,False,False,True,True
+3501012,Cornwall,47845,True,0.28977599080987937,False,False,True,False
+3501020,South Dundas,11044,False,0.454406580493537,False,False,True,False
+3501030,North Dundas,11304,False,0.3143643873336393,True,False,True,False
+3501042,North Stormont,7400,False,0.541407659915781,False,False,True,True
+3501050,North Glengarry,10144,False,0.2621607094866971,True,False,True,False
+3502001,East Hawkesbury,3418,False,0.4271269177126918,True,False,True,False
+3502008,Hawkesbury,10194,True,0.40185581727337616,False,False,True,False
+3502010,Champlain,8665,False,0.2796621531036332,True,False,True,False
+3502023,Alfred and Plantagenet,9949,False,0.42987386037217434,False,False,True,False
+3502025,The Nation,13350,False,0.4025132143213324,False,False,True,True
+3502036,Clarence-Rockland,26505,True,0.44511676751512724,False,False,True,False
+3502044,Casselman,3960,False,0.5573821339950372,False,False,True,False
+3502048,Russell,19598,False,0.3124918161581773,True,False,True,True
+3506008,Ottawa,1017449,True,0.43788725705353027,False,False,True,False
+3507004,Edwardsburgh/Cardinal,7505,False,0.47900072411296163,False,False,False,True
+3507006,Augusta,7386,False,0.38073852295409183,False,False,True,True
+3507008,Prescott,4078,True,0.34973325429756963,True,False,True,False
+3507014,Elizabethtown-Kitley,9545,False,0.3285610288764863,False,False,True,False
+3507015,Brockville,22116,True,0.33988474370639976,True,False,True,False
+3507017,Front of Yonge,2595,False,,True,True,True,False
+3507021,Leeds and the Thousand Islands,9804,False,0.30319929556794833,True,False,True,False
+3507024,Gananoque,5383,True,0.46511627906976744,False,False,True,False
+3507033,Westport,634,True,0.7528641571194763,False,False,True,True
+3507040,Rideau Lakes,10883,False,0.32812985399192296,False,False,True,False
+3507042,Athens,3042,False,0.2470997679814385,False,False,True,False
+3507052,Merrickville-Wolford,3135,False,0.5299411561093804,False,False,True,False
+3507065,North Grenville,17964,False,0.41886288565605456,False,False,True,True
+3509001,Montague,3914,False,0.40153301886792453,False,False,True,True
+3509004,Smiths Falls,9254,True,0.39400584795321636,False,False,True,False
+3509010,Drummond/North Elmsley,8183,False,,True,True,True,False
+3509015,Tay Valley,5925,False,0.40290955091714103,False,False,True,False
+3509021,Perth,6469,True,0.46143887553171814,False,False,True,False
+3509024,Beckwith,9021,False,0.25607501320655046,True,False,True,False
+3509028,Carleton Place,12517,False,0.41270504649461914,False,False,True,True
+3509030,Mississippi Mills,14740,False,0.41405033199442576,True,False,True,True
+3509039,Lanark Highlands,5737,False,0.3366040955631399,False,False,True,False
+3510005,Frontenac Islands,1930,False,0.6088576158940397,False,False,True,False
+3510010,Kingston,132485,True,0.3049514632332719,False,False,True,False
+3510020,South Frontenac,20188,False,0.35649014642739185,False,False,True,False
+3510035,Central Frontenac,4892,False,0.3325711382113821,True,False,True,False
+3510045,North Frontenac,2285,False,0.34011299435028247,False,False,True,False
+3511005,Loyalist,17943,False,0.2995257205399489,False,False,True,True
+3511015,Greater Napanee,16879,True,0.3728573675106149,True,False,True,True
+3511030,Stone Mills,7826,False,0.3020315385708197,True,False,True,True
+3511035,Addington Highlands,2534,False,0.3383161134315234,False,False,True,True
+3512001,Tyendinaga,4538,False,0.3319761129207383,False,False,True,False
+3512002,Deseronto,1747,False,0.234375,True,False,True,False
+3512005,Belleville,55071,True,0.39563658401090857,False,False,True,False
+3512015,Quinte West,46560,True,0.29732917684724913,False,False,True,False
+3512020,Stirling-Rawdon,5015,False,0.3867104954214604,False,False,True,False
+3512026,Centre Hastings,4801,False,0.3168272462469191,True,False,True,False
+3512030,Tweed,6067,True,0.3755444426520407,True,False,True,False
+3512036,Madoc,2233,False,0.36104398260028997,False,False,True,False
+3512046,Marmora and Lake,4267,False,0.370355078447564,False,False,True,False
+3512048,Tudor and Cashel,740,False,0.3914053426248548,False,False,True,True
+3512051,Limerick,436,False,0.5553488372093023,False,False,True,False
+3512054,Wollaston,721,False,0.4559159433531293,False,False,True,False
+3512058,Faraday,1612,False,0.25416666666666665,True,False,True,True
+3512061,Bancroft,4065,True,0.3920335429769392,False,False,True,False
+3512065,Carlow/Mayo,953,False,0.43544857768052514,False,False,True,False
+3512076,Hastings Highlands,4385,False,0.36956196740917924,False,False,True,False
+3513020,Prince Edward,25704,True,0.470524336745352,False,False,True,False
+3514004,Brighton,12108,True,0.46717439506410874,False,False,True,False
+3514014,Cramahe,6509,False,0.23707126355073752,True,False,True,False
+3514019,Hamilton,11059,False,0.27134943033343784,True,False,True,True
+3514020,Port Hope,17294,True,0.4297406020252462,False,False,True,False
+3514021,Cobourg,20519,True,0.40906889453929046,False,False,True,False
+3514024,Alnwick/Haldimand,7473,False,0.3539366126487882,False,False,True,False
+3514045,Trent Hills,13861,False,0.3222064393939394,False,False,True,False
+3515003,Asphodel-Norwood,4658,False,0.4088832487309645,False,False,True,False
+3515005,Otonabee-South Monaghan,7087,False,0.10550242984793855,True,False,True,False
+3515013,Cavan Monaghan,10016,False,0.43920167549587286,False,False,True,False
+3515014,Peterborough,83651,True,0.39961785178108367,False,False,True,False
+3515015,Selwyn,18653,False,0.245459385907827,True,False,True,True
+3515023,Douro-Dummer,7632,False,0.3691562932226833,False,False,True,False
+3515030,Havelock-Belmont-Methuen,5083,False,0.29261136303014135,False,False,True,False
+3515037,North Kawartha,2877,False,0.30070859167404784,True,False,True,True
+3515044,Trent Lakes,6439,False,0.26850038320701697,False,False,True,True
+3516010,Kawartha Lakes,79247,False,0.3266274194231502,False,False,True,False
+3518001,Pickering,99186,False,0.27240678854596684,False,False,True,False
+3518005,Ajax,126666,True,0.2247697295272872,False,False,True,False
+3518009,Whitby,138501,False,0.23262975306476447,False,False,True,False
+3518013,Oshawa,175383,True,0.18423924190835625,False,False,True,False
+3518017,Clarington,101427,True,0.2804644009200909,False,False,True,False
+3518020,Scugog,21581,False,0.18337154711213013,True,False,True,False
+3518029,Uxbridge,21556,True,0.3960954957073974,True,False,True,False
+3518039,Brock,12567,False,0.3860807242549981,False,False,True,False
+3519028,Vaughan,323103,True,0.26500844802703366,False,False,True,False
+3519036,Markham,338503,True,0.32095728539243185,False,False,True,False
+3519038,Richmond Hill,202022,True,0.3167005326190696,False,False,True,False
+3519044,Whitchurch-Stouffville,49864,True,0.34185385271538243,False,False,True,True
+3519046,Aurora,62057,True,0.2650077687273412,False,False,True,False
+3519048,Newmarket,87942,True,0.24866851821597777,True,False,True,True
+3519049,King,27333,True,0.21395099092062872,True,False,True,False
+3519054,East Gwillimbury,34637,False,0.252771093842452,False,False,True,False
+3519070,Georgina,47642,True,0.27229346853563974,False,False,True,False
+3520005,Toronto,2794356,True,0.29746272102080673,False,False,True,False
+3521005,Mississauga,717961,True,0.21843830151040183,False,False,True,False
+3521010,Brampton,656480,True,0.24558729049492228,False,False,True,False
+3521024,Caledon,76581,True,0.3172910255049701,False,False,True,False
+3522001,East Garafraxa,2794,False,,True,True,True,True
+3522008,Amaranth,4327,False,0.32861680623736644,False,False,True,True
+3522010,Grand Valley,3851,False,0.2274947662247034,True,False,True,False
+3522012,Mono,9421,False,0.25113545284531125,True,False,True,False
+3522014,Orangeville,30167,True,0.2693229614219167,False,False,True,False
+3522016,Mulmur,3571,False,0.361003861003861,True,False,True,True
+3522019,Melancthon,3132,False,0.324950884086444,False,False,True,False
+3522021,Shelburne,8994,True,0.3623561737935772,True,False,True,False
+3523001,Puslinch,7944,False,0.2254317591318967,True,False,True,False
+3523008,Guelph,143740,True,0.2783550277841212,False,False,True,False
+3523009,Guelph/Eramosa,13904,False,0.28218390804597704,True,False,True,False
+3523017,Erin,11981,True,0.3687318801675078,False,False,True,False
+3523025,Centre Wellington,31093,True,0.39464015560838556,False,False,True,False
+3523033,Mapleton,10839,False,0.2631504122831959,True,False,True,False
+3523043,Minto,9094,False,,True,True,True,True
+3523050,Wellington North,12431,False,0.36781743709771797,False,False,True,False
+3524001,Oakville,213759,True,0.2829619921363041,False,False,True,False
+3524002,Burlington,186948,True,0.2757527176588055,False,False,True,False
+3524009,Milton,132979,True,0.2844581982513017,False,False,True,False
+3524015,Halton Hills,62951,True,0.2809947243022464,False,False,True,False
+3525005,Hamilton,569353,False,0.3538131619730127,False,False,True,False
+3526003,Fort Erie,32901,True,0.34359468882130406,False,False,True,False
+3526011,Port Colborne,20033,False,0.3159222811001766,False,False,True,False
+3526014,Wainfleet,6887,False,0.4144547489606652,False,False,True,False
+3526021,West Lincoln,15454,False,0.4412420382165605,False,False,True,True
+3526028,Pelham,18192,True,0.326174581181509,False,False,True,False
+3526032,Welland,55750,True,0.2585049919334097,False,False,True,False
+3526037,Thorold,23816,True,0.25055580257892396,False,False,True,False
+3526043,Niagara Falls,94415,True,0.27525989354994795,False,False,True,False
+3526047,Niagara-on-the-Lake,19088,True,0.4778694673668417,False,False,True,False
+3526053,St. Catharines,136803,True,0.2630913507486461,False,False,True,False
+3526057,Lincoln,25719,False,0.2768982555208228,True,False,True,False
+3526065,Grimsby,28883,True,0.3754222092489888,False,False,True,False
+3528018,Haldimand County,49216,True,0.36497993540178136,False,False,True,False
+3528052,Norfolk County,67490,False,0.35601431323974675,False,False,True,False
+3529005,Brant,39474,False,0.27408562333528225,False,False,True,False
+3529006,Brantford,104688,True,0.2701015868800212,False,False,True,False
+3530004,North Dumfries,10619,False,0.18505760779189928,True,False,True,False
+3530010,Cambridge,138479,True,0.28842708333333333,False,False,True,False
+3530013,Kitchener,256885,True,0.20264873556497587,False,False,True,False
+3530016,Waterloo,121436,True,0.27175163826204923,False,False,True,False
+3530020,Wilmot,21429,False,0.40352697095435686,False,False,True,False
+3530027,Wellesley,11318,False,0.24149012139966675,True,False,True,False
+3530035,Woolwich,26999,False,0.34654461321798613,False,False,True,False
+3531011,Stratford,33232,True,0.4391428786623484,False,False,True,False
+3531013,Perth South,3776,False,0.37900874635568516,True,False,False,True
+3531016,St. Marys,7386,True,0.24903288201160542,True,False,True,False
+3531025,West Perth,9038,False,0.42165733160993824,False,False,True,False
+3531030,Perth East,12595,False,0.32708142726440986,False,False,True,False
+3531040,North Perth,15538,False,0.2888826763582145,False,False,True,True
+3532002,Norwich,11151,False,0.5020061905307807,False,False,True,False
+3532004,Tillsonburg,18615,True,0.3762861342479177,False,False,True,False
+3532012,South-West Oxford,7583,False,0.13142554319024907,True,False,True,True
+3532018,Ingersoll,13693,False,0.41297348484848484,False,False,True,False
+3532027,Zorra,8628,False,0.2252714113389626,True,False,True,False
+3532038,East Zorra-Tavistock,7841,False,0.38502859123202215,False,False,True,False
+3532042,Woodstock,46705,True,0.27700522208531364,False,False,True,False
+3532045,Blandford-Blenheim,7565,False,0.2547092547092547,True,False,True,False
+3534005,Bayham,7096,False,0.24788434414668548,False,False,True,False
+3534010,Malahide,9308,False,0.2120291616038882,True,False,True,True
+3534011,Aylmer,7699,True,0.31439046746104493,False,False,True,False
+3534020,Central Elgin,13746,False,0.34832019908751555,False,False,True,False
+3534021,St. Thomas,42840,True,0.3063048580522779,False,False,True,False
+3534024,Southwold,4851,False,0.37341772151898733,False,False,True,True
+3534030,Dutton/Dunwich,4152,False,0.2833010246469122,False,False,True,False
+3534042,West Elgin,5060,False,0.11792336217552533,True,False,True,False
+3536020,Chatham-Kent,103988,False,0.30555693870437683,False,False,True,False
+3537001,Pelee,230,False,0.5837837837837838,False,False,True,False
+3537003,Leamington,29680,True,0.45731605583671653,False,False,True,False
+3537013,Kingsville,22119,False,0.5019168386906517,False,False,True,False
+3537016,Essex,21216,True,0.4109637075565426,False,False,True,False
+3537028,Amherstburg,23524,True,0.3934487749959792,False,False,True,False
+3537034,LaSalle,32721,True,0.3012606022877597,True,False,True,False
+3537039,Windsor,229660,True,0.3157423520213866,False,False,True,False
+3537048,Tecumseh,23300,False,0.2871528837351236,True,False,True,False
+3537064,Lakeshore,40410,True,0.3052347831874605,False,False,True,False
+3538003,St. Clair,14659,False,0.3933890880127439,False,False,True,False
+3538007,Dawn-Euphemia,1968,False,,True,True,True,True
+3538015,Brooke-Alvinston,2359,False,0.5361305361305362,False,False,True,False
+3538016,Enniskillen,2825,False,,True,True,False,True
+3538018,Oil Springs,647,False,,True,True,True,True
+3538019,Petrolia,6013,True,0.45512962552625746,False,False,True,True
+3538030,Sarnia,72047,True,0.404114648740489,False,False,True,False
+3538031,Point Edward,1930,False,0.42508917954815695,True,False,True,False
+3538035,Plympton-Wyoming,8308,False,0.4270732716986339,False,False,True,False
+3538040,Lambton Shores,11876,False,0.39337423312883435,False,False,True,False
+3538043,Warwick,3641,False,0.5177201315308733,False,False,True,True
+3539002,Newbury,440,False,0.2853717026378897,True,False,False,False
+3539005,Southwest Middlesex,5893,False,0.49362917398945516,False,False,True,False
+3539015,Strathroy-Caradoc,23871,False,0.3879962453757385,False,False,True,False
+3539027,Thames Centre,13980,False,0.4733994589720469,False,False,True,False
+3539033,Middlesex Centre,18928,False,0.259763851044505,True,False,True,False
+3539036,London,422324,True,0.2550156009292959,False,False,True,False
+3539041,North Middlesex,6307,False,0.27732610659439927,True,False,True,True
+3539047,Adelaide-Metcalfe,3011,False,0.36363636363636365,True,False,True,True
+3539060,Lucan Biddulph,5680,False,0.4492650545282124,False,False,True,False
+3540005,South Huron,10063,False,0.4448780487804878,False,False,True,False
+3540010,Bluewater,7540,False,0.3102210254684169,True,False,True,False
+3540025,Central Huron,7799,False,0.3545096896400991,False,False,True,True
+3540028,Goderich,7881,True,0.5221306471306472,False,False,True,False
+3540040,Huron East,9512,False,0.30468130124305737,False,False,True,False
+3540046,Howick,4045,False,,True,True,True,True
+3540050,Morris-Turnberry,3590,False,0.35113213923622844,True,False,True,True
+3540055,North Huron,5052,False,0.45941235059760954,False,False,True,False
+3540063,Ashfield-Colborne-Wawanosh,5884,False,0.40556219075243133,True,False,True,False
+3541004,South Bruce,5880,False,0.5932965460862456,False,False,True,False
+3541015,Huron-Kinloss,7723,False,0.4088024841366275,False,False,True,False
+3541024,Kincardine,12268,True,0.4511349605850508,False,False,True,False
+3541032,Brockton,9784,False,0.3543434847728407,True,False,True,True
+3541043,Arran-Elderslie,6913,False,0.4662342617321633,True,False,True,True
+3541045,Saugeen Shores,15908,False,0.3884072876873347,True,False,True,False
+3541055,South Bruce Peninsula,9137,False,0.4250759878419453,False,False,True,False
+3541069,Northern Bruce Peninsula,4404,False,0.37254699442263994,False,False,True,False
+3542004,West Grey,13131,False,0.34499014313876747,False,False,True,True
+3542005,Southgate,8716,False,0.27192448233861144,False,False,True,False
+3542015,Grey Highlands,10424,False,0.34830387004300045,False,False,True,False
+3542029,Hanover,7967,True,0.39264104660670485,False,False,True,False
+3542037,Chatsworth,7080,False,0.37058435127104655,False,False,True,False
+3542045,The Blue Mountains,9390,False,0.292958354312019,False,False,True,False
+3542047,Meaford,11485,True,0.3702718114426915,False,False,True,False
+3542053,Georgian Bluffs,11100,False,0.35185185185185186,False,False,True,True
+3542059,Owen Sound,21612,True,0.39035087719298245,False,False,True,False
+3543003,Adjala-Tosorontio,10989,False,0.4152552137343012,False,False,True,False
+3543005,Clearview,14814,False,0.3174786423458785,True,False,True,False
+3543007,New Tecumseth,43948,False,0.33606377302827733,False,False,True,False
+3543009,Springwater,21701,False,0.32880155375299897,False,False,True,False
+3543014,Bradford West Gwillimbury,42880,True,0.3371229781587347,False,False,True,False
+3543015,Severn,14576,False,0.3091114723969746,False,False,True,False
+3543017,Innisfil,43326,True,0.24257682565839667,False,False,True,False
+3543019,Ramara,10377,False,0.36077175836211983,False,False,True,False
+3543021,Essa,22970,False,0.15319898258657796,True,False,True,False
+3543023,Oro-Medonte,23017,False,0.35808900133948507,False,False,True,False
+3543031,Collingwood,24811,True,0.3967121307921597,False,False,True,False
+3543042,Barrie,147829,True,0.304556493581589,False,False,True,False
+3543052,Orillia,33411,True,0.3243764172335601,False,False,True,False
+3543064,Wasaga Beach,24862,True,0.48980533646584995,False,False,True,False
+3543068,Tiny,12966,False,0.3357687089030373,False,False,True,False
+3543071,Tay,11091,False,,True,True,True,True
+3543072,Penetanguishene,10077,True,0.39513963480128894,False,False,True,True
+3543074,Midland,17817,True,0.3558492413117964,False,False,True,False
+3544002,Gravenhurst,13157,False,0.3281447482205814,False,False,True,False
+3544018,Bracebridge,17305,True,0.3635270058943823,False,False,True,False
+3544027,Lake of Bays,3759,False,0.29082557717877433,False,False,True,False
+3544042,Huntsville,21147,True,0.3691990209723089,False,False,True,False
+3544053,Muskoka Lakes,7652,False,0.3541147132169576,False,False,True,True
+3544065,Georgian Bay,3441,False,0.17163856463467358,True,False,True,False
+3546005,Highlands East,3830,False,0.21255082976151227,False,False,True,False
+3546015,Minden Hills,6971,False,0.24760795407271818,True,False,True,False
+3546018,Algonquin Highlands,2588,False,0.28903193234885777,False,False,True,False
+3546024,Dysart et al,7182,False,0.3146641635377555,True,False,True,False
+3547002,Arnprior,9629,True,0.4758795309168444,False,False,True,False
+3547003,McNab/Braeside,7591,False,0.45829042224510813,False,False,True,False
+3547008,Greater Madawaska,2864,False,0.34575688073394495,False,False,True,False
+3547020,"Brudenell, Lyndoch and Raglan",1552,False,0.47768805779855505,False,False,True,False
+3547030,Madawaska Valley,3927,True,0.5212657366451174,False,False,True,False
+3547033,"Killaloe, Hagarty and Richards",2410,False,0.5798653610771114,False,False,True,False
+3547035,Bonnechere Valley,3898,False,0.5031329774889766,False,False,True,True
+3547043,Admaston/Bromley,2995,False,0.43960066555740435,False,False,True,False
+3547046,Horton,3182,False,0.3854692230070636,True,False,True,False
+3547048,Renfrew,8190,True,0.43164576559838985,False,False,True,False
+3547056,Whitewater Region,7225,False,0.4105549674882807,False,False,True,True
+3547064,Pembroke,14364,True,0.3501686746987952,True,False,True,False
+3547070,North Algona Wilberforce,3111,False,0.4371539313399779,False,False,True,False
+3547075,Laurentian Valley,9450,False,0.3781899663886468,True,False,True,True
+3547076,Petawawa,18160,False,0.2705787781350482,False,False,True,False
+3547090,Laurentian Hills,2885,False,,True,True,False,True
+3547096,Deep River,4175,True,0.4215525712414019,True,False,True,True
+3547098,"Head, Clara and Maria",267,False,0.3711864406779661,False,False,True,False
+3548001,South Algonquin,1055,False,0.4613538166106577,False,False,True,False
+3548013,Papineau-Cameron,982,False,0.3040702314445331,True,False,True,False
+3548019,Mattawan,153,False,0.4117647058823529,True,False,False,True
+3548021,Mattawa,1881,False,0.46109324758842446,False,False,True,False
+3548022,Calvin,557,False,0.5673534072900158,False,False,True,False
+3548027,Bonfield,2146,False,0.4051618189266694,False,False,True,False
+3548031,Chisholm,1312,False,0.3084958217270195,True,False,True,False
+3548034,East Ferris,4946,False,0.23492852703542574,True,False,True,False
+3548044,North Bay,52662,True,0.3826553848366452,False,False,True,False
+3548055,West Nipissing,14583,True,0.4827062228654124,False,False,True,False
+3548069,Temagami,862,False,0.4169169169169169,True,False,True,False
+3549003,Seguin,5280,False,0.2891939769707706,True,False,True,False
+3549005,The Archipelago,979,False,,True,True,True,True
+3549012,McMurrich/Monteith,907,False,0.3542234332425068,False,False,True,False
+3549014,Perry,2650,False,,True,True,True,False
+3549018,Kearney,974,False,0.4173076923076923,False,False,True,False
+3549019,Armour,1459,False,,True,True,True,False
+3549022,Burk’s Falls,957,False,0.38055222088835533,False,False,True,False
+3549024,Ryerson,745,False,0.3680183626625861,False,False,True,False
+3549028,McKellar,1419,False,0.49455337690631807,False,False,True,False
+3549031,McDougall,2744,False,0.39052330122363965,False,False,True,True
+3549032,Parry Sound,6879,True,0.4207723035952064,False,False,True,True
+3549036,Carling,1491,False,0.4432141727301487,False,False,True,False
+3549039,Whitestone,1075,False,0.4062332079527136,True,False,True,False
+3549043,Magnetawan,1753,False,0.31688804554079697,False,False,True,False
+3549046,Strong,1566,False,0.4288363467779323,False,False,True,False
+3549048,Sundridge,938,False,0.477533960292581,False,False,True,False
+3549051,Joly,293,False,0.3684971098265896,True,False,True,True
+3549054,Machar,969,False,0.49918345127925967,False,False,True,True
+3549056,South River,1101,False,,True,True,True,True
+3549060,Powassan,3346,False,0.40726072607260727,False,False,True,False
+3549066,Callander,3964,False,0.45123607715294756,False,False,True,True
+3549071,Nipissing,1769,False,0.23485388453314326,True,False,True,False
+3551001,Tehkummah,450,False,0.5590433482810164,False,False,True,False
+3551006,Central Manitoulin,2235,False,0.40335128665469777,False,False,True,False
+3551011,Assiginack,1008,False,0.4326153846153846,False,False,True,False
+3551017,Northeastern Manitoulin and The Islands,2641,False,0.32111745268849506,True,False,True,False
+3551021,Billings,753,False,0.34430379746835443,True,False,True,False
+3551026,Gore Bay,808,False,0.33503184713375794,False,False,True,False
+3551027,Gordon/Barrie Island,613,False,,True,True,True,True
+3551028,Burpee and Mills,382,False,0.20099255583126552,True,False,True,False
+3551034,Cockburn Island,16,False,0.65,False,False,True,False
+3552001,French River,2828,False,0.07469700717289142,True,False,True,False
+3552004,St.-Charles,1357,False,0.5087225661226786,False,False,True,False
+3552013,Markstay-Warren,2708,False,0.2984467455621302,True,False,True,False
+3552023,Sables-Spanish Rivers,3237,False,0.3296139927623643,False,False,True,False
+3552026,Espanola,5185,True,0.4211042944785276,False,False,True,False
+3552028,Baldwin,579,False,0.3814102564102564,True,False,True,False
+3552031,Nairn and Hyman,373,False,0.3241935483870968,False,False,True,True
+3552036,Killarney,397,False,0.22359796067006554,True,False,True,True
+3552092,Chapleau,1942,True,,True,True,True,False
+3553005,Greater Sudbury,166004,True,0.42159685094882793,False,False,True,False
+3554001,Coleman,517,False,0.46041666666666664,False,False,True,False
+3554006,Latchford,355,False,0.7373417721518988,False,False,True,False
+3554008,Cobalt,989,False,0.412348401323043,False,False,True,False
+3554014,Harris,530,False,0.26096997690531176,False,False,False,True
+3554020,Temiskaming Shores,9634,True,0.41242450388265744,False,False,True,False
+3554021,Hudson,530,False,0.4861111111111111,True,False,True,False
+3554024,Kerns,330,False,,True,True,True,False
+3554026,Harley,524,False,0.1571753986332574,True,False,True,True
+3554029,Casey,341,False,0.2770700636942675,True,False,False,True
+3554032,Brethour,105,False,,True,True,False,True
+3554034,Hilliard,215,False,,True,True,False,True
+3554036,Armstrong,1199,False,,True,True,True,True
+3554038,Thornloe,92,False,,True,True,True,True
+3554042,James,348,False,0.5761316872427984,False,False,True,False
+3554044,Charlton and Dack,686,False,,True,True,False,True
+3554049,Evanturel,502,False,,True,True,True,True
+3554052,Englehart,1442,True,0.39217318900915904,False,False,True,False
+3554054,Chamberlain,311,False,,True,True,False,True
+3554056,Matachewan,268,False,0.4552058111380145,False,False,True,False
+3554058,McGarry,579,False,0.5753646677471637,False,False,True,True
+3554062,Larder Lake,745,False,0.20825335892514396,True,False,True,False
+3554066,Gauthier,151,False,0.3724137931034483,True,False,True,False
+3554068,Kirkland Lake,7750,True,0.2803738317757009,False,False,True,True
+3556014,Black River-Matheson,2572,False,0.05945531261986958,True,False,True,True
+3556027,Timmins,41145,True,0.39393841061751633,False,False,True,False
+3556031,Iroquois Falls,4418,True,0.42685728874138373,False,False,True,False
+3556042,Cochrane,5390,True,0.5737250554323725,False,False,True,False
+3556048,Smooth Rock Falls,1200,False,0.6504297994269341,False,False,True,False
+3556052,Fauquier-Strickland,467,False,0.5033003300330033,False,False,True,True
+3556056,Moonbeam,1157,False,0.3698044009779951,False,False,True,True
+3556066,Kapuskasing,8057,True,0.28749063670411984,True,False,False,True
+3556070,Val Rita-Harty,757,False,0.38636363636363635,False,False,True,True
+3556073,Opasatika,200,False,0.6214953271028038,True,False,True,False
+3556076,Hearst,4794,True,0.32028946663093005,False,False,True,False
+3556077,Mattice-Val Côté,542,False,0.45412130637636083,False,False,True,False
+3556106,Moosonee,1512,True,0.3932384341637011,False,False,True,False
+3557001,Jocelyn,314,False,0.5862068965517241,False,False,True,False
+3557004,Hilton,382,False,,True,True,True,True
+3557006,Hilton Beach,198,False,,True,True,False,True
+3557008,St. Joseph,1426,False,0.5377855887521968,False,False,True,False
+3557011,Laird,1121,False,0.41509433962264153,False,False,True,True
+3557014,Tarbutt,573,False,0.38636363636363635,True,False,True,True
+3557016,Johnson,749,False,0.25,True,False,True,True
+3557019,Plummer Additional,757,False,0.2186421173762946,False,False,True,False
+3557021,Bruce Mines,582,False,0.47904191616766467,False,False,True,False
+3557028,Thessalon,1260,True,,True,True,True,False
+3557035,Huron Shores,1860,False,0.3847936949466852,False,False,True,False
+3557038,Blind River,3422,False,,True,True,True,False
+3557039,Spanish,670,False,0.46703296703296704,False,False,True,False
+3557040,The North Shore,531,False,0.36024844720496896,True,False,True,False
+3557041,Elliot Lake,11372,True,0.35523020612598727,False,False,True,False
+3557051,"Macdonald, Meredith and Aberdeen Additional",1513,False,0.3153153153153153,True,False,True,True
+3557061,Sault Ste. Marie,72051,True,0.3793856986767027,False,False,True,False
+3557066,Prince,975,False,0.5137614678899083,False,False,True,True
+3557076,Wawa,2705,True,0.3739719400096759,True,False,True,False
+3557079,Dubreuilville,576,False,0.20594965675057209,True,False,False,True
+3557091,White River,557,False,0.5601436265709157,False,False,True,False
+3557096,Hornepayne,968,True,,True,True,True,False
+3558001,Neebing,2241,False,0.26135517498138494,False,False,True,False
+3558004,Thunder Bay,108843,True,0.42616427060552825,False,False,True,False
+3558011,Oliver Paipoonge,6035,False,0.45587106676899464,False,False,True,False
+3558012,Gillies,441,False,0.2240325865580448,True,False,True,False
+3558016,O’Connor,689,False,0.222397476340694,True,False,False,True
+3558019,Conmee,798,False,0.3006711409395973,False,False,True,False
+3558028,Shuniah,3247,False,0.1694829760403531,True,False,True,True
+3558034,Dorion,375,False,,True,True,False,True
+3558041,Red Rock,895,False,0.3888888888888889,True,False,True,True
+3558044,Nipigon,1473,True,0.4886280264123258,False,False,True,False
+3558051,Schreiber,1039,False,0.642369020501139,False,False,True,False
+3558054,Terrace Bay,1528,True,0.5690265486725664,False,False,True,False
+3558059,Marathon,3138,True,0.42301458670988656,True,False,True,False
+3558066,Manitouwadge,1974,False,0.5507531106745253,False,False,True,False
+3558075,Greenstone,4309,False,0.24534056252117925,True,False,True,False
+3559001,Atikokan,2642,True,0.5618531296205027,False,False,True,False
+3559011,Alberton,954,False,0.4815825375170532,False,False,False,True
+3559012,Fort Frances,7466,True,0.4963325183374083,False,False,True,False
+3559016,La Vallee,788,False,0.4,False,False,True,False
+3559019,Emo,1204,False,0.37842778793418647,True,False,False,True
+3559024,Chapple,763,False,0.10384615384615385,True,False,True,True
+3559031,Morley,493,False,0.36082474226804123,False,False,True,False
+3559040,Dawson,399,False,0.18421052631578946,True,False,True,False
+3559042,Rainy River,752,False,0.26865671641791045,True,False,True,False
+3559047,Lake of the Woods,308,False,,True,True,False,True
+3560001,Ignace,1206,False,0.6911344137273594,False,False,True,False
+3560008,Sioux Narrows-Nestor Falls,727,False,,True,True,True,True
+3560010,Kenora,14967,True,0.5350444225074038,False,False,True,True
+3560021,Machin,1012,False,0.33158995815899583,False,False,True,False
+3560027,Dryden,7388,True,0.4310909090909091,False,False,True,False
+3560032,Ear Falls,924,False,0.42627737226277373,True,False,True,True
+3560034,Sioux Lookout,5839,True,0.33092621664050237,True,False,True,False
+3560042,Red Lake,4094,False,0.6163163519771998,False,False,True,False
+3560049,Pickle Lake,398,True,0.5228758169934641,False,False,True,False

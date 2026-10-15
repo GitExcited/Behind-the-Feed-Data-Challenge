@@ -1,0 +1,395 @@
+town_id,short_name,region,population_2021,pop_band,french_mt_share,franco_band,stratum,head_acclaimed,probe_headline,probe_shown,editions_saved,race_cards,race_cards_loose,town_cards,cards,supply_stories_shown,race_cards_en-CA,cards_en-CA,newest_card_age_days_en-CA,race_cards_fr-CA,cards_fr-CA,newest_card_age_days_fr-CA,supply_campaign_n,supply_recent_n,supply_en_n,supply_fr_n,outcome,outcome_pipeline,outcome_broad,web_recall_tiers,outcome3,first_race_rank,other_town_race_cards,no_local_feed
+3501005,South Glengarry,south,13330,"10,000-49,999",0.2541,significant,,yes,,,2.0,0.0,0.0,37.0,112.0,0.0,0.0,96.0,0.2,0.0,16.0,0.0,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3501011,South Stormont,south,13570,"10,000-49,999",0.1427,some,,yes,,,2.0,1.0,1.0,15.0,67.0,1.0,1.0,66.0,0.2,0.0,1.0,3.8,3,2,3,0,served,served,served,,served,8.0,4.0,False
+3501012,Cornwall,south,47845,"10,000-49,999",0.1942,significant,,no,,,2.0,7.0,7.0,87.0,102.0,4.0,6.0,95.0,0.1,1.0,7.0,3.7,37,29,29,8,served,served,served,,served,2.0,2.0,False
+3501020,South Dundas,south,11044,"10,000-49,999",0.0413,low,,no,,,2.0,1.0,1.0,12.0,65.0,1.0,1.0,64.0,0.1,0.0,1.0,3.8,3,1,3,0,served,served,served,,served,3.0,4.0,False
+3501030,North Dundas,south,11304,"10,000-49,999",0.0746,some,,no,,,2.0,0.0,0.0,6.0,77.0,0.0,0.0,56.0,0.2,0.0,21.0,0.4,3,1,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,5.0,False
+3501042,North Stormont,south,7400,"2,000-9,999",0.256,significant,,yes,,,2.0,0.0,0.0,3.0,55.0,0.0,0.0,53.0,0.2,0.0,2.0,1.2,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,5.0,False
+3501050,North Glengarry,south,10144,"10,000-49,999",0.349,significant,,no,,,2.0,0.0,0.0,17.0,80.0,0.0,0.0,65.0,0.2,0.0,15.0,0.3,6,0,5,1,gap_older,gap_older,gap_older,,exposure_gap,,5.0,False
+3502001,East Hawkesbury,south,3418,"2,000-9,999",0.5804,majority,,no,,,2.0,1.0,1.0,6.0,48.0,0.0,1.0,23.0,0.5,0.0,25.0,0.2,0,0,0,0,served,served,served,,served,1.0,0.0,False
+3502008,Hawkesbury,south,10194,"10,000-49,999",0.7236,majority,,no,,,2.0,3.0,3.0,60.0,76.0,0.0,1.0,39.0,0.7,2.0,37.0,0.9,2,0,0,2,served,served,served,,served,2.0,1.0,False
+3502010,Champlain,south,8665,"2,000-9,999",0.588,majority,,no,,,2.0,0.0,0.0,2.0,36.0,0.0,0.0,22.0,0.5,0.0,14.0,0.1,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3502023,Alfred and Plantagenet,south,9949,"2,000-9,999",0.7118,majority,,no,,,2.0,0.0,0.0,2.0,26.0,0.0,0.0,18.0,0.7,0.0,8.0,0.8,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3502025,The Nation,south,13350,"10,000-49,999",0.6293,majority,,yes,,,2.0,0.0,0.0,0.0,48.0,0.0,0.0,40.0,0.2,0.0,8.0,1.0,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3502036,Clarence-Rockland,south,26505,"10,000-49,999",0.5702,majority,,no,,,2.0,0.0,0.0,28.0,128.0,0.0,0.0,64.0,0.4,0.0,64.0,0.2,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3502044,Casselman,south,3960,"2,000-9,999",0.7134,majority,,no,,,2.0,1.0,1.0,18.0,77.0,0.0,0.0,58.0,0.1,1.0,19.0,0.2,0,0,0,0,served,served,served,,served,16.0,4.0,False
+3502048,Russell,south,19598,"10,000-49,999",0.3767,significant,,yes,,,2.0,0.0,0.0,2.0,97.0,0.0,0.0,52.0,0.0,0.0,45.0,0.2,7,1,1,6,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3506008,Ottawa,south,1017449,"200,000+",0.1252,some,,no,,,2.0,2.0,2.0,44.0,199.0,0.0,1.0,99.0,0.0,1.0,100.0,0.1,62,32,57,5,served,served,served,,served,12.0,1.0,False
+3507006,Augusta,south,7386,"2,000-9,999",0.0311,low,,yes,,,2.0,0.0,0.0,12.0,54.0,0.0,0.0,54.0,0.0,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3507008,Prescott,south,4078,"2,000-9,999",0.0311,low,,no,,,2.0,0.0,0.0,6.0,30.0,0.0,0.0,30.0,1.3,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3507014,Elizabethtown-Kitley,south,9545,"2,000-9,999",0.0239,low,,no,,,2.0,1.0,1.0,2.0,34.0,0.0,1.0,34.0,0.6,0.0,0.0,,2,0,2,0,served,served,served,,served,11.0,2.0,False
+3507015,Brockville,south,22116,"10,000-49,999",0.0271,low,,no,,,2.0,1.0,1.0,61.0,78.0,1.0,1.0,74.0,0.6,0.0,4.0,64.7,2,2,2,0,served,served,served,,served,16.0,0.0,False
+3507017,Front of Yonge,south,2595,"2,000-9,999",0.0213,low,,no,,,2.0,0.0,0.0,5.0,41.0,0.0,0.0,41.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3507021,Leeds and the Thousand Islands,south,9804,"2,000-9,999",0.0243,low,,no,,,2.0,0.0,0.0,1.0,64.0,0.0,0.0,64.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3507024,Gananoque,south,5383,"2,000-9,999",0.0219,low,,no,,,2.0,1.0,1.0,50.0,85.0,0.0,1.0,84.0,0.1,0.0,1.0,72.8,1,1,1,0,served,served,served,,served,48.0,2.0,False
+3507033,Westport,south,634,"<2,000",0.0236,low,,yes,,,2.0,0.0,0.0,1.0,15.0,0.0,0.0,15.0,0.8,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3507040,Rideau Lakes,south,10883,"10,000-49,999",0.0225,low,,no,,,2.0,1.0,1.0,15.0,70.0,0.0,1.0,70.0,1.1,0.0,0.0,,6,2,6,0,served,served,served,,served,51.0,4.0,False
+3507042,Athens,south,3042,"2,000-9,999",0.0134,low,,no,,,2.0,0.0,0.0,2.0,32.0,0.0,0.0,32.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3507052,Merrickville-Wolford,south,3135,"2,000-9,999",0.0549,some,,no,,,2.0,0.0,0.0,0.0,42.0,0.0,0.0,41.0,1.2,0.0,1.0,1.4,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3507065,North Grenville,south,17964,"10,000-49,999",0.0559,some,,yes,,,2.0,2.0,2.0,31.0,116.0,0.0,2.0,87.0,0.2,0.0,29.0,0.4,0,0,0,0,served,served,served,,served,52.0,2.0,False
+3509001,Montague,south,3914,"2,000-9,999",0.0411,low,,yes,,,2.0,0.0,0.0,2.0,31.0,0.0,0.0,30.0,1.0,0.0,1.0,1.2,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,3.0,False
+3509004,Smiths Falls,south,9254,"2,000-9,999",0.0279,low,,no,,,2.0,2.0,2.0,49.0,58.0,1.0,2.0,55.0,1.7,0.0,3.0,53.8,4,2,4,0,served,served,served,,served,1.0,0.0,False
+3509010,Drummond/North Elmsley,south,8183,"2,000-9,999",0.032,low,,no,,,2.0,0.0,0.0,1.0,19.0,0.0,0.0,19.0,1.0,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3509015,Tay Valley,south,5925,"2,000-9,999",0.0273,low,,no,,,2.0,0.0,0.0,7.0,18.0,0.0,0.0,18.0,1.3,0.0,0.0,,3,1,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,2.0,False
+3509021,Perth,south,6469,"2,000-9,999",0.0244,low,,no,,,2.0,0.0,0.0,2.0,12.0,0.0,0.0,11.0,1.2,0.0,1.0,22.8,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3509024,Beckwith,south,9021,"2,000-9,999",0.0516,some,,no,,,2.0,0.0,0.0,7.0,71.0,0.0,0.0,57.0,0.2,0.0,14.0,0.5,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,3.0,False
+3509028,Carleton Place,south,12517,"10,000-49,999",0.0505,some,,yes,,,2.0,4.0,4.0,50.0,57.0,0.0,4.0,57.0,0.4,0.0,0.0,,3,2,3,0,served,served,served,,served,4.0,0.0,False
+3509030,Mississippi Mills,south,14740,"10,000-49,999",0.0398,low,,yes,,,2.0,3.0,3.0,47.0,137.0,0.0,3.0,100.0,0.2,0.0,37.0,0.6,1,0,1,0,served,served,served,,served,63.0,4.0,False
+3509039,Lanark Highlands,south,5737,"2,000-9,999",0.0418,low,,no,,,2.0,0.0,0.0,7.0,22.0,0.0,0.0,22.0,1.2,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3510005,Frontenac Islands,south,1930,"<2,000",0.0259,low,,no,,,2.0,0.0,0.0,2.0,56.0,0.0,0.0,56.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3510010,Kingston,south,132485,"50,000-199,999",0.0312,low,,no,,,2.0,5.0,5.0,76.0,102.0,4.0,5.0,99.0,0.1,0.0,3.0,12.8,9,9,9,0,served,served,served,,served,4.0,1.0,False
+3510020,South Frontenac,south,20188,"10,000-49,999",0.0196,low,,no,,,2.0,0.0,0.0,37.0,99.0,0.0,0.0,99.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3510035,Central Frontenac,south,4892,"2,000-9,999",0.0154,low,,no,,,2.0,0.0,0.0,9.0,13.0,0.0,0.0,13.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3510045,North Frontenac,south,2285,"2,000-9,999",0.0197,low,,no,,,2.0,0.0,0.0,4.0,4.0,0.0,0.0,4.0,353.8,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3511005,Loyalist,south,17943,"10,000-49,999",0.028,low,,yes,,,2.0,1.0,1.0,29.0,86.0,0.0,1.0,86.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,59.0,4.0,False
+3511015,Greater Napanee,south,16879,"10,000-49,999",0.0143,low,,yes,,,2.0,3.0,3.0,60.0,101.0,0.0,3.0,100.0,0.3,0.0,1.0,120.8,1,1,1,0,served,served,served,,served,4.0,2.0,False
+3511030,Stone Mills,south,7826,"2,000-9,999",0.0121,low,,yes,,,2.0,0.0,0.0,20.0,71.0,0.0,0.0,71.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3511035,Addington Highlands,south,2534,"2,000-9,999",0.0121,low,,yes,,,2.0,0.0,0.0,3.0,7.0,0.0,0.0,7.0,1.0,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3512001,Tyendinaga,south,4538,"2,000-9,999",0.0088,low,,no,,,2.0,0.0,0.0,41.0,96.0,0.0,0.0,96.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3512002,Deseronto,south,1747,"<2,000",0.0086,low,,no,,,2.0,0.0,0.0,13.0,63.0,0.0,0.0,63.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3512005,Belleville,south,55071,"50,000-199,999",0.0147,low,,no,,,2.0,5.0,5.0,59.0,98.0,0.0,5.0,97.0,0.3,0.0,1.0,18.6,12,8,12,0,served,served,served,,served,17.0,2.0,False
+3512015,Quinte West,south,46560,"10,000-49,999",0.0369,low,,no,,,2.0,3.0,3.0,51.0,100.0,1.0,3.0,100.0,0.2,0.0,0.0,,8,7,8,0,served,served,served,,served,3.0,0.0,False
+3512020,Stirling-Rawdon,south,5015,"2,000-9,999",0.0091,low,,no,,,2.0,0.0,0.0,6.0,58.0,0.0,0.0,58.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3512026,Centre Hastings,south,4801,"2,000-9,999",0.0105,low,,no,,,2.0,0.0,0.0,7.0,52.0,0.0,0.0,52.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3512030,Tweed,south,6067,"2,000-9,999",0.0126,low,,no,,,2.0,0.0,0.0,0.0,50.0,0.0,0.0,50.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3512036,Madoc,south,2233,"2,000-9,999",0.0045,low,,no,,,,,,,,,,,,,,,0,0,0,0,not_collected,not_collected,not_collected,,not_collected,,,False
+3512046,Marmora and Lake,south,4267,"2,000-9,999",0.0083,low,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,True
+3512048,Tudor and Cashel,south,740,"<2,000",0.0068,low,,yes,,,2.0,0.0,0.0,0.0,6.0,0.0,0.0,6.0,0.9,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3512051,Limerick,south,436,"<2,000",0.0115,low,,no,,,2.0,0.0,0.0,0.0,6.0,0.0,0.0,6.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3512054,Wollaston,south,721,"<2,000",0.0069,low,,no,,,2.0,0.0,0.0,0.0,9.0,0.0,0.0,9.0,1.2,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3512058,Faraday,south,1612,"<2,000",0.0124,low,,yes,,,2.0,0.0,0.0,0.0,7.0,0.0,0.0,7.0,1.1,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3512061,Bancroft,south,4065,"2,000-9,999",0.0117,low,,no,,,2.0,0.0,0.0,51.0,57.0,0.0,0.0,56.0,1.0,0.0,1.0,52.7,4,1,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3512065,Carlow/Mayo,south,953,"<2,000",0.0105,low,,no,,,2.0,0.0,0.0,1.0,7.0,0.0,0.0,7.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3512076,Hastings Highlands,south,4385,"2,000-9,999",0.0125,low,,no,,,2.0,0.0,0.0,5.0,15.0,0.0,0.0,15.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3513020,Prince Edward,south,25704,"10,000-49,999",0.0155,low,,no,,,2.0,0.0,0.0,6.0,102.0,0.0,0.0,95.0,0.2,0.0,7.0,21.8,2,1,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3514004,Brighton,south,12108,"10,000-49,999",0.0216,low,,no,,,2.0,0.0,0.0,5.0,51.0,0.0,0.0,51.0,0.4,0.0,0.0,,3,3,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3514014,Cramahe,south,6509,"2,000-9,999",0.0092,low,,no,,,2.0,0.0,0.0,13.0,66.0,0.0,0.0,66.0,0.4,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3514019,Hamilton,south,11059,"10,000-49,999",0.0113,low,,yes,,,2.0,0.0,0.0,0.0,57.0,0.0,0.0,57.0,0.4,0.0,0.0,,3,1,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3514020,Port Hope,south,17294,"10,000-49,999",0.0112,low,,no,,,2.0,1.0,1.0,46.0,100.0,0.0,1.0,99.0,0.5,0.0,1.0,48.8,15,3,15,0,served,served,served,,served,16.0,1.0,False
+3514021,Cobourg,south,20519,"10,000-49,999",0.0147,low,,no,,,2.0,1.0,1.0,44.0,87.0,0.0,1.0,86.0,0.4,0.0,1.0,1.2,5,3,5,0,served,served,served,,served,11.0,2.0,False
+3514024,Alnwick/Haldimand,south,7473,"2,000-9,999",0.0134,low,,no,,,2.0,0.0,0.0,5.0,57.0,0.0,0.0,57.0,0.4,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3514045,Trent Hills,south,13861,"10,000-49,999",0.0116,low,,no,,,2.0,0.0,0.0,18.0,73.0,0.0,0.0,73.0,0.2,0.0,0.0,,3,1,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3515003,Asphodel-Norwood,south,4658,"2,000-9,999",0.013,low,,no,,,2.0,0.0,0.0,2.0,52.0,0.0,0.0,52.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3515005,Otonabee-South Monaghan,south,7087,"2,000-9,999",0.0113,low,,no,,,2.0,0.0,0.0,2.0,56.0,0.0,0.0,56.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3515013,Cavan Monaghan,south,10016,"10,000-49,999",0.0092,low,,no,,,2.0,0.0,0.0,4.0,56.0,0.0,0.0,56.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3515014,Peterborough,south,83651,"50,000-199,999",0.0102,low,,no,,,2.0,1.0,1.0,82.0,101.0,0.0,1.0,100.0,0.5,0.0,1.0,48.8,1,1,1,0,served,served,served,,served,36.0,0.0,False
+3515015,Selwyn,south,18653,"10,000-49,999",0.0075,low,,yes,,,2.0,3.0,3.0,18.0,70.0,0.0,3.0,70.0,0.5,0.0,0.0,,0,0,0,0,served,served,served,,served,55.0,0.0,False
+3515023,Douro-Dummer,south,7632,"2,000-9,999",0.0072,low,,no,,,2.0,2.0,2.0,4.0,56.0,0.0,2.0,56.0,0.4,0.0,0.0,,0,0,0,0,served,served,served,,served,52.0,0.0,False
+3515030,Havelock-Belmont-Methuen,south,5083,"2,000-9,999",0.0079,low,,no,,,2.0,0.0,0.0,0.0,51.0,0.0,0.0,51.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3515037,North Kawartha,south,2877,"2,000-9,999",0.007,low,,yes,,,2.0,0.0,0.0,6.0,19.0,0.0,0.0,19.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3515044,Trent Lakes,south,6439,"2,000-9,999",0.0085,low,,yes,,,2.0,0.0,0.0,9.0,59.0,0.0,0.0,59.0,0.5,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3516010,Kawartha Lakes,south,79247,"50,000-199,999",0.0093,low,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,True
+3518001,Pickering,south,99186,"50,000-199,999",0.0109,low,,no,,,2.0,1.0,1.0,50.0,105.0,0.0,1.0,100.0,0.1,0.0,5.0,1.3,0,0,0,0,served,served,served,,served,52.0,4.0,False
+3518005,Ajax,south,126666,"50,000-199,999",0.0112,low,,no,,,2.0,1.0,1.0,5.0,100.0,0.0,1.0,100.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,69.0,1.0,False
+3518009,Whitby,south,138501,"50,000-199,999",0.0132,low,,no,,,2.0,3.0,3.0,53.0,102.0,0.0,3.0,100.0,0.4,0.0,2.0,1.3,0,0,0,0,served,served,served,,served,68.0,2.0,False
+3518013,Oshawa,south,175383,"50,000-199,999",0.0165,low,,no,,,2.0,1.0,1.0,63.0,104.0,0.0,1.0,100.0,0.3,0.0,4.0,162.8,1,1,1,0,served,served,served,,served,3.0,0.0,False
+3518017,Clarington,south,101427,"50,000-199,999",0.0141,low,,no,,,2.0,0.0,0.0,44.0,99.0,0.0,0.0,99.0,0.2,0.0,0.0,,4,2,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,2.0,False
+3518020,Scugog,south,21581,"10,000-49,999",0.0098,low,,no,,,2.0,1.0,1.0,38.0,100.0,0.0,1.0,100.0,0.4,0.0,0.0,,1,0,1,0,served,served,served,,served,97.0,3.0,False
+3518029,Uxbridge,south,21556,"10,000-49,999",0.0088,low,,no,,,2.0,1.0,1.0,37.0,100.0,0.0,1.0,99.0,0.4,0.0,1.0,1.3,8,2,8,0,served,served,served,,served,98.0,2.0,False
+3518039,Brock,south,12567,"10,000-49,999",0.0061,low,,no,,,2.0,1.0,1.0,5.0,68.0,0.0,1.0,68.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,53.0,5.0,False
+3519028,Vaughan,south,323103,"200,000+",0.0056,low,,no,,,2.0,1.0,1.0,49.0,104.0,1.0,1.0,100.0,0.0,0.0,4.0,1.3,3,3,3,0,served,served,served,,served,21.0,4.0,False
+3519036,Markham,south,338503,"200,000+",0.0049,low,,no,,,2.0,2.0,2.0,51.0,105.0,0.0,2.0,100.0,0.4,0.0,5.0,1.3,0,0,0,0,served,served,served,,served,55.0,4.0,False
+3519038,Richmond Hill,south,202022,"200,000+",0.0049,low,,no,,,2.0,3.0,3.0,52.0,89.0,1.0,3.0,87.0,0.2,0.0,2.0,1.0,1,1,1,0,served,served,served,,served,50.0,1.0,False
+3519044,Whitchurch-Stouffville,south,49864,"10,000-49,999",0.0077,low,,yes,,,2.0,2.0,2.0,45.0,103.0,1.0,2.0,100.0,0.0,0.0,3.0,1.3,1,1,1,0,served,served,served,,served,11.0,3.0,False
+3519046,Aurora,south,62057,"50,000-199,999",0.0103,low,,no,,,2.0,3.0,3.0,8.0,82.0,0.0,3.0,81.0,0.3,0.0,1.0,1.2,60,25,60,0,served,served,served,,served,1.0,3.0,False
+3519048,Newmarket,south,87942,"50,000-199,999",0.0099,low,,yes,,,2.0,2.0,2.0,66.0,99.0,0.0,2.0,98.0,0.1,0.0,1.0,108.8,3,3,3,0,served,served,served,,served,3.0,1.0,False
+3519049,King,south,27333,"10,000-49,999",0.0072,low,,no,,,2.0,1.0,1.0,18.0,81.0,0.0,1.0,79.0,0.2,0.0,2.0,1.2,2,1,2,0,served,served,served,,served,53.0,4.0,False
+3519054,East Gwillimbury,south,34637,"10,000-49,999",0.0086,low,,no,,,2.0,7.0,7.0,42.0,101.0,0.0,7.0,100.0,0.2,0.0,1.0,1.2,0,0,0,0,served,served,served,,served,26.0,2.0,False
+3519070,Georgina,south,47642,"10,000-49,999",0.008,low,,no,,,2.0,2.0,2.0,9.0,58.0,0.0,2.0,58.0,0.2,0.0,0.0,,1,1,1,0,served,served,served,,served,8.0,3.0,False
+3520005,Toronto,south,2794356,"200,000+",0.0123,low,,no,,,2.0,10.0,10.0,129.0,153.0,1.0,9.0,100.0,0.0,1.0,53.0,0.5,85,76,77,7,served,served,served,,served,1.0,0.0,False
+3521005,Mississauga,south,717961,"200,000+",0.0086,low,,no,,,2.0,8.0,8.0,71.0,103.0,2.0,8.0,97.0,0.1,0.0,6.0,15.6,17,17,17,0,served,served,served,,served,13.0,3.0,False
+3521010,Brampton,south,656480,"200,000+",0.0059,low,,no,,,2.0,6.0,6.0,77.0,107.0,1.0,5.0,99.0,0.1,1.0,8.0,24.7,2,2,2,0,served,served,served,,served,1.0,5.0,False
+3521024,Caledon,south,76581,"50,000-199,999",0.0072,low,,no,,,2.0,1.0,1.0,49.0,104.0,0.0,1.0,100.0,0.2,0.0,4.0,1.2,10,10,10,0,served,served,served,,served,81.0,7.0,False
+3522001,East Garafraxa,south,2794,"2,000-9,999",0.0125,low,,yes,,,2.0,0.0,0.0,1.0,52.0,0.0,0.0,52.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,7.0,False
+3522008,Amaranth,south,4327,"2,000-9,999",0.0092,low,,yes,,,2.0,0.0,0.0,0.0,52.0,0.0,0.0,52.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3522010,Grand Valley,south,3851,"2,000-9,999",0.0091,low,,no,,,2.0,0.0,0.0,7.0,57.0,0.0,0.0,57.0,0.0,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3522012,Mono,south,9421,"2,000-9,999",0.0101,low,,no,,,2.0,0.0,0.0,1.0,54.0,0.0,0.0,54.0,0.0,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,6.0,False
+3522014,Orangeville,south,30167,"10,000-49,999",0.0117,low,,no,,,2.0,3.0,3.0,7.0,12.0,2.0,3.0,11.0,1.1,0.0,1.0,362.8,13,12,13,0,served,served,served,,served,1.0,0.0,False
+3522016,Mulmur,south,3571,"2,000-9,999",0.007,low,,yes,,,2.0,0.0,0.0,9.0,59.0,0.0,0.0,59.0,0.2,0.0,0.0,,4,1,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,6.0,False
+3522019,Melancthon,south,3132,"2,000-9,999",0.0032,low,,no,,,2.0,0.0,0.0,9.0,57.0,0.0,0.0,57.0,0.2,0.0,0.0,,3,2,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,6.0,False
+3522021,Shelburne,south,8994,"2,000-9,999",0.0085,low,,no,,,2.0,1.0,1.0,9.0,51.0,0.0,1.0,51.0,0.2,0.0,0.0,,10,9,10,0,served,served,served,,served,11.0,4.0,False
+3523001,Puslinch,south,7944,"2,000-9,999",0.0088,low,,no,,,2.0,0.0,0.0,44.0,99.0,0.0,0.0,99.0,0.1,0.0,0.0,,6,3,6,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3523008,Guelph,south,143740,"50,000-199,999",0.011,low,,no,,,2.0,1.0,1.0,72.0,101.0,0.0,1.0,100.0,0.0,0.0,1.0,311.7,41,26,41,0,served,served,served,,served,66.0,1.0,False
+3523009,Guelph/Eramosa,south,13904,"10,000-49,999",0.0101,low,,no,,,2.0,0.0,0.0,9.0,80.0,0.0,0.0,80.0,0.0,0.0,0.0,,3,2,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,2.0,False
+3523017,Erin,south,11981,"10,000-49,999",0.013,low,,no,,,2.0,0.0,0.0,20.0,68.0,0.0,0.0,68.0,0.1,0.0,0.0,,5,2,5,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,5.0,False
+3523025,Centre Wellington,south,31093,"10,000-49,999",0.0086,low,,no,,,2.0,1.0,1.0,44.0,100.0,1.0,1.0,100.0,0.2,0.0,0.0,,22,6,22,0,served,served,served,,served,88.0,3.0,False
+3523033,Mapleton,south,10839,"10,000-49,999",0.0028,low,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,5,0,5,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,True
+3523043,Minto,south,9094,"2,000-9,999",0.0062,low,,yes,,,2.0,0.0,0.0,13.0,50.0,0.0,0.0,50.0,0.3,0.0,0.0,,5,1,5,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3523050,Wellington North,south,12431,"10,000-49,999",0.0057,low,,no,,,2.0,0.0,0.0,15.0,67.0,0.0,0.0,67.0,0.4,0.0,0.0,,2,1,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,6.0,False
+3524001,Oakville,south,213759,"200,000+",0.0139,low,,no,,,2.0,4.0,4.0,48.0,102.0,1.0,4.0,100.0,0.2,0.0,2.0,24.8,3,3,3,0,served,served,served,,served,58.0,3.0,False
+3524002,Burlington,south,186948,"50,000-199,999",0.0137,low,,no,,,2.0,6.0,6.0,56.0,100.0,0.0,6.0,98.0,0.1,0.0,2.0,76.7,6,2,6,0,served,served,served,,served,2.0,1.0,False
+3524009,Milton,south,132979,"50,000-199,999",0.011,low,,no,,,2.0,5.0,5.0,44.0,100.0,0.0,5.0,99.0,0.0,0.0,1.0,124.8,0,0,0,0,served,served,served,,served,53.0,2.0,False
+3524015,Halton Hills,south,62951,"50,000-199,999",0.0151,low,,no,,,2.0,2.0,2.0,40.0,102.0,0.0,2.0,100.0,0.0,0.0,2.0,1.2,2,2,2,0,served,served,served,,served,52.0,4.0,False
+3525005,Hamilton,south,569353,"200,000+",0.011,low,,no,,,2.0,1.0,1.0,21.0,108.0,2.0,1.0,100.0,0.2,0.0,8.0,4.2,11,7,11,0,served,served,served,,served,19.0,1.0,False
+3526003,Fort Erie,south,32901,"10,000-49,999",0.0156,low,,no,,,2.0,2.0,2.0,50.0,100.0,0.0,2.0,100.0,0.0,0.0,0.0,,6,6,6,0,served,served,served,,served,1.0,4.0,False
+3526011,Port Colborne,south,20033,"10,000-49,999",0.0345,low,,no,,,2.0,2.0,2.0,33.0,84.0,1.0,2.0,83.0,0.1,0.0,1.0,145.8,6,6,6,0,served,served,served,,served,2.0,5.0,False
+3526014,Wainfleet,south,6887,"2,000-9,999",0.0239,low,,no,,,2.0,0.0,0.0,12.0,66.0,0.0,0.0,66.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3526021,West Lincoln,south,15454,"10,000-49,999",0.0084,low,,yes,,,2.0,1.0,1.0,16.0,68.0,0.0,1.0,68.0,0.3,0.0,0.0,,4,1,4,0,served,served,served,,served,52.0,4.0,False
+3526028,Pelham,south,18192,"10,000-49,999",0.0204,low,,no,,,2.0,1.0,1.0,27.0,74.0,0.0,1.0,74.0,0.1,0.0,0.0,,2,2,2,0,served,served,served,,served,1.0,4.0,False
+3526032,Welland,south,55750,"50,000-199,999",0.0718,some,,no,,,2.0,0.0,0.0,54.0,101.0,0.0,0.0,100.0,0.1,0.0,1.0,344.9,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,6.0,False
+3526037,Thorold,south,23816,"10,000-49,999",0.015,low,,no,,,2.0,0.0,0.0,51.0,97.0,0.0,0.0,97.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,5.0,False
+3526043,Niagara Falls,south,94415,"50,000-199,999",0.0161,low,,no,,,2.0,1.0,1.0,57.0,100.0,0.0,1.0,99.0,0.1,0.0,1.0,77.8,15,15,15,0,served,served,served,,served,1.0,4.0,False
+3526047,Niagara-on-the-Lake,south,19088,"10,000-49,999",0.0146,low,,no,,,2.0,0.0,0.0,40.0,100.0,0.0,0.0,100.0,0.0,0.0,0.0,,2,2,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,4.0,False
+3526053,St. Catharines,south,136803,"50,000-199,999",0.0179,low,,no,,,2.0,4.0,4.0,63.0,106.0,2.0,4.0,100.0,0.1,0.0,6.0,17.7,19,19,19,0,served,served,served,,served,14.0,3.0,False
+3526057,Lincoln,south,25719,"10,000-49,999",0.011,low,,no,,,2.0,1.0,1.0,4.0,57.0,0.0,1.0,57.0,0.2,0.0,0.0,,4,1,4,0,served,served,served,,served,21.0,4.0,False
+3526065,Grimsby,south,28883,"10,000-49,999",0.0098,low,,no,,,2.0,0.0,0.0,41.0,94.0,0.0,0.0,93.0,0.2,0.0,1.0,2.4,8,4,8,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3528018,Haldimand County,south,49216,"10,000-49,999",0.008,low,,no,,,2.0,3.0,3.0,53.0,100.0,2.0,3.0,100.0,0.2,0.0,0.0,,23,8,23,0,served,served,served,,served,19.0,4.0,False
+3528052,Norfolk County,south,67490,"50,000-199,999",0.0084,low,,no,,,2.0,3.0,3.0,56.0,100.0,2.0,3.0,100.0,0.5,0.0,0.0,,11,7,11,0,served,served,served,,served,1.0,2.0,False
+3529005,Brant,south,39474,"10,000-49,999",0.0067,low,,no,,,2.0,1.0,1.0,4.0,100.0,0.0,1.0,100.0,0.1,0.0,0.0,,0,0,0,0,served,served,served,,served,96.0,3.0,False
+3529006,Brantford,south,104688,"50,000-199,999",0.0096,low,,no,,,2.0,3.0,3.0,68.0,93.0,1.0,3.0,90.0,0.0,0.0,3.0,9.3,9,4,9,0,served,served,served,,served,3.0,0.0,False
+3530004,North Dumfries,south,10619,"10,000-49,999",0.0085,low,,no,,,2.0,1.0,1.0,29.0,85.0,0.0,1.0,85.0,0.3,0.0,0.0,,1,1,1,0,served,served,served,,served,67.0,4.0,False
+3530010,Cambridge,south,138479,"50,000-199,999",0.0112,low,,no,,,2.0,7.0,7.0,61.0,98.0,0.0,7.0,98.0,0.2,0.0,0.0,,4,4,4,0,served,served,served,,served,43.0,3.0,False
+3530013,Kitchener,south,256885,"200,000+",0.01,low,,no,,,2.0,2.0,2.0,59.0,102.0,1.0,2.0,99.0,0.4,0.0,3.0,66.8,10,10,10,0,served,served,served,,served,6.0,4.0,False
+3530016,Waterloo,south,121436,"50,000-199,999",0.0087,low,,no,,,2.0,3.0,3.0,62.0,99.0,1.0,3.0,99.0,0.5,0.0,0.0,,20,17,20,0,served,served,served,,served,6.0,2.0,False
+3530020,Wilmot,south,21429,"10,000-49,999",0.0068,low,,no,,,2.0,1.0,1.0,20.0,100.0,0.0,1.0,100.0,0.3,0.0,0.0,,2,1,2,0,served,served,served,,served,28.0,4.0,False
+3530027,Wellesley,south,11318,"10,000-49,999",0.0049,low,,no,,,2.0,2.0,2.0,32.0,85.0,0.0,2.0,85.0,0.3,0.0,0.0,,5,3,5,0,served,served,served,,served,54.0,5.0,False
+3530035,Woolwich,south,26999,"10,000-49,999",0.0062,low,,no,,,2.0,2.0,2.0,39.0,95.0,0.0,2.0,95.0,0.1,0.0,0.0,,1,0,1,0,served,served,served,,served,56.0,3.0,False
+3531011,Stratford,south,33232,"10,000-49,999",0.0073,low,,no,,,2.0,4.0,4.0,55.0,67.0,1.0,4.0,66.0,0.4,0.0,1.0,244.8,18,14,18,0,served,served,served,,served,3.0,0.0,False
+3531016,St. Marys,south,7386,"2,000-9,999",0.0077,low,,no,,,2.0,0.0,0.0,18.0,70.0,0.0,0.0,70.0,0.3,0.0,0.0,,2,0,2,0,gap_older,gap_older,gap_older,,exposure_gap,,5.0,False
+3531025,West Perth,south,9038,"2,000-9,999",0.0034,low,,no,,,2.0,3.0,3.0,26.0,57.0,1.0,3.0,57.0,1.3,0.0,0.0,,2,1,2,0,served,served,served,,served,32.0,6.0,False
+3531030,Perth East,south,12595,"10,000-49,999",0.0024,low,,no,,,2.0,0.0,0.0,37.0,86.0,0.0,0.0,86.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3531040,North Perth,south,15538,"10,000-49,999",0.0055,low,,yes,,,2.0,0.0,0.0,46.0,100.0,0.0,0.0,100.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,5.0,False
+3532002,Norwich,south,11151,"10,000-49,999",0.004,low,,no,,,2.0,1.0,1.0,35.0,87.0,0.0,1.0,87.0,0.5,0.0,0.0,,2,1,2,0,served,served,served,,served,52.0,4.0,False
+3532004,Tillsonburg,south,18615,"10,000-49,999",0.01,low,,no,,,2.0,1.0,1.0,47.0,64.0,0.0,1.0,64.0,0.6,0.0,0.0,,2,0,2,0,served,served,served,,served,34.0,2.0,False
+3532012,South-West Oxford,south,7583,"2,000-9,999",0.0073,low,,yes,,,2.0,0.0,0.0,3.0,65.0,0.0,0.0,65.0,0.3,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,4.0,False
+3532018,Ingersoll,south,13693,"10,000-49,999",0.0081,low,,no,,,2.0,0.0,0.0,33.0,52.0,0.0,0.0,51.0,1.4,0.0,1.0,351.8,2,0,2,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3532027,Zorra,south,8628,"2,000-9,999",0.0058,low,,no,,,2.0,0.0,0.0,7.0,58.0,0.0,0.0,58.0,0.3,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,3.0,False
+3532038,East Zorra-Tavistock,south,7841,"2,000-9,999",0.0052,low,,no,,,2.0,0.0,0.0,8.0,71.0,0.0,0.0,71.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3532042,Woodstock,south,46705,"10,000-49,999",0.0108,low,,no,,,2.0,5.0,5.0,56.0,65.0,1.0,5.0,65.0,1.6,0.0,0.0,,5,1,5,0,served,served,served,,served,20.0,1.0,False
+3532045,Blandford-Blenheim,south,7565,"2,000-9,999",0.0066,low,,no,,,2.0,1.0,1.0,7.0,57.0,0.0,1.0,57.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,19.0,3.0,False
+3534005,Bayham,south,7096,"2,000-9,999",0.0063,low,,no,,,2.0,0.0,0.0,1.0,53.0,0.0,0.0,53.0,0.3,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,4.0,False
+3534010,Malahide,south,9308,"2,000-9,999",0.0044,low,,yes,,,2.0,0.0,0.0,3.0,53.0,0.0,0.0,53.0,0.2,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,4.0,False
+3534011,Aylmer,south,7699,"2,000-9,999",0.0039,low,,no,,,2.0,0.0,0.0,42.0,62.0,0.0,0.0,62.0,0.9,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3534020,Central Elgin,south,13746,"10,000-49,999",0.0084,low,,no,,,2.0,1.0,1.0,16.0,69.0,0.0,1.0,68.0,0.4,0.0,1.0,225.7,1,0,1,0,served,served,served,,served,51.0,2.0,False
+3534021,St. Thomas,south,42840,"10,000-49,999",0.0104,low,,no,,,2.0,5.0,5.0,61.0,73.0,3.0,5.0,71.0,1.1,0.0,2.0,15.9,6,6,6,0,served,served,served,,served,18.0,0.0,False
+3534024,Southwold,south,4851,"2,000-9,999",0.0073,low,,yes,,,2.0,0.0,0.0,6.0,59.0,0.0,0.0,59.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3534030,Dutton/Dunwich,south,4152,"2,000-9,999",0.011,low,,no,,,2.0,0.0,0.0,0.0,49.0,0.0,0.0,49.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3534042,West Elgin,south,5060,"2,000-9,999",0.011,low,,no,,,2.0,0.0,0.0,5.0,28.0,0.0,0.0,28.0,0.7,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3536020,Chatham-Kent,south,103988,"50,000-199,999",0.021,low,,no,,,2.0,2.0,2.0,51.0,105.0,0.0,2.0,100.0,0.5,0.0,5.0,2.6,1,0,1,0,served,served,served,,served,44.0,0.0,False
+3537001,Pelee,south,230,"<2,000",0.0,low,,no,,,,,,,,,,,,,,,0,0,0,0,not_collected,not_collected,not_collected,,not_collected,,,False
+3537003,Leamington,south,29680,"10,000-49,999",0.0105,low,,no,,,2.0,1.0,1.0,47.0,101.0,0.0,1.0,100.0,0.2,0.0,1.0,15.7,1,1,1,0,served,served,served,,served,99.0,4.0,False
+3537013,Kingsville,south,22119,"10,000-49,999",0.0128,low,,no,,,2.0,2.0,2.0,54.0,98.0,1.0,2.0,97.0,0.2,0.0,1.0,15.7,3,2,3,0,served,served,served,,served,6.0,3.0,False
+3537016,Essex,south,21216,"10,000-49,999",0.0174,low,,no,,,2.0,1.0,1.0,25.0,71.0,0.0,1.0,71.0,0.2,0.0,0.0,,12,9,12,0,served,served,served,,served,51.0,3.0,False
+3537028,Amherstburg,south,23524,"10,000-49,999",0.0227,low,,no,,,2.0,2.0,2.0,49.0,102.0,0.0,2.0,100.0,0.1,0.0,2.0,15.6,11,5,11,0,served,served,served,,served,53.0,3.0,False
+3537034,LaSalle,south,32721,"10,000-49,999",0.0194,low,,no,,,2.0,2.0,2.0,47.0,100.0,0.0,2.0,100.0,0.2,0.0,0.0,,1,0,1,0,served,served,served,,served,56.0,2.0,False
+3537039,Windsor,south,229660,"200,000+",0.019,low,,no,,,2.0,6.0,6.0,62.0,101.0,2.0,6.0,100.0,0.2,0.0,1.0,31.9,16,13,14,2,served,served,served,,served,4.0,0.0,False
+3537048,Tecumseh,south,23300,"10,000-49,999",0.0301,low,,no,,,2.0,2.0,2.0,42.0,91.0,0.0,2.0,91.0,0.0,0.0,0.0,,1,0,1,0,served,served,served,,served,23.0,2.0,False
+3537064,Lakeshore,south,40410,"10,000-49,999",0.0494,low,,no,,,2.0,0.0,0.0,1.0,99.0,0.0,0.0,99.0,0.2,0.0,0.0,,2,1,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3538003,St. Clair,south,14659,"10,000-49,999",0.0119,low,,no,,,2.0,3.0,3.0,55.0,100.0,4.0,3.0,100.0,0.4,0.0,0.0,,6,3,6,0,served,served,served,,served,14.0,4.0,False
+3538007,Dawn-Euphemia,south,1968,"<2,000",0.0025,low,,yes,,,2.0,0.0,0.0,4.0,54.0,0.0,0.0,54.0,0.3,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,2.0,False
+3538015,Brooke-Alvinston,south,2359,"2,000-9,999",0.0042,low,,no,,,2.0,1.0,1.0,11.0,78.0,1.0,1.0,78.0,0.4,0.0,0.0,,1,0,1,0,served,served,served,,served,73.0,3.0,False
+3538018,Oil Springs,south,647,"<2,000",0.0,low,,yes,,,2.0,0.0,0.0,9.0,64.0,0.0,0.0,64.0,0.2,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,3.0,False
+3538019,Petrolia,south,6013,"2,000-9,999",0.0111,low,,yes,,,2.0,2.0,2.0,55.0,100.0,1.0,2.0,100.0,0.4,0.0,0.0,,6,3,6,0,served,served,served,,served,24.0,4.0,False
+3538030,Sarnia,south,72047,"50,000-199,999",0.0215,low,,no,,,2.0,4.0,4.0,56.0,104.0,1.0,3.0,100.0,0.5,1.0,4.0,23.8,11,6,10,1,served,served,served,,served,1.0,2.0,False
+3538031,Point Edward,south,1930,"<2,000",0.0181,low,,no,,,2.0,2.0,2.0,45.0,98.0,2.0,2.0,98.0,0.4,0.0,0.0,,3,1,3,0,served,served,served,,served,5.0,4.0,False
+3538035,Plympton-Wyoming,south,8308,"2,000-9,999",0.0102,low,,no,,,2.0,2.0,2.0,34.0,89.0,1.0,2.0,89.0,0.4,0.0,0.0,,1,1,1,0,served,served,served,,served,5.0,5.0,False
+3538040,Lambton Shores,south,11876,"10,000-49,999",0.0072,low,,no,,,2.0,2.0,2.0,45.0,89.0,2.0,2.0,89.0,0.5,0.0,0.0,,2,2,2,0,served,served,served,,served,11.0,6.0,False
+3538043,Warwick,south,3641,"2,000-9,999",0.0042,low,,yes,,,2.0,1.0,1.0,26.0,61.0,1.0,1.0,61.0,0.5,0.0,0.0,,1,0,1,0,served,served,served,,served,34.0,3.0,False
+3539005,Southwest Middlesex,south,5893,"2,000-9,999",0.0068,low,,no,,,2.0,0.0,0.0,2.0,51.0,0.0,0.0,51.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3539015,Strathroy-Caradoc,south,23871,"10,000-49,999",0.0072,low,,no,,,2.0,0.0,0.0,13.0,99.0,0.0,0.0,99.0,0.3,0.0,0.0,,4,4,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,2.0,False
+3539027,Thames Centre,south,13980,"10,000-49,999",0.0075,low,,no,,,2.0,0.0,0.0,8.0,59.0,0.0,0.0,59.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3539033,Middlesex Centre,south,18928,"10,000-49,999",0.0077,low,,no,,,2.0,0.0,0.0,5.0,69.0,0.0,0.0,69.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3539036,London,south,422324,"200,000+",0.011,low,,no,,,2.0,8.0,8.0,77.0,107.0,0.0,8.0,100.0,0.4,0.0,7.0,9.1,12,8,9,3,served,served,served,,served,54.0,1.0,False
+3539041,North Middlesex,south,6307,"2,000-9,999",0.0041,low,,yes,,,2.0,0.0,0.0,6.0,56.0,0.0,0.0,56.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3539047,Adelaide-Metcalfe,south,3011,"2,000-9,999",0.005,low,,yes,,,2.0,0.0,0.0,1.0,51.0,0.0,0.0,51.0,0.3,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3539060,Lucan Biddulph,south,5680,"2,000-9,999",0.0062,low,,no,,,2.0,4.0,4.0,8.0,70.0,0.0,4.0,70.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,54.0,4.0,False
+3540005,South Huron,south,10063,"10,000-49,999",0.0065,low,,no,,,2.0,2.0,2.0,21.0,71.0,2.0,2.0,71.0,0.3,0.0,0.0,,3,3,3,0,served,served,served,,served,16.0,5.0,False
+3540010,Bluewater,south,7540,"2,000-9,999",0.006,low,,no,,,2.0,1.0,1.0,2.0,34.0,1.0,1.0,34.0,1.3,0.0,0.0,,1,1,1,0,served,served,served,,served,25.0,4.0,False
+3540025,Central Huron,south,7799,"2,000-9,999",0.0051,low,,yes,,,2.0,1.0,1.0,18.0,34.0,1.0,1.0,34.0,1.3,0.0,0.0,,4,4,4,0,served,served,served,,served,18.0,3.0,False
+3540028,Goderich,south,7881,"2,000-9,999",0.0064,low,,no,,,2.0,0.0,0.0,39.0,57.0,0.0,0.0,57.0,1.5,0.0,0.0,,11,0,11,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3540040,Huron East,south,9512,"2,000-9,999",0.0043,low,,no,,,2.0,2.0,2.0,16.0,43.0,2.0,2.0,43.0,1.2,0.0,0.0,,5,5,5,0,served,served,served,,served,1.0,5.0,False
+3540046,Howick,south,4045,"2,000-9,999",0.005,low,,yes,,,2.0,1.0,1.0,2.0,30.0,0.0,1.0,30.0,0.4,0.0,0.0,,0,0,0,0,served,served,served,,served,29.0,1.0,False
+3540050,Morris-Turnberry,south,3590,"2,000-9,999",0.0044,low,,yes,,,2.0,0.0,0.0,1.0,34.0,0.0,0.0,34.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3540055,North Huron,south,5052,"2,000-9,999",0.004,low,,no,,,2.0,1.0,1.0,8.0,32.0,0.0,1.0,32.0,0.0,0.0,0.0,,0,0,0,0,served,served,served,,served,29.0,1.0,False
+3540063,Ashfield-Colborne-Wawanosh,south,5884,"2,000-9,999",0.0068,low,,no,,,2.0,0.0,0.0,1.0,25.0,0.0,0.0,25.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3541004,South Bruce,south,5880,"2,000-9,999",0.0026,low,,no,,,2.0,1.0,1.0,21.0,49.0,0.0,1.0,49.0,0.3,0.0,0.0,,0,0,0,0,served,served,served,,served,40.0,1.0,False
+3541015,Huron-Kinloss,south,7723,"2,000-9,999",0.0078,low,,no,,,2.0,1.0,1.0,10.0,40.0,1.0,1.0,40.0,0.2,0.0,0.0,,2,1,2,0,served,served,served,,served,26.0,0.0,False
+3541024,Kincardine,south,12268,"10,000-49,999",0.014,low,,no,,,2.0,1.0,1.0,43.0,58.0,0.0,1.0,58.0,0.2,0.0,0.0,,2,1,2,0,served,served,served,,served,24.0,1.0,False
+3541032,Brockton,south,9784,"2,000-9,999",0.0042,low,,yes,,,2.0,0.0,0.0,15.0,45.0,0.0,0.0,45.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3541043,Arran-Elderslie,south,6913,"2,000-9,999",0.0052,low,,yes,,,2.0,0.0,0.0,8.0,49.0,0.0,0.0,49.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3541045,Saugeen Shores,south,15908,"10,000-49,999",0.0152,low,,no,,,2.0,3.0,3.0,39.0,86.0,0.0,3.0,86.0,0.3,0.0,0.0,,0,0,0,0,served,served,served,,served,2.0,1.0,False
+3541055,South Bruce Peninsula,south,9137,"2,000-9,999",0.0089,low,,no,,,2.0,1.0,1.0,22.0,52.0,0.0,1.0,52.0,0.4,0.0,0.0,,0,0,0,0,served,served,served,,served,26.0,2.0,False
+3541069,Northern Bruce Peninsula,south,4404,"2,000-9,999",0.0114,low,,no,,,2.0,1.0,1.0,10.0,17.0,0.0,1.0,17.0,0.4,0.0,0.0,,1,1,1,0,served,served,served,,served,4.0,0.0,False
+3542004,West Grey,south,13131,"10,000-49,999",0.0069,low,,yes,,,2.0,0.0,0.0,30.0,77.0,0.0,0.0,77.0,0.5,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3542005,Southgate,south,8716,"2,000-9,999",0.008,low,,no,,,2.0,0.0,0.0,2.0,53.0,0.0,0.0,53.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3542015,Grey Highlands,south,10424,"10,000-49,999",0.0082,low,,no,,,2.0,2.0,2.0,21.0,72.0,0.0,2.0,72.0,0.1,0.0,0.0,,0,0,0,0,served,served,served,,served,43.0,6.0,False
+3542029,Hanover,south,7967,"2,000-9,999",0.0058,low,,no,,,2.0,1.0,1.0,44.0,64.0,0.0,1.0,64.0,0.4,0.0,0.0,,0,0,0,0,served,served,served,,served,33.0,1.0,False
+3542037,Chatsworth,south,7080,"2,000-9,999",0.0057,low,,no,,,2.0,0.0,0.0,5.0,55.0,0.0,0.0,55.0,0.3,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,6.0,False
+3542045,The Blue Mountains,south,9390,"2,000-9,999",0.0129,low,,no,,,2.0,0.0,0.0,15.0,80.0,0.0,0.0,80.0,0.3,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,6.0,False
+3542047,Meaford,south,11485,"10,000-49,999",0.0118,low,,no,,,2.0,4.0,4.0,39.0,87.0,3.0,4.0,87.0,0.2,0.0,0.0,,26,17,26,0,served,served,served,,served,2.0,4.0,False
+3542053,Georgian Bluffs,south,11100,"10,000-49,999",0.0068,low,,yes,,,2.0,1.0,1.0,26.0,74.0,0.0,1.0,74.0,0.2,0.0,0.0,,1,1,1,0,served,served,served,,served,47.0,6.0,False
+3542059,Owen Sound,south,21612,"10,000-49,999",0.0094,low,,no,,,2.0,2.0,2.0,46.0,62.0,2.0,2.0,61.0,0.4,0.0,1.0,155.8,41,29,41,0,served,served,served,,served,14.0,0.0,False
+3543003,Adjala-Tosorontio,south,10989,"10,000-49,999",0.0105,low,,no,,,2.0,0.0,0.0,7.0,57.0,0.0,0.0,57.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,5.0,False
+3543005,Clearview,south,14814,"10,000-49,999",0.0106,low,,no,,,2.0,0.0,0.0,5.0,77.0,0.0,0.0,77.0,0.0,0.0,0.0,,2,0,2,0,gap_older,gap_older,gap_older,,exposure_gap,,5.0,False
+3543007,New Tecumseth,south,43948,"10,000-49,999",0.0103,low,,no,,,2.0,0.0,0.0,29.0,86.0,0.0,0.0,86.0,0.2,0.0,0.0,,6,4,6,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3543009,Springwater,south,21701,"10,000-49,999",0.0164,low,,no,,,2.0,0.0,0.0,10.0,80.0,0.0,0.0,80.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3543014,Bradford West Gwillimbury,south,42880,"10,000-49,999",0.0081,low,,no,,,2.0,1.0,1.0,21.0,86.0,0.0,1.0,85.0,0.2,0.0,1.0,1.2,0,0,0,0,served,served,served,,served,38.0,3.0,False
+3543015,Severn,south,14576,"10,000-49,999",0.012,low,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,5,1,5,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,True
+3543017,Innisfil,south,43326,"10,000-49,999",0.0113,low,,no,,,2.0,0.0,0.0,44.0,100.0,0.0,0.0,100.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3543019,Ramara,south,10377,"10,000-49,999",0.0082,low,,no,,,2.0,3.0,3.0,41.0,96.0,3.0,3.0,96.0,0.3,0.0,0.0,,9,2,9,0,served,served,served,,served,64.0,5.0,False
+3543021,Essa,south,22970,"10,000-49,999",0.0408,low,,no,,,2.0,0.0,0.0,13.0,70.0,0.0,0.0,70.0,0.0,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,5.0,False
+3543023,Oro-Medonte,south,23017,"10,000-49,999",0.0135,low,,no,,,2.0,3.0,3.0,48.0,100.0,3.0,3.0,100.0,0.3,0.0,0.0,,10,1,10,0,served,served,served,,served,52.0,6.0,False
+3543031,Collingwood,south,24811,"10,000-49,999",0.0123,low,,no,,,2.0,2.0,2.0,55.0,100.0,0.0,2.0,100.0,0.0,0.0,0.0,,0,0,0,0,served,served,served,,served,43.0,4.0,False
+3543042,Barrie,south,147829,"50,000-199,999",0.0172,low,,no,,,2.0,3.0,3.0,65.0,97.0,0.0,3.0,95.0,0.0,0.0,2.0,12.3,1,1,1,0,served,served,served,,served,8.0,2.0,False
+3543052,Orillia,south,33411,"10,000-49,999",0.0115,low,,no,,,2.0,3.0,3.0,69.0,97.0,2.0,3.0,93.0,0.1,0.0,4.0,92.8,25,7,25,0,served,served,served,,served,3.0,0.0,False
+3543064,Wasaga Beach,south,24862,"10,000-49,999",0.0197,low,,no,,,2.0,1.0,1.0,33.0,94.0,1.0,1.0,93.0,0.3,0.0,1.0,184.9,1,1,1,0,served,served,served,,served,2.0,4.0,False
+3543068,Tiny,south,12966,"10,000-49,999",0.072,some,,no,,,2.0,2.0,2.0,12.0,80.0,1.0,2.0,80.0,0.2,0.0,0.0,,1,1,1,0,served,served,served,,served,18.0,4.0,False
+3543071,Tay,south,11091,"10,000-49,999",0.0181,low,,yes,,,2.0,0.0,0.0,10.0,63.0,0.0,0.0,63.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,7.0,False
+3543072,Penetanguishene,south,10077,"10,000-49,999",0.076,some,,yes,,,2.0,1.0,1.0,27.0,97.0,0.0,1.0,97.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,9.0,4.0,False
+3543074,Midland,south,17817,"10,000-49,999",0.0329,low,,no,,,2.0,1.0,1.0,56.0,100.0,0.0,1.0,100.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,1.0,6.0,False
+3544002,Gravenhurst,south,13157,"10,000-49,999",0.0098,low,,no,,,2.0,1.0,1.0,47.0,53.0,1.0,1.0,53.0,0.4,0.0,0.0,,1,1,1,0,served,served,served,,served,2.0,0.0,False
+3544018,Bracebridge,south,17305,"10,000-49,999",0.0109,low,,no,,,2.0,1.0,1.0,42.0,100.0,0.0,1.0,100.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,40.0,5.0,False
+3544027,Lake of Bays,south,3759,"2,000-9,999",0.0093,low,,no,,,2.0,7.0,7.0,33.0,88.0,0.0,7.0,88.0,0.0,0.0,0.0,,1,1,1,0,served,served,served,,served,23.0,4.0,False
+3544042,Huntsville,south,21147,"10,000-49,999",0.0129,low,,no,,,2.0,1.0,1.0,35.0,84.0,0.0,1.0,84.0,0.6,0.0,0.0,,1,0,1,0,served,served,served,,served,3.0,3.0,False
+3544053,Muskoka Lakes,south,7652,"2,000-9,999",0.0085,low,,yes,,,2.0,0.0,0.0,26.0,94.0,0.0,0.0,93.0,0.2,0.0,1.0,115.8,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,3.0,False
+3544065,Georgian Bay,south,3441,"2,000-9,999",0.0116,low,,no,,,2.0,0.0,0.0,21.0,68.0,0.0,0.0,68.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,6.0,False
+3546005,Highlands East,south,3830,"2,000-9,999",0.0104,low,,no,,,2.0,0.0,0.0,2.0,12.0,0.0,0.0,12.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3546015,Minden Hills,south,6971,"2,000-9,999",0.0094,low,,no,,,2.0,1.0,1.0,10.0,55.0,0.0,1.0,55.0,0.0,0.0,0.0,,0,0,0,0,served,served,served,,served,1.0,2.0,False
+3546018,Algonquin Highlands,south,2588,"2,000-9,999",0.0077,low,,no,,,2.0,0.0,0.0,4.0,25.0,0.0,0.0,25.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3546024,Dysart et al,south,7182,"2,000-9,999",0.0078,low,,no,,,2.0,0.0,0.0,1.0,7.0,0.0,0.0,7.0,2.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3547002,Arnprior,south,9629,"2,000-9,999",0.0398,low,,no,,,2.0,1.0,1.0,47.0,69.0,1.0,1.0,68.0,0.1,0.0,1.0,14.6,2,0,2,0,served,served,served,,served,31.0,2.0,False
+3547003,McNab/Braeside,south,7591,"2,000-9,999",0.031,low,,no,,,2.0,0.0,0.0,4.0,32.0,0.0,0.0,29.0,0.2,0.0,3.0,1.6,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3547008,Greater Madawaska,south,2864,"2,000-9,999",0.0384,low,,no,,,2.0,0.0,0.0,5.0,23.0,0.0,0.0,23.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3547020,"Brudenell, Lyndoch and Raglan",south,1552,"<2,000",0.0161,low,,no,,,2.0,0.0,0.0,0.0,9.0,0.0,0.0,9.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3547030,Madawaska Valley,south,3927,"2,000-9,999",0.0223,low,,no,,,2.0,0.0,0.0,1.0,10.0,0.0,0.0,10.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3547033,"Killaloe, Hagarty and Richards",south,2410,"2,000-9,999",0.0166,low,,no,,,2.0,0.0,0.0,0.0,12.0,0.0,0.0,12.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3547035,Bonnechere Valley,south,3898,"2,000-9,999",0.0256,low,,yes,,,2.0,0.0,0.0,2.0,26.0,0.0,0.0,24.0,1.1,0.0,2.0,1.5,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3547043,Admaston/Bromley,south,2995,"2,000-9,999",0.015,low,,no,,,2.0,0.0,0.0,2.0,27.0,0.0,0.0,24.0,1.1,0.0,3.0,1.5,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3547046,Horton,south,3182,"2,000-9,999",0.0283,low,,no,,,2.0,1.0,1.0,3.0,24.0,0.0,1.0,21.0,1.2,0.0,3.0,1.5,0,0,0,0,served,served,served,,served,9.0,1.0,False
+3547048,Renfrew,south,8190,"2,000-9,999",0.0277,low,,no,,,2.0,1.0,1.0,56.0,66.0,0.0,1.0,66.0,1.3,0.0,0.0,,3,2,3,0,served,served,served,,served,3.0,1.0,False
+3547056,Whitewater Region,south,7225,"2,000-9,999",0.037,low,,yes,,,2.0,0.0,0.0,8.0,35.0,0.0,0.0,31.0,1.3,0.0,4.0,1.6,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3547064,Pembroke,south,14364,"10,000-49,999",0.0596,some,,no,,,2.0,0.0,0.0,50.0,64.0,0.0,0.0,62.0,1.4,0.0,2.0,1.6,6,6,6,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3547070,North Algona Wilberforce,south,3111,"2,000-9,999",0.0241,low,,no,,,2.0,0.0,0.0,3.0,24.0,0.0,0.0,22.0,1.2,0.0,2.0,1.6,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3547075,Laurentian Valley,south,9450,"2,000-9,999",0.054,some,,yes,,,2.0,1.0,1.0,17.0,39.0,0.0,1.0,35.0,1.4,0.0,4.0,1.5,0,0,0,0,served,served,served,,served,6.0,0.0,False
+3547076,Petawawa,south,18160,"10,000-49,999",0.0988,some,,no,,,2.0,0.0,0.0,24.0,44.0,0.0,0.0,42.0,1.4,0.0,2.0,1.6,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3547096,Deep River,south,4175,"2,000-9,999",0.0447,low,,yes,,,2.0,0.0,0.0,5.0,25.0,0.0,0.0,23.0,1.3,0.0,2.0,23.7,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,1.0,False
+3547098,"Head, Clara and Maria",south,267,"<2,000",0.0566,some,,no,,,2.0,0.0,0.0,1.0,3.0,0.0,0.0,3.0,101.8,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3548001,South Algonquin,north,1055,"<2,000",0.0047,low,,no,,,2.0,1.0,1.0,2.0,3.0,1.0,1.0,3.0,1.1,0.0,0.0,,1,1,1,0,served,served,served,,served,1.0,0.0,False
+3548013,Papineau-Cameron,north,982,"<2,000",0.2194,significant,,no,,,2.0,0.0,0.0,4.0,5.0,0.0,0.0,5.0,3.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3548021,Mattawa,north,1881,"<2,000",0.2451,significant,,no,,,2.0,0.0,0.0,37.0,41.0,0.0,0.0,38.0,1.2,0.0,3.0,100.7,3,0,3,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3548022,Calvin,north,557,"<2,000",0.0982,some,,no,,,2.0,0.0,0.0,2.0,39.0,0.0,0.0,39.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3548027,Bonfield,north,2146,"2,000-9,999",0.1958,significant,,no,,,2.0,1.0,1.0,18.0,68.0,0.0,1.0,68.0,0.1,0.0,0.0,,1,0,1,0,served,served,served,,served,54.0,3.0,False
+3548031,Chisholm,north,1312,"<2,000",0.1031,some,,no,,,2.0,0.0,0.0,1.0,50.0,0.0,0.0,50.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3548034,East Ferris,north,4946,"2,000-9,999",0.1916,significant,,no,,,2.0,1.0,1.0,26.0,75.0,0.0,1.0,75.0,0.1,0.0,0.0,,1,1,1,0,served,served,served,,served,53.0,3.0,False
+3548044,North Bay,north,52662,"50,000-199,999",0.1132,some,,no,,,2.0,3.0,3.0,80.0,105.0,1.0,3.0,100.0,0.1,0.0,5.0,22.7,44,19,44,0,served,served,served,,served,16.0,0.0,False
+3548055,West Nipissing,north,14583,"10,000-49,999",0.5621,majority,,no,,,2.0,2.0,2.0,34.0,98.0,1.0,2.0,94.0,0.2,0.0,4.0,69.7,7,3,3,4,served,served,served,,served,46.0,3.0,False
+3548069,Temagami,north,862,"<2,000",0.1329,some,,no,,,2.0,0.0,0.0,21.0,26.0,0.0,0.0,25.0,4.1,0.0,1.0,30.7,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3549003,Seguin,north,5280,"2,000-9,999",0.0104,low,,no,,,2.0,0.0,0.0,10.0,55.0,0.0,0.0,55.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3549005,The Archipelago,north,979,"<2,000",0.0153,low,,yes,,,2.0,0.0,0.0,0.0,10.0,0.0,0.0,10.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3549012,McMurrich/Monteith,north,907,"<2,000",0.0166,low,,no,,,2.0,0.0,0.0,0.0,31.0,0.0,0.0,31.0,0.5,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3549014,Perry,north,2650,"2,000-9,999",0.0132,low,,no,,,2.0,0.0,0.0,0.0,20.0,0.0,0.0,20.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3549018,Kearney,north,974,"<2,000",0.0103,low,,no,,,2.0,0.0,0.0,0.0,20.0,0.0,0.0,20.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3549019,Armour,north,1459,"<2,000",0.0171,low,,no,,,2.0,1.0,1.0,4.0,28.0,0.0,1.0,28.0,1.2,0.0,0.0,,0,0,0,0,served,served,served,,served,21.0,3.0,False
+3549022,Burk’s Falls,north,957,"<2,000",0.0104,low,,no,,,,,,,,,,,,,,,0,0,0,0,not_collected,not_collected,not_collected,,not_collected,,,False
+3549024,Ryerson,north,745,"<2,000",0.0201,low,,no,,,2.0,0.0,0.0,0.0,17.0,0.0,0.0,17.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3549028,McKellar,north,1419,"<2,000",0.0212,low,,no,,,2.0,0.0,0.0,1.0,12.0,0.0,0.0,12.0,1.2,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3549031,McDougall,north,2744,"2,000-9,999",0.0128,low,,yes,,,2.0,0.0,0.0,2.0,14.0,0.0,0.0,14.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3549032,Parry Sound,north,6879,"2,000-9,999",0.0158,low,,yes,,,2.0,1.0,1.0,55.0,62.0,0.0,1.0,61.0,1.2,0.0,1.0,7.6,0,0,0,0,served,served,served,,served,44.0,0.0,False
+3549036,Carling,north,1491,"<2,000",0.0067,low,,no,,,2.0,0.0,0.0,1.0,13.0,0.0,0.0,13.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3549039,Whitestone,north,1075,"<2,000",0.0186,low,,no,,,2.0,0.0,0.0,0.0,10.0,0.0,0.0,10.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3549043,Magnetawan,north,1753,"<2,000",0.0199,low,,no,,,2.0,0.0,0.0,4.0,13.0,0.0,0.0,13.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3549046,Strong,north,1566,"<2,000",0.0064,low,,no,,,2.0,0.0,0.0,0.0,5.0,0.0,0.0,5.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3549048,Sundridge,north,938,"<2,000",0.0108,low,,no,,,2.0,0.0,0.0,9.0,11.0,0.0,0.0,11.0,1.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3549051,Joly,north,293,"<2,000",0.0169,low,,yes,,,2.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3549054,Machar,north,969,"<2,000",0.0103,low,,yes,,,2.0,0.0,0.0,1.0,7.0,0.0,0.0,7.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3549056,South River,north,1101,"<2,000",0.0183,low,,yes,,,2.0,0.0,0.0,0.0,9.0,0.0,0.0,9.0,1.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3549060,Powassan,north,3346,"2,000-9,999",0.0409,low,,no,,,2.0,1.0,1.0,25.0,77.0,0.0,1.0,77.0,0.0,0.0,0.0,,0,0,0,0,served,served,served,,served,65.0,2.0,False
+3549066,Callander,north,3964,"2,000-9,999",0.0934,some,,yes,,,2.0,0.0,0.0,45.0,95.0,0.0,0.0,95.0,0.1,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3549071,Nipissing,north,1769,"<2,000",0.0339,low,,no,,,2.0,0.0,0.0,0.0,50.0,0.0,0.0,50.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3551001,Tehkummah,north,450,"<2,000",0.0222,low,,no,,,2.0,0.0,0.0,5.0,11.0,0.0,0.0,11.0,1.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551006,Central Manitoulin,north,2235,"2,000-9,999",0.043,low,,no,,,2.0,0.0,0.0,6.0,12.0,0.0,0.0,11.0,1.2,0.0,1.0,179.6,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551011,Assiginack,north,1008,"<2,000",0.0348,low,,no,,,2.0,0.0,0.0,2.0,13.0,0.0,0.0,13.0,2.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551017,Northeastern Manitoulin and The Islands,north,2641,"2,000-9,999",0.0454,low,,no,,,,,,,,,,,,,,,0,0,0,0,not_collected,not_collected,not_collected,,not_collected,,,False
+3551021,Billings,north,753,"<2,000",0.0993,some,,no,,,2.0,0.0,0.0,0.0,6.0,0.0,0.0,6.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551026,Gore Bay,north,808,"<2,000",0.0329,low,,no,,,2.0,0.0,0.0,15.0,23.0,0.0,0.0,23.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551027,Gordon/Barrie Island,north,613,"<2,000",0.0328,low,,yes,,,2.0,0.0,0.0,1.0,2.0,0.0,0.0,2.0,79.6,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551028,Burpee and Mills,north,382,"<2,000",0.0395,low,,no,,,2.0,0.0,0.0,1.0,6.0,0.0,0.0,6.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3551034,Cockburn Island,north,16,"<2,000",,,,no,,,2.0,0.0,0.0,1.0,3.0,0.0,0.0,3.0,75.6,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3552001,French River,north,2828,"2,000-9,999",0.394,significant,,no,,,2.0,0.0,0.0,30.0,32.0,0.0,0.0,32.0,1.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3552004,St.-Charles,north,1357,"<2,000",0.4133,significant,,no,,,2.0,0.0,0.0,0.0,35.0,0.0,0.0,35.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3552013,Markstay-Warren,north,2708,"2,000-9,999",0.3026,significant,,no,,,2.0,1.0,1.0,14.0,77.0,0.0,1.0,77.0,0.1,0.0,0.0,,0,0,0,0,served,served,served,,served,51.0,2.0,False
+3552023,Sables-Spanish Rivers,north,3237,"2,000-9,999",0.091,some,,no,,,2.0,0.0,0.0,5.0,21.0,0.0,0.0,21.0,0.2,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,2.0,False
+3552026,Espanola,north,5185,"2,000-9,999",0.1164,some,,no,,,2.0,2.0,2.0,56.0,58.0,0.0,2.0,56.0,1.0,0.0,2.0,102.6,0,0,0,0,served,served,served,,served,5.0,0.0,False
+3552028,Baldwin,north,579,"<2,000",0.1121,some,,no,,,2.0,0.0,0.0,2.0,6.0,0.0,0.0,6.0,1.0,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3552031,Nairn and Hyman,north,373,"<2,000",0.0933,some,,yes,,,2.0,0.0,0.0,2.0,36.0,0.0,0.0,36.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3552036,Killarney,north,397,"<2,000",0.0253,low,,yes,,,2.0,0.0,0.0,9.0,14.0,0.0,0.0,14.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3552092,Chapleau,north,1942,"<2,000",0.3307,significant,,no,,,2.0,0.0,0.0,37.0,50.0,0.0,0.0,49.0,10.6,0.0,1.0,194.6,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3553005,Greater Sudbury,north,166004,"50,000-199,999",0.2262,significant,,no,,,2.0,7.0,7.0,133.0,142.0,3.0,6.0,100.0,0.0,1.0,42.0,0.7,58,44,52,6,served,served,served,,served,6.0,0.0,False
+3554001,Coleman,north,517,"<2,000",0.25,significant,,no,,,2.0,0.0,0.0,1.0,5.0,0.0,0.0,4.0,3.4,0.0,1.0,1.0,2,2,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3554006,Latchford,north,355,"<2,000",0.1127,some,,no,,,2.0,0.0,0.0,7.0,11.0,0.0,0.0,10.0,3.4,0.0,1.0,1.0,2,2,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3554008,Cobalt,north,989,"<2,000",0.1269,some,,no,,,2.0,0.0,0.0,1.0,12.0,0.0,0.0,9.0,3.4,0.0,3.0,1.0,3,1,3,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3554020,Temiskaming Shores,north,9634,"2,000-9,999",0.2841,significant,,no,,,2.0,0.0,0.0,11.0,58.0,0.0,0.0,51.0,3.3,0.0,7.0,0.9,1,1,0,1,gap_recent,gap_recent,gap_recent,,exposure_gap,,1.0,False
+3554021,Hudson,north,530,"<2,000",0.1792,significant,,no,,,2.0,0.0,0.0,0.0,3.0,0.0,0.0,3.0,3.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554024,Kerns,north,330,"<2,000",0.1061,some,,no,,,2.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,3.4,0.0,1.0,1.0,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554026,Harley,north,524,"<2,000",0.2762,significant,,yes,,,2.0,0.0,0.0,0.0,4.0,0.0,0.0,3.0,3.4,0.0,1.0,1.0,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554036,Armstrong,north,1199,"<2,000",0.5167,majority,,yes,,,2.0,0.0,0.0,0.0,10.0,0.0,0.0,8.0,3.3,0.0,2.0,0.9,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554038,Thornloe,north,92,"<2,000",0.2778,significant,,yes,,,2.0,0.0,0.0,2.0,6.0,0.0,0.0,3.0,3.4,0.0,3.0,1.0,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554042,James,north,348,"<2,000",0.1857,significant,,no,,,2.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,4.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3554049,Evanturel,north,502,"<2,000",0.0909,some,,yes,,,2.0,0.0,0.0,0.0,7.0,0.0,0.0,6.0,1.1,0.0,1.0,1.0,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554052,Englehart,north,1442,"<2,000",0.0645,some,,no,,,2.0,0.0,0.0,9.0,19.0,0.0,0.0,17.0,1.1,0.0,2.0,8.2,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3554056,Matachewan,north,268,"<2,000",0.1667,significant,,no,,,2.0,0.0,0.0,3.0,5.0,0.0,0.0,5.0,39.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3554058,McGarry,north,579,"<2,000",0.3793,significant,,yes,,,2.0,0.0,0.0,1.0,11.0,0.0,0.0,9.0,1.1,0.0,2.0,1.9,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3554062,Larder Lake,north,745,"<2,000",0.1879,significant,,no,,,2.0,0.0,0.0,2.0,13.0,0.0,0.0,13.0,1.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3554066,Gauthier,north,151,"<2,000",0.1667,significant,,no,,,2.0,0.0,0.0,0.0,10.0,0.0,0.0,10.0,1.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3554068,Kirkland Lake,north,7750,"2,000-9,999",0.1233,some,,yes,,,2.0,2.0,2.0,58.0,60.0,2.0,2.0,59.0,1.2,0.0,1.0,58.6,8,6,8,0,served,served,served,,served,8.0,0.0,False
+3556014,Black River-Matheson,north,2572,"2,000-9,999",0.23,significant,,yes,,,2.0,0.0,0.0,5.0,15.0,0.0,0.0,15.0,1.9,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,2.0,False
+3556027,Timmins,north,41145,"10,000-49,999",0.3253,significant,,no,,,2.0,4.0,4.0,83.0,97.0,0.0,4.0,77.0,0.1,0.0,20.0,1.4,3,2,2,1,served,served,served,,served,8.0,0.0,False
+3556031,Iroquois Falls,north,4418,"2,000-9,999",0.3337,significant,,no,,,2.0,2.0,2.0,24.0,32.0,0.0,2.0,32.0,2.0,0.0,0.0,,0,0,0,0,served,served,served,,served,6.0,2.0,False
+3556042,Cochrane,north,5390,"2,000-9,999",0.329,significant,,no,,,2.0,0.0,0.0,18.0,22.0,0.0,0.0,20.0,2.0,0.0,2.0,211.6,2,1,2,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3556048,Smooth Rock Falls,north,1200,"<2,000",0.583,majority,,no,,,2.0,0.0,0.0,14.0,16.0,0.0,0.0,12.0,71.7,0.0,4.0,24.7,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3556052,Fauquier-Strickland,north,467,"<2,000",0.6774,majority,,yes,,,2.0,2.0,2.0,4.0,9.0,0.0,1.0,7.0,32.6,1.0,2.0,45.6,2,0,1,1,served,served,served,,served,1.0,0.0,False
+3556056,Moonbeam,north,1157,"<2,000",0.71,majority,,yes,,,2.0,0.0,0.0,0.0,4.0,0.0,0.0,2.0,109.7,0.0,2.0,41.7,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3556070,Val Rita-Harty,north,757,"<2,000",0.7086,majority,,yes,,,2.0,0.0,0.0,1.0,4.0,0.0,0.0,3.0,4.9,0.0,1.0,163.7,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3556073,Opasatika,north,200,"<2,000",0.625,majority,,no,,,2.0,0.0,0.0,3.0,4.0,0.0,0.0,2.0,243.6,0.0,2.0,71.7,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3556076,Hearst,north,4794,"2,000-9,999",0.8437,majority,,no,,,2.0,0.0,0.0,20.0,22.0,0.0,0.0,4.0,113.6,0.0,18.0,9.6,6,0,0,6,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3556077,Mattice-Val Côté,north,542,"<2,000",0.8165,majority,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,2,0,0,2,gap_older,gap_older,gap_older,,exposure_gap,,0.0,True
+3556106,Moosonee,north,1512,"<2,000",0.01,low,,no,,,2.0,0.0,0.0,12.0,19.0,0.0,0.0,18.0,44.7,0.0,1.0,47.7,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3557001,Jocelyn,north,314,"<2,000",0.0645,some,,no,,,2.0,0.0,0.0,0.0,28.0,0.0,0.0,28.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3557004,Hilton,north,382,"<2,000",0.0263,low,,yes,,,2.0,0.0,0.0,0.0,13.0,0.0,0.0,13.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3557008,St. Joseph,north,1426,"<2,000",0.0281,low,,no,,,2.0,0.0,0.0,0.0,48.0,0.0,0.0,48.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3557011,Laird,north,1121,"<2,000",0.0179,low,,yes,,,2.0,0.0,0.0,0.0,44.0,0.0,0.0,44.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3557014,Tarbutt,north,573,"<2,000",0.0261,low,,yes,,,2.0,0.0,0.0,1.0,46.0,0.0,0.0,46.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3557016,Johnson,north,749,"<2,000",0.0133,low,,yes,,,2.0,0.0,0.0,1.0,40.0,0.0,0.0,40.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3557019,Plummer Additional,north,757,"<2,000",0.0397,low,,no,,,2.0,0.0,0.0,1.0,24.0,0.0,0.0,24.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3557021,Bruce Mines,north,582,"<2,000",0.0265,low,,no,,,2.0,0.0,0.0,20.0,49.0,0.0,0.0,49.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3557028,Thessalon,north,1260,"<2,000",0.0256,low,,no,,,2.0,0.0,0.0,39.0,48.0,0.0,0.0,48.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,1.0,False
+3557035,Huron Shores,north,1860,"<2,000",0.0457,low,,no,,,2.0,2.0,2.0,36.0,43.0,0.0,2.0,43.0,0.2,0.0,0.0,,0,0,0,0,served,served,served,,served,7.0,0.0,False
+3557038,Blind River,north,3422,"2,000-9,999",0.1376,some,,no,,,2.0,0.0,0.0,47.0,69.0,0.0,0.0,68.0,0.2,0.0,1.0,30.6,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3557039,Spanish,north,670,"<2,000",0.1791,significant,,no,,,2.0,0.0,0.0,0.0,21.0,0.0,0.0,21.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3557040,The North Shore,north,531,"<2,000",0.1509,significant,,no,,,2.0,0.0,0.0,2.0,18.0,0.0,0.0,18.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,2.0,False
+3557041,Elliot Lake,north,11372,"10,000-49,999",0.1233,some,,no,,,2.0,2.0,2.0,58.0,71.0,2.0,2.0,70.0,0.1,0.0,1.0,88.6,6,6,6,0,served,served,served,,served,6.0,0.0,False
+3557051,"Macdonald, Meredith and Aberdeen Additional",north,1513,"<2,000",0.0264,low,,yes,,,2.0,0.0,0.0,0.0,43.0,0.0,0.0,43.0,0.1,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,4.0,False
+3557061,Sault Ste. Marie,north,72051,"50,000-199,999",0.0295,low,,no,,,2.0,4.0,4.0,84.0,99.0,4.0,4.0,94.0,0.0,0.0,5.0,60.6,45,24,45,0,served,served,served,,served,11.0,0.0,False
+3557066,Prince,north,975,"<2,000",0.0256,low,,yes,,,2.0,2.0,2.0,21.0,66.0,1.0,2.0,66.0,0.2,0.0,0.0,,3,2,3,0,served,served,served,,served,46.0,4.0,False
+3557076,Wawa,north,2705,"2,000-9,999",0.1673,significant,,no,,,2.0,0.0,0.0,0.0,21.0,0.0,0.0,21.0,1.3,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3557091,White River,north,557,"<2,000",0.1261,some,,no,,,2.0,0.0,0.0,0.0,10.0,0.0,0.0,10.0,60.7,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3557096,Hornepayne,north,968,"<2,000",0.0995,some,,no,,,2.0,0.0,0.0,5.0,6.0,0.0,0.0,6.0,43.6,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3558001,Neebing,north,2241,"2,000-9,999",0.0201,low,,no,,,2.0,0.0,0.0,3.0,52.0,0.0,0.0,52.0,0.3,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3558004,Thunder Bay,north,108843,"50,000-199,999",0.0194,low,,no,,,2.0,2.0,2.0,49.0,53.0,1.0,2.0,44.0,0.3,0.0,9.0,1.1,15,15,15,0,served,served,served,,served,6.0,0.0,False
+3558011,Oliver Paipoonge,north,6035,"2,000-9,999",0.0174,low,,no,,,2.0,0.0,0.0,3.0,46.0,0.0,0.0,46.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3558012,Gillies,north,441,"<2,000",0.0227,low,,no,,,2.0,0.0,0.0,1.0,41.0,0.0,0.0,41.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3558019,Conmee,north,798,"<2,000",0.0125,low,,no,,,2.0,0.0,0.0,1.0,44.0,0.0,0.0,44.0,0.2,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3558028,Shuniah,north,3247,"2,000-9,999",0.0277,low,,yes,,,2.0,0.0,0.0,15.0,60.0,0.0,0.0,60.0,0.3,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,3.0,False
+3558041,Red Rock,north,895,"<2,000",0.0279,low,,yes,,,2.0,0.0,0.0,0.0,4.0,0.0,0.0,4.0,3.5,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3558044,Nipigon,north,1473,"<2,000",0.0276,low,,no,,,2.0,2.0,2.0,33.0,36.0,1.0,2.0,35.0,3.2,0.0,1.0,11.7,5,2,5,0,served,served,served,,served,3.0,0.0,False
+3558051,Schreiber,north,1039,"<2,000",0.0385,low,,no,,,2.0,0.0,0.0,2.0,3.0,0.0,0.0,3.0,184.6,0.0,0.0,,10,4,10,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3558054,Terrace Bay,north,1528,"<2,000",0.0436,low,,no,,,2.0,0.0,0.0,10.0,18.0,0.0,0.0,17.0,11.7,0.0,1.0,67.7,4,1,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3558059,Marathon,north,3138,"2,000-9,999",0.0944,some,,no,,,2.0,1.0,1.0,2.0,6.0,1.0,1.0,6.0,50.6,0.0,0.0,,1,0,1,0,served,served,served,,served,1.0,0.0,False
+3558066,Manitouwadge,north,1974,"<2,000",0.1173,some,,no,,,2.0,0.0,0.0,1.0,3.0,0.0,0.0,3.0,71.7,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3558075,Greenstone,north,4309,"2,000-9,999",0.2084,significant,,no,,,2.0,1.0,1.0,1.0,10.0,0.0,0.0,8.0,71.6,1.0,2.0,2.4,4,4,4,0,served,served,served,,served,1.0,0.0,False
+3559001,Atikokan,north,2642,"2,000-9,999",0.023,low,,no,,,2.0,0.0,0.0,14.0,22.0,0.0,0.0,21.0,1.0,0.0,1.0,219.6,4,1,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3559012,Fort Frances,north,7466,"2,000-9,999",0.0103,low,,no,,,2.0,4.0,4.0,38.0,50.0,3.0,4.0,50.0,1.3,0.0,0.0,,17,15,17,0,served,served,served,,served,2.0,0.0,False
+3559016,La Vallee,north,788,"<2,000",0.0191,low,,no,,,2.0,0.0,0.0,0.0,6.0,0.0,0.0,6.0,2.1,0.0,0.0,,1,1,1,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,3.0,False
+3559024,Chapple,north,763,"<2,000",0.0,low,,yes,,,2.0,0.0,0.0,0.0,1.0,0.0,0.0,1.0,2.0,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3559031,Morley,north,493,"<2,000",0.0,low,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,True
+3559040,Dawson,north,399,"<2,000",0.0125,low,,no,,,2.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,True
+3559042,Rainy River,north,752,"<2,000",0.0068,low,,no,,,2.0,0.0,0.0,6.0,6.0,0.0,0.0,6.0,12.7,0.0,0.0,,4,2,4,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3560001,Ignace,north,1206,"<2,000",0.0664,some,,no,,,2.0,0.0,0.0,12.0,18.0,0.0,0.0,17.0,4.5,0.0,1.0,82.6,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3560008,Sioux Narrows-Nestor Falls,north,727,"<2,000",0.0138,low,,yes,,,2.0,0.0,0.0,0.0,5.0,0.0,0.0,5.0,0.4,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3560010,Kenora,north,14967,"10,000-49,999",0.0147,low,,yes,,,2.0,1.0,1.0,46.0,58.0,0.0,1.0,55.0,0.3,0.0,3.0,17.6,6,2,6,0,served,served,served,,served,5.0,0.0,False
+3560021,Machin,north,1012,"<2,000",0.0297,low,,no,,,2.0,0.0,0.0,2.0,2.0,0.0,0.0,2.0,205.7,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3560027,Dryden,north,7388,"2,000-9,999",0.0192,low,,no,,,2.0,2.0,2.0,41.0,47.0,0.0,2.0,47.0,2.2,0.0,0.0,,1,0,1,0,served,served,served,,served,12.0,0.0,False
+3560032,Ear Falls,north,924,"<2,000",0.0324,low,,yes,,,2.0,0.0,0.0,5.0,5.0,0.0,0.0,4.0,31.6,0.0,1.0,354.6,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
+3560034,Sioux Lookout,north,5839,"2,000-9,999",0.0138,low,,no,,,2.0,0.0,0.0,25.0,33.0,0.0,0.0,30.0,2.6,0.0,3.0,78.6,9,5,9,0,gap_recent,gap_recent,gap_recent,,exposure_gap,,0.0,False
+3560042,Red Lake,north,4094,"2,000-9,999",0.0334,low,,no,,,2.0,0.0,0.0,28.0,31.0,0.0,0.0,30.0,5.5,0.0,1.0,8.5,1,0,1,0,gap_older,gap_older,gap_older,,exposure_gap,,0.0,False
+3560049,Pickle Lake,north,398,"<2,000",0.0253,low,,no,,,2.0,0.0,0.0,4.0,5.0,0.0,0.0,5.0,61.7,0.0,0.0,,0,0,0,0,no_story,no_story,no_story,,no_story,,0.0,False
