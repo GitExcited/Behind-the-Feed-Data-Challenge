@@ -1,0 +1,266 @@
+domain,payee_legal,country,language,group,note
+journaldemontreal.com,MédiaQMI inc.,CA,fr,,Québecor daily; MédiaQMI is the Québecor newspaper payee
+journaldequebec.com,MédiaQMI inc.,CA,fr,,Québecor daily
+tvanouvelles.ca,Groupe TVA inc.,CA,fr,,TVA (Québecor) news site
+tvasports.ca,Groupe TVA inc.,CA,fr,,TVA Sports (Groupe TVA)
+cbc.ca,Canadian Broadcasting Corporation (CBC),CA,en,,
+youtube.com:CBC News,Canadian Broadcasting Corporation (CBC),CA,en,,CBC News channel on YouTube
+youtube.com:CBC,Canadian Broadcasting Corporation (CBC),CA,en,,
+youtube.com:The National,Canadian Broadcasting Corporation (CBC),CA,en,,CBC's The National on YouTube
+ici.radio-canada.ca,Canadian Broadcasting Corporation (CBC),CA,fr,,Radio-Canada (CBC/Radio-Canada payee)
+youtube.com:Radio-Canada Info,Canadian Broadcasting Corporation (CBC),CA,fr,,
+youtube.com:Radio-Canada,Canadian Broadcasting Corporation (CBC),CA,fr,,
+globalnews.ca,Corus Television Limited Partnership,CA,en,,"Global News (Corus); a smaller Corus entity 591987 B.C. Ltd. also operates as ""Global News | Corus"""
+youtube.com:Global News,Corus Television Limited Partnership,CA,en,,Global News on YouTube
+rds.ca,Bell Media Inc.,CA,fr,,RDS (Bell Media)
+tsn.ca,Bell Media Inc.,CA,en,,TSN (Bell Media)
+noovomoi.ca,Bell Media Inc.,CA,fr,,Noovo (Bell Media)
+noovo.info,Bell Media Inc.,CA,fr,,Noovo Info (Bell Media)
+cp24.com,Bell Media Inc.,CA,en,,CP24 (Bell Media)
+youtube.com:CTV News,Bell Media Inc.,CA,en,,
+youtube.com:CP24,Bell Media Inc.,CA,en,,
+sportsnet.ca,Rogers Communications Inc.,CA,en,,Sportsnet (Rogers); Rogers is listed as Rogers Media Inc. in Year 1
+citynews.ca,Rogers Communications Inc.,CA,en,,CityNews (Rogers)
+toronto.citynews.ca,Rogers Communications Inc.,CA,en,,
+calgary.citynews.ca,Rogers Communications Inc.,CA,en,,
+kitchener.citynews.ca,Rogers Communications Inc.,CA,en,,
+halifax.citynews.ca,Rogers Communications Inc.,CA,en,,
+vancouver.citynews.ca,Rogers Communications Inc.,CA,en,,
+edmonton.citynews.ca,Rogers Communications Inc.,CA,en,,
+winnipeg.citynews.ca,Rogers Communications Inc.,CA,en,,
+ottawa.citynews.ca,Rogers Communications Inc.,CA,en,,
+montreal.citynews.ca,Rogers Communications Inc.,CA,en,,
+youtube.com:CityNews,Rogers Communications Inc.,CA,en,,
+lesoleil.com,Coopérative nationale de l'information indépendante,CA,fr,,Le Soleil (Coops de l'information)
+ledroit.com,Coopérative nationale de l'information indépendante,CA,fr,,Le Droit (Coops de l'information)
+lenouvelliste.ca,Coopérative nationale de l'information indépendante,CA,fr,,Le Nouvelliste (Coops de l'information)
+latribune.ca,Coopérative nationale de l'information indépendante,CA,fr,,La Tribune (Coops de l'information)
+lavoixdelest.ca,Coopérative nationale de l'information indépendante,CA,fr,,La Voix de l'Est (Coops de l'information)
+lequotidien.com,Coopérative nationale de l'information indépendante,CA,fr,,Le Quotidien (Coops de l'information)
+cheknews.ca,0859291 BC Ltd. (DBA CHEK Media Group),CA,en,,CHEK News
+castanetkamloops.net,Castanet Holdings Limited Partnership,CA,en,,Castanet Kamloops
+thestar.com,Toronto Star Newspaper Limited,CA,en,,
+youtube.com:Toronto Star,Toronto Star Newspaper Limited,CA,en,,
+youtube.com:National Post,Postmedia Network Inc.,CA,en,,
+youtube.com:The Globe and Mail,The Globe and Mail Inc./ Publications Globe and Mail Inc.,CA,en,,
+theglobeandmail.com,The Globe and Mail Inc./ Publications Globe and Mail Inc.,CA,en,,
+reuters.com,none,US,en,foreign,international wire; Reuters Canada Limited is a CJC payee (A-1) but reuters.com stories in these clusters are international wire copy
+theweathernetwork.com,none,CA,en,,Pelmorex (not in either CJC list)
+meteomedia.com,none,CA,fr,,Pelmorex (not in either CJC list)
+ca.yahoo.com,none,US,en,foreign,Yahoo Canada portal (Yahoo Inc.); mostly syndicated copy
+ca.news.yahoo.com,none,US,en,foreign,Yahoo
+ca.finance.yahoo.com,none,US,en,foreign,Yahoo
+ca.sports.yahoo.com,none,US,en,foreign,Yahoo
+ca.style.yahoo.com,none,US,en,foreign,Yahoo
+fr.news.yahoo.com,none,US,fr,foreign,Yahoo
+qc.news.yahoo.com,none,US,fr,foreign,Yahoo
+msn.com,none,US,en,foreign,MSN portal
+pm.gc.ca,none,CA,fr,cdn_unpaid,Prime Minister's Office (government)
+edmontonpolice.ca,none,CA,en,cdn_unpaid,police service (government)
+newsroom.calgary.ca,none,CA,en,cdn_unpaid,City of Calgary (government)
+angusreid.org,none,CA,en,cdn_unpaid,polling institute
+cfl.ca,none,CA,en,cdn_unpaid,sports league site
+thetyee.ca,Tyee Independent Media Society,CA,en,,The Tyee (open-call row merged with another in the PDF text)
+lesasdelinfo.com,Coopérative nationale de l'information indépendante,CA,fr,,Les As de l'info (Coops de l'information)
+journallesoir.ca,Journal Le Soir (9439-7460 Québec inc.),CA,fr,,paid in Year 1 only
+narcity.com,none,CA,en,,Narcity Media: in the open call but in neither CJC list
+youtube.com:Calgary Herald,Postmedia Network Inc.,CA,en,,
+youtube.com:CBC Vancouver,Canadian Broadcasting Corporation (CBC),CA,en,,
+youtube.com:Le Devoir,Le Devoir Inc.,CA,fr,,
+youtube.com:Reuters,none,GB,en,foreign,
+youtube.com:India Today,none,IN,en,foreign,
+youtube.com:South China Morning Post,none,HK,en,foreign,
+youtube.com:CNN-News18,none,IN,en,foreign,
+youtube.com:DW News,none,DE,en,foreign,
+youtube.com:CNN,none,US,en,foreign,
+quebec.ca,none,CA,fr,cdn_unpaid,Government of Quebec
+bbc.com,none,GB,en,foreign,
+bbc.co.uk,none,GB,en,foreign,
+theguardian.com,none,GB,en,foreign,
+aljazeera.com,none,QA,en,foreign,
+cnn.com,none,US,en,foreign,
+bloomberg.com,none,US,en,foreign,
+nytimes.com,none,US,en,foreign,
+euronews.com,none,FR,en,foreign,
+politico.com,none,US,en,foreign,
+politico.eu,none,BE,en,foreign,
+apnews.com,none,US,en,foreign,
+washingtonpost.com,none,US,en,foreign,
+timesofisrael.com,none,IL,en,foreign,
+tribuneindia.com,none,IN,en,foreign,
+sciencealert.com,none,AU,en,foreign,
+wsj.com,none,US,en,foreign,
+cnbc.com,none,US,en,foreign,
+france24.com,none,FR,fr,foreign,
+dw.com,none,DE,en,foreign,
+azcentral.com,none,US,en,foreign,
+cbsnews.com,none,US,en,foreign,
+forbes.com,none,US,en,foreign,
+ft.com,none,GB,en,foreign,
+npr.org,none,US,en,foreign,
+comingsoon.net,none,US,en,foreign,
+bfmtv.com,none,FR,fr,foreign,
+abcnews.go.com,none,US,en,foreign,
+channelnewsasia.com,none,SG,en,foreign,
+buffalonews.com,none,US,en,foreign,
+i24news.tv,none,IL,fr,foreign,
+hollywoodreporter.com,none,US,en,foreign,
+people.com,none,US,en,foreign,
+pbs.org,none,US,en,foreign,
+news18.com,none,IN,en,foreign,
+nouvelobs.com,none,FR,fr,foreign,
+news.sky.com,none,GB,en,foreign,
+msnbc.com,none,US,en,foreign,
+nbcnews.com,none,US,en,foreign,
+ndtv.com,none,IN,en,foreign,
+news.aa.com,none,US,en,foreign,American Airlines newsroom
+livemint.com,none,IN,en,foreign,
+haaretz.com,none,IL,en,foreign,
+espn.com,none,US,en,foreign,
+euractiv.com,none,BE,en,foreign,
+tv5monde.com,none,FR,fr,foreign,
+theverge.com,none,US,en,foreign,
+thenation.com,none,US,en,foreign,
+thehill.com,none,US,en,foreign,
+space.com,none,US,en,foreign,
+rferl.org,none,CZ,en,foreign,
+wmtw.com,none,US,en,foreign,
+usatoday.com,none,US,en,foreign,
+independent.co.uk,none,GB,en,foreign,
+lemonde.fr,none,FR,fr,foreign,
+leparisien.fr,none,FR,fr,foreign,
+lefigaro.fr,none,FR,fr,foreign,
+liberation.fr,none,FR,fr,foreign,
+ouest-france.fr,none,FR,fr,foreign,
+rfi.fr,none,FR,fr,foreign,
+20minutes.fr,none,FR,fr,foreign,
+francetvinfo.fr,none,FR,fr,foreign,
+lepoint.fr,none,FR,fr,foreign,
+lexpress.fr,none,FR,fr,foreign,
+huffingtonpost.fr,none,FR,fr,foreign,
+foxnews.com,none,US,en,foreign,
+axios.com,none,US,en,foreign,
+theatlantic.com,none,US,en,foreign,
+time.com,none,US,en,foreign,
+newsweek.com,none,US,en,foreign,
+nypost.com,none,US,en,foreign,
+latimes.com,none,US,en,foreign,
+businessinsider.com,none,US,en,foreign,
+variety.com,none,US,en,foreign,
+deadline.com,none,US,en,foreign,
+scmp.com,none,HK,en,foreign,
+japantimes.co.jp,none,JP,en,foreign,
+youtube.com:ICI Québec,Canadian Broadcasting Corporation (CBC),CA,fr,,Radio-Canada regional channel
+youtube.com:MétéoMédia,none,CA,fr,,Pelmorex (not in either CJC list)
+emergencyinfobc.gov.bc.ca,none,CA,en,cdn_unpaid,Government of British Columbia
+halifax.ca,none,CA,en,cdn_unpaid,Halifax Regional Municipality
+youtube.com:MSNBC,none,US,en,foreign,
+youtube.com:NBC News,none,US,en,foreign,
+youtube.com:Guardian News,none,GB,en,foreign,
+youtube.com:Al Jazeera English,none,QA,en,foreign,
+youtube.com:BBC News,none,GB,en,foreign,
+youtube.com:C-SPAN,none,US,en,foreign,
+youtube.com:Radio Free Europe/Radio Liberty,none,CZ,en,foreign,
+youtube.com:The White House,none,US,en,foreign,
+youtube.com:USA TODAY,none,US,en,foreign,
+youtube.com:WHAS11,none,US,en,foreign,
+msn.com:msnNOW,none,US,en,foreign,MSN
+democracynow.org,none,US,en,foreign,
+jaysjournal.com,none,US,en,foreign,FanSided network
+justjared.com,none,US,en,foreign,
+harpersbazaar.com,none,US,en,foreign,
+hindustantimes.com,none,IN,en,foreign,
+ew.com,none,US,en,foreign,
+geo.tv,none,PK,en,foreign,
+fxstreet.com,none,ES,en,foreign,
+newyorker.com,none,US,en,foreign,
+miamiherald.com,none,US,en,foreign,
+premiumtimesng.com,none,NG,en,foreign,
+aniamey.com,none,NE,fr,foreign,
+indiatimes.com,none,IN,en,foreign,
+trains.com,none,US,en,foreign,
+tampabay.com,none,US,en,foreign,
+techcrunch.com,none,US,en,foreign,
+visa-algerie.com,none,DZ,fr,foreign,
+nhl.com,none,US,en,foreign,league site (New York)
+7jours.ca,Groupe TVA inc.,CA,fr,,TVA Publications title (Groupe TVA); ownership_checks.md
+clindoeil.ca,Groupe TVA inc.,CA,fr,,TVA Publications title (Groupe TVA); ownership_checks.md
+lesacdechips.com,NumériQ inc.,CA,fr,,Québecor digital brand (NumériQ); ownership_checks.md
+billie.ca,NumériQ inc.,CA,fr,,Québecor digital brand (NumériQ); ownership_checks.md
+blackburnnews.com,Blackburn Media Inc.,CA,en,,ownership_checks.md
+iheartradio.ca,Bell Media Inc.,CA,en,,Bell Media radio platform; ownership_checks.md
+q107.com,Corus Radio Inc.,CA,en,,Corus station (licensee Corus Premium Television Ltd.); ownership_checks.md
+saltwire.com,none,CA,en,,SaltWire Network Inc. (not in either CJC list); bought by Postmedia 2024-08-26; all slots here are from 2023
+3downnation.com,none,MT,en,foreign,Catena Media (Malta) until the 2025-11/2026-01 sale to Harvard Media; slots here are earlier
+kamloopsthisweek.com,none,CA,en,,Aberdeen Publishing (not a payee); closed Oct 2023
+pinkbike.com,none,US,en,foreign,Outside Interactive (US)
+zone911.com,none,CA,fr,,in the open call; not in either CJC list
+monjoliette.com,none,CA,fr,,Arsenal Média (not a payee)
+showbizz.net,none,CA,fr,,BIZZ Média inc. (not a payee)
+danslescoulisses.com,none,CA,fr,,OBOX Média (not a payee)
+hollywoodpq.com,none,CA,fr,,OBOX Média (not a payee)
+cicnews.com,none,CA,en,,CanadaVisa Media (not a payee)
+ilesdelamadeleine.com,none,CA,fr,,Gemini Médias (not a payee)
+fool.ca,none,CA,en,,The Motley Fool Canada (not a payee)
+monfric.ca,none,CA,fr,,Attraction Web (not a payee)
+driveteslacanada.ca,none,CA,en,,independent site (not a payee)
+nationalbankopen.com,none,CA,en,cdn_unpaid,Tennis Canada tournament site
+24heures.ca,MédiaQMI inc.,CA,fr,,24 heures (Québecor Média in the open call; MédiaQMI is Québecor's newspaper payee)
+thehub.ca,Hub Canada Media,CA,en,,The Hub
+cpac.ca,Cable Public Affairs Channel Inc.  /  la Chaîne d'affaires publiques par câble inc.,CA,bi,,CPAC
+mabeauce.com,11802607 CANADA INC (Mes régions),CA,fr,,Ma Beauce (open call: 11802607 Canada Inc)
+biv.com,Glacier Media Digital Limited Partnership,CA,en,,Business in Vancouver (Glacier / Lodestar Media)
+985fm.ca,Cogeco inc.,CA,fr,,98.5 Montréal (Cogeco); no sale found
+nowtoronto.com,none,CA,en,,NOW Toronto (no payee of that name)
+visualcapitalist.com,none,CA,en,,Vancouver-based data publisher
+canucksarmy.com,none,CA,en,,hockey fan site
+ekospolitics.com,none,CA,en,cdn_unpaid,pollster
+abacusdata.ca,none,CA,en,cdn_unpaid,pollster
+coalitionavenirquebec.org,none,CA,fr,cdn_unpaid,political party
+canada.ca,none,CA,en,cdn_unpaid,Government of Canada
+novascotia.ca,none,CA,en,cdn_unpaid,Government of Nova Scotia
+sq.gouv.qc.ca,none,CA,fr,cdn_unpaid,Sûreté du Québec (police)
+ontario.ca,none,CA,en,cdn_unpaid,Government of Ontario
+gov.bc.ca,none,CA,en,cdn_unpaid,Government of British Columbia
+coemergency.ca,none,CA,en,cdn_unpaid,regional emergency operations
+newswire.ca,none,CA,en,cdn_unpaid,press-release wire
+olympic.ca,none,CA,en,cdn_unpaid,Canadian Olympic Committee
+rpmweb.ca,none,CA,fr,,RPM (motoring site; no payee of that name)
+runningmagazine.ca,none,CA,en,,no payee of that name
+policymagazine.ca,none,CA,en,,no payee of that name
+ambcrypto.com,none,IN,en,foreign,
+rollingstone.com,none,US,en,foreign,
+whitehouse.gov,none,US,en,foreign,
+tmz.com,none,US,en,foreign,
+msn.com:MSN,none,US,en,foreign,MSN
+economist.com,none,GB,en,foreign,
+thestreet.com,none,US,en,foreign,
+huffpost.com,none,US,en,foreign,
+mmafighting.com,none,US,en,foreign,
+vox.com,none,US,en,foreign,
+thedailybeast.com,none,US,en,foreign,
+fortune.com,none,US,en,foreign,
+formula1.com,none,GB,en,foreign,
+finance.yahoo.com,none,US,en,foreign,Yahoo
+salutbonjour.ca,Groupe TVA inc.,CA,fr,,TVA morning show site (Groupe TVA)
+youtube.com:CBC News: The National,Canadian Broadcasting Corporation (CBC),CA,en,,
+buzzfeed.com,none,US,en,foreign,
+vanityfair.com,none,US,en,foreign,
+oilprice.com,none,US,en,foreign,
+investors.com,none,US,en,foreign,
+themirror.com,none,US,en,foreign,
+indianexpress.com,none,IN,en,foreign,
+vaticannews.va,none,VA,en,foreign,
+tps.ca,none,CA,en,cdn_unpaid,Toronto Police Service
+youtube.com:The Independent,none,GB,en,foreign,The Independent (UK) channel
+lorientlejour.com,none,LB,fr,foreign,
+rbc.com,none,CA,en,cdn_unpaid,Royal Bank of Canada (corporate site)
+nunatsiaq.com,Nortext Publishing Inc.,CA,en,,Nunatsiaq News (open call: Nortext Publishing Corporation)
+ntv.ca,Newfoundland Broadcasting Company Limited,CA,en,,NTV News
+le-regional.ca,Altomedia Inc.,CA,fr,,Le Régional (Altomedia)
+macotenord.com,11802607 Canada Inc.,CA,fr,,Mes régions (open call: 11802607 CANADA INC)
+rythmefm.com,Cogeco inc.,CA,fr,,Rythme FM stations (Cogeco)
+qub.ca,MédiaQMI inc.,CA,fr,,QUB radio (Québecor; counted with the Québecor payees)
+radio-canada.ca,Canadian Broadcasting Corporation (CBC),CA,fr,,Radio-Canada
+youtube.com:CTV Vancouver,Bell Media Inc.,CA,en,,CTV channel on YouTube
+youtube.com:TVA Nouvelles,Groupe TVA inc.,CA,fr,,TVA channel on YouTube

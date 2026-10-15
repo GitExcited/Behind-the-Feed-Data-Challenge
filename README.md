@@ -4,9 +4,16 @@ Goal: measure how visible small-town and independent local news is on Google's n
 - whether a town's own stories reach its Google News Local page;
 - whether local outlets get the top spot when bigger outlets cover the same story.
 
-## Notebook
+How each dataset was collected: [`DATA_COLLECTION.md`](DATA_COLLECTION.md).
 
-`main_findings.ipynb` reproduces the main results from the files below, with a chart for each:
+## Notebooks
+
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+
+**`main_findings.ipynb`** reproduces the main results from `data/`, one chart each (saved to `outputs/`):
 - own election stories shown on Local pages, by town size;
 - lead slot by outlet group on the front page;
 - leads when an outlet published first;
@@ -14,10 +21,15 @@ Goal: measure how visible small-town and independent local news is on Google's n
 - the same measure in search;
 - acclaimed mayors in towns with and without their own outlet.
 
-```bash
-pip install -r requirements.txt
-jupyter notebook main_findings.ipynb
-```
+**`collection/`** rebuilds the data from raw sources. Raw pages go to `cache/` (not committed); tables go to `outputs/`.
+
+| Notebook | What it does |
+|---|---|
+| `01_front_page.ipynb` | Lists and downloads the archived front pages, reads the stories, tags each outlet's payment group, and checks the result against `data/`. Set `LIMIT` to try a few pages first. |
+| `02_local_pages.ipynb` | Reads each town's Local page today (40-town sample or all towns) and saves the story cards |
+| `03_search_links.ipynb` | Builds the Google News and Google Search links for the 31 search-check stories |
+
+`data/raw/` holds the inputs: CJC payment lists, Google's open-call list, hand-checked outlet tags and each town's Local page address.
 
 ## Data
 

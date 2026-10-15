@@ -1,4 +1,6 @@
 pandas
 numpy
 matplotlib
+requests
+rapidfuzz
 jupyter
