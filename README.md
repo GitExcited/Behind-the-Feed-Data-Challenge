@@ -25,9 +25,9 @@ jupyter notebook
 
 | Notebook | What it does |
 |---|---|
-| `01_front_page.ipynb` | Lists and downloads the archived front pages, reads the stories, tags each outlet's payment group, and checks the result against `data/`. Set `LIMIT` to try a few pages first. |
+| `01_front_page.ipynb` | Lists and downloads the archived front pages, reads the stories, tags each outlet's payment group, and checks the result against `data/`. Set `LIMIT` to try a few pages first. Step 5 is the data report (missing values, stats, duplicates, plots). |
 | `02_local_pages.ipynb` | Reads each town's Local page today (40-town sample or all towns) and saves the story cards |
-| `03_search_links.ipynb` | Builds the Google News and Google Search links for the 31 search-check stories |
+| `03_search_links.ipynb` | Builds the Google News and Google Search links for the 31 search-check stories. Step 2 is the data report. |
 
 `data/raw/` holds the inputs: CJC payment lists, Google's open-call list, hand-checked outlet tags and each town's Local page address.
 
