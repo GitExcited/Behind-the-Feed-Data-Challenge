@@ -23,6 +23,8 @@ jupyter notebook
 
 **`collection/`** rebuilds the data from raw sources. Raw pages go to `cache/` (not committed); tables go to `outputs/`.
 
+**`feature_engineering.ipynb`** builds the feature table for the `is_lead` ranking task from `data/google_news_front_page/`, following the role-separated plan (merit features fed to the score; fairness-constraint features audited but never fed to it; evaluation-only trend features) — saves `outputs/engineered_features_is_lead.csv` and `outputs/headline_embeddings_is_lead.npz`. Headline embeddings use a real multilingual sentence-transformer when installed, falling back automatically to a dependency-free vectorizer otherwise (see the notebook's own intro for a Windows install note).
+
 | Notebook | What it does |
 |---|---|
 | `01_front_page.ipynb` | Lists and downloads the archived front pages, reads the stories, tags each outlet's payment group, and checks the result against `data/`. Set `LIMIT` to try a few pages first. |

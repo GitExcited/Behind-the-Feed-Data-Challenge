@@ -4,3 +4,4 @@ matplotlib
 requests
 rapidfuzz
 jupyter
+sentence-transformers  # feature_engineering.ipynb's headline embedding; falls back automatically if unavailable
