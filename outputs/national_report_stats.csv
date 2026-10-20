@@ -1,0 +1,80 @@
+report_section,statistic,value
+2.3 missingness,snapshots drawn,1480
+2.3 missingness,snapshots not downloaded,6
+2.3 missingness,snapshots excluded (wrong date served),5
+2.3 missingness,same-day repeat snapshots,133
+2.3 missingness,analysis sample: snapshots,1336
+2.3 missingness,analysis sample: English snapshots,723
+2.3 missingness,analysis sample: French snapshots,613
+2.3 duplicates,pages in articles file not listed in snapshots.csv,67
+2.3 duplicates,article rows from those pages,827
+2.3 duplicates,article rows from repeat snapshots,1642
+2.3 duplicates,article rows from excluded snapshots,65
+2.3 summary,analysis sample: article rows,16378
+2.3 missingness,en-CA: months with no snapshot,"2022-06, 2022-07, 2022-08, 2022-09"
+2.3 missingness,fr-CA: months with no snapshot,"2022-06, 2022-07, 2022-08, 2022-09, 2023-09, 2026-06"
+2.3 missingness,fr-CA: months with 1-7 snapshots,"2022-05 (4), 2022-10 (4), 2023-02 (4), 2025-09 (7), 2026-07 (4), 2026-08 (4), 2026-09 (6), 2026-10 (5)"
+2.3 missingness,% of article rows with empty story_id,47.2
+2.3 missingness,% empty story_id in 2022,59.4
+2.3 missingness,% empty story_id in 2023,54.1
+2.3 missingness,% empty story_id in 2024,46.1
+2.3 missingness,% empty story_id in 2025,42.7
+2.3 missingness,% empty story_id in 2026,42.6
+2.3 missingness,% of article rows with empty cjc_sub / payee_legal (no CJC payment),20.9
+2.3 missingness,outlets in outlets.csv,654
+2.3 missingness,% of outlets with no CJC payee match,64.4
+2.3 missingness,outlets in group unknown,157
+2.3 missingness,search check: % of results with empty published,50.5
+2.3 missingness,search check: stories with empty major_time,12
+2.3 summary,rows: en-CA / Picks for you,2165
+2.3 summary,rows: en-CA / Top stories,7029
+2.3 summary,rows: fr-CA / Sélections pour vous,1831
+2.3 summary,rows: fr-CA / À la une,5353
+2.3 summary,articles per page: mean,12.3
+2.3 summary,articles per page: min,6
+2.3 summary,articles per page: max,14
+2.3 summary,rows in single-article cards (cluster_size 1),7732
+2.3 summary,rows in story clusters (cluster_size 3-4),8646
+2.3 summary,largest cluster_size,4
+2.3 summary,article age: median (h),6.9
+2.3 summary,article age: 90th percentile (h),24.5
+2.3 summary,outlets in the sample,611
+2.3 summary,% of slots held by the top 10 outlets,59.1
+2.3 summary,slots of the median outlet,2.0
+2.3 summary,slots: lapresse.ca,1427
+2.3 summary,slots: journaldemontreal.com,1387
+2.3 summary,slots: cbc.ca,1358
+2.3 summary,lead slots (slot 0),9910
+2.3 summary,cdn_unpaid: % of all slots,2.1
+2.3 summary,cdn_unpaid: % of lead slots,1.7
+2.3 summary,foreign: % of all slots,17.7
+2.3 summary,foreign: % of lead slots,14.9
+2.3 summary,franco: % of all slots,3.7
+2.3 summary,franco: % of lead slots,1.6
+2.3 summary,local_en: % of all slots,2.1
+2.3 summary,local_en: % of lead slots,2.2
+2.3 summary,major: % of all slots,73.4
+2.3 summary,major: % of lead slots,78.6
+2.3 summary,unknown: % of all slots,1.1
+2.3 summary,unknown: % of lead slots,0.9
+2.4 class imbalance,smaller paid outlets: % of lead slots,3.9
+2.3 summary,search check: results,487
+2.3 summary,search check: % of results about the right story,84.6
+2.3 summary,"search check: mean rank, gnews / major",4.4
+2.3 summary,"search check: mean rank, gnews / other",6.0
+2.3 summary,"search check: mean rank, gnews / small",4.7
+2.3 summary,"search check: mean rank, gsearch / major",4.4
+2.3 summary,"search check: mean rank, gsearch / other",5.7
+2.3 summary,"search check: mean rank, gsearch / small",4.8
+2.3 summary,search check: stories where top result is major (gnews),24
+2.3 summary,search check: stories where top result is small (gnews),6
+2.3 summary,search check: stories where top result is other (gnews),1
+2.3 summary,search check: stories where top result is major (gsearch),22
+2.3 summary,search check: stories where top result is small (gsearch),7
+2.3 summary,search check: stories where top result is other (gsearch),2
+2.3 duplicates,same link twice on one page,0
+2.3 duplicates,same headline twice on one page,1
+2.3 outliers,articles published after the capture time,7
+2.3 outliers,largest negative age (h),-1.4
+2.3 outliers,articles more than 7 days old when captured,33
+2.3 outliers,oldest article (years),7.5
