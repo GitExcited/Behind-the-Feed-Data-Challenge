@@ -18,7 +18,7 @@ import numpy as np
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 
-ROOT = Path(__file__).resolve().parents[1] # repo root (this file is in src/)
+ROOT = Path(__file__).resolve().parents[1] # repo root
 MODELS_DIR = ROOT / "models" # stored models (gitignored)
  
 DEFAULT_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
