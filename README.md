@@ -50,6 +50,7 @@ Behind-the-Feed-Data-Challenge/
 ├── report/
 │   └── milestone1/              # LaTeX source and figures
 ├── src/                         # Scripts for Milestone 2 Training & Experimentation
+│   ├── baselines.py             # TF-IDF and the pretrained MiniLM
 │   ├── build_pairs.py           # step 1–3: filter cards, build pairs, split, save
 │   └── embeddings.py            # embed_headlines(), similarity()
 ├── DATA_COLLECTION.md
