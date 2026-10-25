@@ -49,9 +49,9 @@ Behind-the-Feed-Data-Challenge/
 ├── outputs/                     # Milestone 1 charts + local_missingness.csv
 ├── report/
 │   └── milestone1/              # LaTeX source and figures
-├── src/                         # NEW
-│   ├── build_pairs.ipynb           # step 1–3: filter cards, build pairs, split, save
-│   └── embeddings.ipynb            # embed_headlines(), similarity()
+├── src/                         # Scripts for Milestone 2 Training & Experimentation
+│   ├── build_pairs.py           # step 1–3: filter cards, build pairs, split, save
+│   └── embeddings.py            # embed_headlines(), similarity()
 ├── DATA_COLLECTION.md
 ├── README.md
 ├── data_report.ipynb
