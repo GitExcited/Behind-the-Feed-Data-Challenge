@@ -45,6 +45,7 @@ Behind-the-Feed-Data-Challenge/
 │       ├── train.csv            # 21,963 pairs
 │       ├── val.csv              # 2,850 pairs
 │       └── test.csv             # 2,457 pairs
+├── models/                      # Saved MiniLM-L12-v2 model
 ├── outputs/                     # Milestone 1 charts + local_missingness.csv
 ├── report/
 │   └── milestone1/              # LaTeX source and figures
