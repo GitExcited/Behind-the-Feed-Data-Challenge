@@ -4,3 +4,5 @@ matplotlib
 requests
 rapidfuzz
 jupyter
+sentence-transformers
+scikit-learn

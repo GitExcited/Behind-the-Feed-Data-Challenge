@@ -31,6 +31,35 @@ jupyter notebook
 
 `data/raw/` holds the inputs: CJC payment lists, Google's open-call list, hand-checked outlet tags and each town's Local page address.
 
+## Code Structure
+```
+Behind-the-Feed-Data-Challenge/
+├── collection/                  # Milestone 1 collection notebooks
+├── data/
+│   ├── google_news_front_page/
+│   │   ├── front_page_articles.csv
+│   │   ├── snapshots.csv
+│   │   └── ...                  # other Milestone 1 files
+│   ├── ...                      # other existing data folders
+│   └── pairs/                   # Pairs created by train before 2026, val Jan–Apr, test May onward
+│       ├── train.csv            # 21,963 pairs
+│       ├── val.csv              # 2,850 pairs
+│       └── test.csv             # 2,457 pairs
+├── models/                      # Saved MiniLM-L12-v2 model
+├── outputs/                     # Milestone 1 charts + local_missingness.csv
+├── report/
+│   └── milestone1/              # LaTeX source and figures
+├── src/                         # Scripts for Milestone 2 Training & Experimentation
+│   ├── baselines.py             # TF-IDF and the pretrained MiniLM
+│   ├── build_pairs.py           # step 1–3: filter cards, build pairs, split, save
+│   └── embeddings.py            # embed_headlines(), similarity()
+├── DATA_COLLECTION.md
+├── README.md
+├── data_report.ipynb
+├── main_findings.ipynb
+└── requirements.txt             # add sentence-transformers
+```
+
 ## Data
 
 ### `data/google_news_front_page/`: Google News Canada front page, 2022–2026
