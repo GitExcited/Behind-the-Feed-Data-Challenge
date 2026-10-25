@@ -20,9 +20,9 @@ from sentence_transformers import SentenceTransformer
 
 ROOT = Path(__file__).resolve().parents[1] # repo root
 MODELS_DIR = ROOT / "models" # stored models (gitignored)
- 
+
 DEFAULT_MODEL = "paraphrase-multilingual-MiniLM-L12-v2"
-MAX_SEQ_LENGTH = 128  # headlines are short so lenght of text being 128 is enough
+MAX_SEQ_LENGTH = 128  # headlines are short so length of text being 128 is enough
 BATCH_SIZE = 64
 
 
@@ -34,22 +34,21 @@ def clean_headline(text) -> str:
     return " ".join(unicodedata.normalize("NFC", str(text)).split())
 
 
-"""Load the model once, later calls reuse the same copy in memory."""
 @lru_cache(maxsize=2) # maxsize=2 to keep pretrained and fine-tuned versions when comparing them later
 def load_model(model_name: str = DEFAULT_MODEL) -> SentenceTransformer:
+    """Load the model once, later calls reuse the same copy in memory."""
     MODELS_DIR.mkdir(exist_ok=True)
     model = SentenceTransformer(model_name, cache_folder=str(MODELS_DIR))
     model.max_seq_length = MAX_SEQ_LENGTH
     return model
 
 
-"""
-Embedding function to turn the stories into vectors.
-Turn a list of headlines into vectors.
-"""
 def embed_headlines(headlines, model_name: str = DEFAULT_MODEL, 
                     batch_size: int = BATCH_SIZE, show_progress: bool = False) -> np.ndarray:
     """
+    Embedding function to turn the stories into vectors.
+    Turn a list of headlines into vectors.
+
     Returns an (n, 384) float32 array, one row per headline, each row
     L2-normalized (length 1), so a dot product = cosine similarity.
     """
@@ -63,12 +62,11 @@ def embed_headlines(headlines, model_name: str = DEFAULT_MODEL,
     )
 
 
-"""
-Cosine similarity between paired headlines: a[0] vs b[0], a[1] vs b[1], ...
-"""
 def similarity(headlines_a, headlines_b, model_name: str = DEFAULT_MODEL, 
                batch_size: int = BATCH_SIZE, show_progress: bool = False) -> np.ndarray:
     """
+    Cosine similarity between paired headlines: a[0] vs b[0], a[1] vs b[1], ...
+
     Returns an (n,) array. Higher = more likely the same story.
     Each unique headline is embedded only once, which matters because the
     same headline appears in many pairs.
