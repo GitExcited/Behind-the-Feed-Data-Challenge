@@ -1,0 +1,11 @@
+,value
+hardware,"NVIDIA GeForce RTX 3080, 16 CPU threads, 34.2 GB RAM, device cuda"
+epochs run,2
+total training time (min),1.5
+time per epoch (min),0.7
+steps per second,16.68
+"peak memory, process (GB)",2.63
+peak GPU memory (GB),1.83
+total parameters,117653760
+trainable parameters,21639552
+model size on disk (MB),487.7
