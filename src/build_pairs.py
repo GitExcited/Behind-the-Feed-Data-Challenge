@@ -19,8 +19,13 @@ Step 1. Take top stories articles from front_page_articles.csv
 snapshots = pd.read_csv(DATA/"snapshots.csv", dtype={"timestamp": str})
 articles = pd.read_csv(DATA/"front_page_articles.csv", dtype={"timestamp": str})
 
-# Remove repeats from main snapshots (drop same-day repeats)
-main = snapshots[snapshots["purpose"] != "repeat"][["timestamp", "edition"]]
+# Find repeated snapshots
+is_repeat = snapshots["purpose"] == "repeat"
+# Drop the 5 snapshots that have Exclude=True (were more than 3h off and are marked, we won't take them)
+is_excluded = snapshots["exclude"].astype(str).str.strip().str.lower() == "true"
+
+# Remove repeats & excluded from main snapshots (drop same-day repeats)
+main = snapshots[~is_repeat & ~is_excluded][["timestamp", "edition"]]
 articles = articles.merge(main, on=["timestamp", "edition"], how="inner")
 
 # Keep only Top Stories (English + French)
