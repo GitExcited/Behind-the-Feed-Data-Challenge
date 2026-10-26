@@ -1,0 +1,11 @@
+{
+  "cpu": "Apple M4 Max",
+  "torch threads": 10,
+  "ram_gb": 38.7,
+  "gpu": "Apple GPU via PyTorch MPS",
+  "torch": "2.8.0",
+  "os": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.9.6",
+  "transformers": "4.57.6",
+  "onnxruntime": "1.19.2"
+}

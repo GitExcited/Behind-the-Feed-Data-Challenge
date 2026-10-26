@@ -1,0 +1,5 @@
+model,variant,"latency p50, 1 pair (ms)","latency p90, 1 pair (ms)","latency p50, batch of 64 pairs (ms)","latency p90, batch of 64 pairs (ms)","throughput, batch 64 (pairs/s)","latency p50, one front page (ms)","latency p90, one front page (ms)",RSS after loading (MB),peak RSS (MB),"peak GPU tensor memory, MPS (MB)",FLOPs per pair (GFLOPs)
+bi-encoder,"PyTorch fp32, CPU",7.55,8.47,114.05,137.2,540.1,16.23,18.62,801,1274,,2.1
+bi-encoder,"PyTorch fp32, Apple GPU (MPS)",7.1,10.34,39.48,58.97,1350.0,9.58,32.52,805,1373,499.0,2.1
+cross-encoder,"PyTorch fp32, CPU",12.25,15.53,293.21,342.92,213.4,121.8,156.83,802,1784,,3.688
+cross-encoder,"PyTorch fp32, Apple GPU (MPS)",9.15,29.46,75.18,99.69,700.3,51.56,86.37,805,1755,471.0,3.688

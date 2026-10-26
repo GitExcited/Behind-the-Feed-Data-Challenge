@@ -1,0 +1,97 @@
+% Section 3 of the Milestone 2 report. Uses booktabs, graphicx, float and enumitem, as in report/milestone1/main.tex.
+% Numbers: outputs/milestone2/training_efficiency.csv, outputs/milestone2/experiments/log.csv and
+% outputs/milestone2/efficiency/*.csv, produced by milestone2_efficiency.ipynb (code in src/m2_efficiency.py).
+
+\section{Efficiency Metrics: Training and Inference}
+\label{sec:efficiency}
+
+We report both same-story models from Section~2: the fine-tuned MiniLM \textbf{bi-encoder} (our main model), which embeds each headline and scores a pair by cosine similarity, and the mMiniLM \textbf{cross-encoder}, which reads the two headlines together in both orders and averages the two probabilities.
+
+\textbf{Hardware.} Training ran on an NVIDIA RTX~3080 with batch size~32. Inference was measured on the CPU of an Apple M4 Max laptop (14 cores, PyTorch with 10 threads, 36\,GB RAM; PyTorch~2.8, ONNX Runtime~1.19). Users' laptops are the target hardware for the browser extension, and the extension cannot count on a GPU, so the CPU numbers are the relevant ones.
+
+\subsection{Training efficiency}
+
+\begin{table}[H]
+\centering
+\caption{Training cost on the RTX~3080. The cross-encoder run logged only its total time. FLOPs are counted by PyTorch's \texttt{FlopCounterMode} on real batches (forward + backward; a multiply-add counts as 2 FLOPs). They do not depend on the hardware.}
+\label{tab:train-eff}
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+ & Bi-encoder & Cross-encoder \\
+\midrule
+Epochs run (early stopping, patience 1) & 2 & 2 \\
+Total training time (min) & 1.5 & 1.34 \\
+Time per epoch (min) & 0.7 & 0.67 \\
+Steps per second & 16.68 & not logged \\
+Peak memory, process RAM / GPU VRAM (GB) & 2.63 / 1.83 & not logged \\
+Parameters, total / trained (M) & 117.65 / 21.6 & 117.6 / 117.6 \\
+Model size on disk (MB) & 487.7 & 487.7 \\
+Training FLOPs per pair (GFLOPs) & 3.0 & 2.7 \\
+Total training FLOPs, incl.\ val scoring (PFLOPs) & 0.14 & 0.14 \\
+Energy, upper bound at 320\,W (Wh) & 8.0 & 7.1 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Most of each model (96M of its 118M parameters) is the 250k-word multilingual vocabulary table. A table lookup costs almost no FLOPs, so the compute comes from the 21M parameters in the 12 transformer layers. The bi-encoder keeps the vocabulary table frozen, so only 21.6M parameters are trained. Training is cheap: about 1.5 minutes and under 10\,Wh per model, even if the GPU draws its full board power the whole time, which costs less than \$0.01. What matters for the extension is the inference cost.
+
+\subsection{Inference efficiency}
+
+A sample is one headline pair scored as same story or not. Timings start from the raw strings, so tokenization is included. Per-sample latency uses 300 random test pairs at batch size~1. Batch latency and throughput use the 2,457 test pairs in batches of 64. The unit that matters for deployment is \emph{one front page}: the extension needs every pair of headlines on the page (112 test-period pages, 9.1 headlines on average, about 36 pairs). For each page the bi-encoder embeds each headline once. The cross-encoder needs a forward pass for every pair, in both orders.
+
+\begin{table}[H]
+\centering
+\caption{Inference on the M4 Max CPU, PyTorch fp32. Latencies in ms. Test F1 uses a threshold re-picked on val in this run. For the cross-encoder this gives 0.909 instead of the 0.906 in Section~2: the PR-AUC is identical, so the scores agree and only the picked threshold differs.}
+\label{tab:infer-eff}
+\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+ & Bi-encoder & Cross-encoder \\
+\midrule
+Latency per pair, batch 1, p50 / p90 & 7.6 / 8.5 & 12.3 / 15.5 \\
+Latency per batch of 64 pairs, p50 / p90 & 114 / 137 & 293 / 343 \\
+Latency per front page, p50 / p90 & 16 / 19 & 122 / 157 \\
+Throughput at batch 64 (pairs/s) & 540 & 213 \\
+RAM after loading / peak (GB) & 0.80 / 1.27 & 0.80 / 1.78 \\
+FLOPs per pair, batch 1 (GFLOPs) & 2.1 & 3.7 \\
+Test F1 / PR-AUC & 0.906 / 0.966 & 0.909 / 0.964 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Per pair, the cross-encoder is only 1.6$\times$ slower than the bi-encoder. Per front page it is \textbf{7.5$\times$ slower} (122 vs 16\,ms), and the gap grows with page size: the bi-encoder's cost grows linearly with the number of headlines, the cross-encoder's quadratically. Its accuracy gain is small: the same pair F1 as the bi-encoder in Section~2 (0.906 for both), and 71\% vs 67\% of Google's cards grouped exactly. That does not justify the extra cost, so the bi-encoder is the model to deploy. At 16\,ms per page it scores a page well within a page load. On the laptop's built-in GPU (Apple Metal), batch throughput rises to 1,350 pairs/s for the bi-encoder and 700 for the cross-encoder, but the extension cannot count on having a GPU.
+
+\subsection{Optimization attempts}
+
+We exported both models to ONNX (opset 17, dynamic batch and sequence length) and ran them with ONNX Runtime. We also applied dynamic int8 quantization, both ONNX Runtime's (weights including the vocabulary table stored as int8) and PyTorch's (\texttt{Linear} layers only). Each variant gets its own threshold picked on val, which is then applied unchanged to test. Distillation was not tried: both models are already 12-layer, 384-dimension MiniLMs distilled from larger models.
+
+\begin{table}[H]
+\centering
+\caption{Optimization variants on the M4 Max CPU, against PyTorch fp32. Latencies in ms (p50); throughput at batch 64.}
+\label{tab:optim}
+\small
+\begin{tabular}{@{}llrrrrr@{}}
+\toprule
+Model & Variant & Per pair & Per page & Pairs/s & Disk (MB) & Test F1 ($\Delta$) \\
+\midrule
+Bi & PyTorch fp32 & 7.6 & 16.2 & 540 & 488 & 0.906 \\
+   & PyTorch int8 & 13.6 & 36.1 & 174 & -- & 0.904 ($-$0.002) \\
+   & ONNX fp32 & 7.1 & 23.5 & 212 & 470 & 0.906 (0) \\
+   & ONNX int8 & 7.2 & 27.1 & 244 & 118 & 0.903 ($-$0.003) \\
+\midrule
+Cross & PyTorch fp32 & 12.3 & 121.8 & 213 & 488 & 0.909 \\
+      & PyTorch int8 & 39.3 & 393.6 & 103 & -- & 0.901 ($-$0.008) \\
+      & ONNX fp32 & 7.6 & 267.5 & 133 & 471 & 0.909 (0) \\
+      & ONNX int8 & 6.7 & 202.3 & 185 & 118 & 0.904 ($-$0.005) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{itemize}[leftmargin=*]
+\item \textbf{ONNX export} gives the same scores as PyTorch. At batch size~1 it speeds up the cross-encoder by 1.6$\times$, but it is 1.4--2.6$\times$ slower with batches. On this Mac, PyTorch does large matrix products with Apple's Accelerate library, which ONNX Runtime's CPU kernels do not use, so the result may differ on an Intel or AMD CPU.
+\item \textbf{ONNX int8} makes the file 4$\times$ smaller (470 $\rightarrow$ 118\,MB), cuts peak RAM by 0.8--1\,GB against ONNX fp32, and loses only 0.003--0.005 F1. That makes it the format to use if the model has to ship with the extension and run in the browser. It does not speed up batches here.
+\item \textbf{PyTorch dynamic int8} is slower in every setting (0.3--0.6$\times$) and loses up to 0.008 F1, so we drop it.
+\end{itemize}
+
+For reference, the RTX~3080 run scored 1,000 test pairs in 0.075\,s with the bi-encoder (embedding each distinct headline once) and 0.74\,s with the cross-encoder. That 10$\times$ gap is close to the 7.5$\times$ per-page gap measured here: in both cases the bi-encoder embeds each headline only once.

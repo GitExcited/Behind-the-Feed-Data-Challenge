@@ -1,0 +1,15 @@
+,"bi-encoder (MiniLM, fine-tuned)",cross-encoder (mMiniLM)
+hardware (real run),"NVIDIA GeForce RTX 3080, batch 32","NVIDIA GeForce RTX 3080, batch 32"
+epochs run,2,2
+total training time (min),1.5,1.34
+time per epoch (min),0.75,0.67
+steps per second (RTX 3080),16.68,not recorded
+"peak GPU memory, RTX 3080 (GB)",1.83,not recorded
+"steps per second (M4 Max GPU, same recipe)",12.03,7.34
+"peak GPU tensor memory, M4 Max (GB)",3.02,3.81
+total parameters (M),117.7,117.6
+trainable parameters (M),21.6,117.6
+model size on disk (MB),487.7,487.7
+"training FLOPs per pair (GFLOPs, fwd+bwd)",3.022,2.729
+total training FLOPs (PFLOPs),0.14,0.14
+"energy, upper bound at 320 W (Wh)",8.0,7.1
