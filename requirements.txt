@@ -6,3 +6,6 @@ rapidfuzz
 jupyter
 sentence-transformers
 scikit-learn
+psutil
+onnx
+onnxruntime

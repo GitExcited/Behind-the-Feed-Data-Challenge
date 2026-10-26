@@ -48,15 +48,18 @@ Behind-the-Feed-Data-Challenge/
 ├── models/                      # Saved MiniLM-L12-v2 model
 ├── outputs/                     # Milestone 1 charts + local_missingness.csv
 ├── report/
-│   └── milestone1/              # LaTeX source and figures
+│   ├── milestone1/              # LaTeX source and figures
+│   └── milestone2/              # efficiency.tex (Section 3)
 ├── src/                         # Scripts for Milestone 2 Training & Experimentation
 │   ├── baselines.py             # TF-IDF and the pretrained MiniLM
 │   ├── build_pairs.py           # step 1–3: filter cards, build pairs, split, save
-│   └── embeddings.py            # embed_headlines(), similarity()
+│   ├── embeddings.py            # embed_headlines(), similarity()
+│   └── m2_efficiency.py         # Section 3: latency, throughput, memory, FLOPs, ONNX and int8 runs
 ├── DATA_COLLECTION.md
 ├── README.md
 ├── data_report.ipynb
 ├── main_findings.ipynb
+├── milestone2_efficiency.ipynb  # Section 3: training and inference efficiency
 └── requirements.txt             # add sentence-transformers
 ```
 
