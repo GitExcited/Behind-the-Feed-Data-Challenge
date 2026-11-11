@@ -1,0 +1,32 @@
+{
+  "config": {
+    "base_model": "paraphrase-multilingual-MiniLM-L12-v2",
+    "seed": 6450,
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "max_seq_length": 128,
+    "loss": "OnlineContrastiveLoss",
+    "margin": 0.5,
+    "freeze_word_embeddings": true,
+    "early_stopping_metric": "val_pr_auc",
+    "patience": 1,
+    "max_steps_per_epoch": null
+  },
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 191 Stepping 2, GenuineIntel",
+    "cpu_threads": 16,
+    "ram_gb": 34.2,
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "python": "3.12.5",
+    "torch": "2.9.0+cu128",
+    "sentence_transformers": "6.2.0",
+    "transformers": "5.20.2",
+    "sklearn": "1.7.2"
+  },
+  "smoke": false
+}
