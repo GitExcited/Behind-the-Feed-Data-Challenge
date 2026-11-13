@@ -1,0 +1,13 @@
+model,case,mapping,ece
+v1 (deployed),clean,raw cosine,0.39455569333839957
+v1 (deployed),clean,Platt,0.02699336870112916
+v2 + sanitizer,clean,raw cosine,0.40654777888607385
+v2 + sanitizer,clean,Platt,0.03115384238834636
+v1 (deployed),typos 0.3,raw cosine,0.40095009275408455
+v1 (deployed),typos 0.3,Platt,0.02261942723901668
+v2 + sanitizer,typos 0.3,raw cosine,0.4049068069525933
+v2 + sanitizer,typos 0.3,Platt,0.0450108991280095
+v1 (deployed),homoglyphs 0.3,raw cosine,0.401022076097309
+v1 (deployed),homoglyphs 0.3,Platt,0.017661308024440985
+v2 + sanitizer,homoglyphs 0.3,raw cosine,0.40573591025418076
+v2 + sanitizer,homoglyphs 0.3,Platt,0.031012690860715935

@@ -1,0 +1,3 @@
+item,milestone2,milestone2_hardware,milestone3,milestone3_hardware,note
+v1 training time (min),1.5,NVIDIA GeForce RTX 3080,3.3,NVIDIA GeForce RTX 3060,Milestone 3 value is v2 (same recipe + augmentation)
+v1 page latency p50 (ms),16.23,"Apple M4 Max CPU (Milestone 2, Section 3)",8.249550000982708,NVIDIA GeForce RTX 3060,different machines

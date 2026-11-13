@@ -1,0 +1,15 @@
+{
+  "process_rss_GB_after_both_models": 1.322123264,
+  "sanitizer_us_per_headline": 18.846700000722194,
+  "platt_parameters": 2,
+  "hardware": {
+    "device": "cuda",
+    "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "threads": 12,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "torch": "2.14.1+cu126",
+    "sentence_transformers": "6.3.0",
+    "smoke": false
+  },
+  "peak_vram_GB": 3.17780736
+}

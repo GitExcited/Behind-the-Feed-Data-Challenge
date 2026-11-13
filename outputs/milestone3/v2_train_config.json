@@ -1,0 +1,27 @@
+{
+  "best_epoch": 3,
+  "minutes": 3.3,
+  "aug_prob": 0.5,
+  "config": {
+    "epochs": 3,
+    "batch_size": 32,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 1.0,
+    "max_seq_length": 128,
+    "margin": 0.5,
+    "freeze_word_embeddings": true,
+    "patience": 1
+  },
+  "base_model": "paraphrase-multilingual-MiniLM-L12-v2",
+  "hardware": {
+    "device": "cuda",
+    "cpu": "Intel64 Family 6 Model 151 Stepping 2, GenuineIntel",
+    "threads": 12,
+    "gpu": "NVIDIA GeForce RTX 3060",
+    "torch": "2.14.1+cu126",
+    "sentence_transformers": "6.3.0",
+    "smoke": false
+  }
+}
