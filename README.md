@@ -21,6 +21,14 @@ jupyter notebook
 - the same measure in search;
 - acclaimed mayors in towns with and without their own outlet.
 
+**`milestone3_monitoring.ipynb`** (Milestone 3, Section 3) simulates a production monitoring
+setup for the deployed bi-encoder using `data/pairs/val.csv` as the reference distribution and
+`data/pairs/test.csv`, replayed in weekly windows, as the simulated post-deployment stream.
+Computes data-quality drift (PSI/Jensen-Shannon/Wasserstein on headline length, PSI on outlet-group
+mix), rolling model-quality metrics (F1/ROC-AUC/PR-AUC against real labels), and alerting rules,
+saving a dashboard and the underlying tables to `outputs/milestone3/`. Shared drift/monitoring
+functions are in `src/m3_monitoring.py`.
+
 **`collection/`** rebuilds the data from raw sources. Raw pages go to `cache/` (not committed); tables go to `outputs/`.
 
 | Notebook | What it does |
