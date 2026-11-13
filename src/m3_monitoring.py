@@ -430,7 +430,7 @@ def _style_panel(ax, title, ylabel=None, legend=True, rotate_x=True):
 def _panel_model_quality(ax, rolling, thresholds):
     ax.plot(rolling.window, rolling.f1, marker="o", label="rolling F1", color="#2a6f97")
     ax.plot(rolling.window, rolling.roc_auc, marker="o", label="rolling ROC-AUC", color="#a3a3a3", alpha=0.7)
-    ax.axhline(0.90, color="gray", linestyle=":", linewidth=1, label="Milestone 2 SLO: F1 >= 0.90")
+    ax.axhline(0.90, color="gray", linestyle=":", linewidth=1, label="fixed SLO target: F1 >= 0.90")
     ax.axhline(thresholds["f1_floor"], color="crimson", linestyle="--", linewidth=1,
                label="calibrated noise floor (5th pct, null)")
     _style_panel(ax, "Rolling model quality (delayed truth)", ylabel="score")
@@ -479,7 +479,7 @@ def _panel_coverage(ax, coverage, thresholds):
     ax.plot(coverage.window, coverage.coverage, marker="o", color="#2a6f97", label="coverage")
     ax.axhline(thresholds["coverage_floor"], color="crimson", linestyle="--", linewidth=1,
                label="calibrated floor (5th pct, null)")
-    ax.axhline(0.919, color="gray", linestyle=":", linewidth=1, label="Section 2 clean-val baseline (91.9%)")
+    ax.axhline(0.919, color="gray", linestyle=":", linewidth=1, label="clean-validation baseline (91.9%)")
     _style_panel(ax, "Abstention coverage (share of pairs decided)", ylabel="coverage")
 
 
@@ -509,10 +509,12 @@ def _panels(rolling, drift, reference, reference_scores, stream_scores, threshol
 
 def plot_dashboard(rolling: pd.DataFrame, drift: pd.DataFrame, reference: pd.DataFrame,
                     reference_scores: np.ndarray, stream_scores: np.ndarray, thresholds: dict, out_path,
-                    coverage: pd.DataFrame = None, sanitizer: pd.DataFrame = None):
+                    coverage: pd.DataFrame = None, sanitizer: pd.DataFrame = None, show: bool = True):
     """Render the compact monitoring dashboard, using calibrated (not generic) thresholds,
     and save it to out_path (a .png). Adds the coverage and sanitizer-rate panels when those
-    tables are given (both optional, since they need src/robustness.py's Pipeline)."""
+    tables are given (both optional, since they need src/robustness.py's Pipeline). Displays
+    the figure inline (show=True, the default) so it's visible when reading the notebook
+    top to bottom, not just as a saved file someone has to open separately."""
     import matplotlib.pyplot as plt
 
     panels = _panels(rolling, drift, reference, reference_scores, stream_scores, thresholds, coverage, sanitizer)
@@ -528,15 +530,20 @@ def plot_dashboard(rolling: pd.DataFrame, drift: pd.DataFrame, reference: pd.Dat
 
     fig.tight_layout()
     fig.savefig(out_path, dpi=150)
+    if show:
+        plt.show()
     plt.close(fig)
 
 
 def save_individual_panels(rolling: pd.DataFrame, drift: pd.DataFrame, reference: pd.DataFrame,
                             reference_scores: np.ndarray, stream_scores: np.ndarray, thresholds: dict, out_dir,
-                            coverage: pd.DataFrame = None, sanitizer: pd.DataFrame = None) -> list:
+                            coverage: pd.DataFrame = None, sanitizer: pd.DataFrame = None,
+                            show: bool = True) -> list:
     """Save every panel from plot_dashboard as its own full-size PNG in out_dir
     (e.g. out_dir/rolling_model_quality.png), for whenever the compact grid is too
-    small to read a specific panel closely. Returns the list of paths written."""
+    small to read a specific panel closely. Displays each one inline (show=True, the
+    default) so every panel is visible in the notebook itself, not just saved to disk.
+    Returns the list of paths written."""
     import matplotlib.pyplot as plt
 
     out_dir = Path(out_dir)
@@ -550,6 +557,8 @@ def save_individual_panels(rolling: pd.DataFrame, drift: pd.DataFrame, reference
         fig.tight_layout()
         path = out_dir / f"panel_{name}.png"
         fig.savefig(path, dpi=150)
+        if show:
+            plt.show()
         plt.close(fig)
         written.append(path)
     return written
