@@ -1,0 +1,10 @@
+experiment,metric,before,after,update cost,latency/size change,change
+b: label shift (live front pages),"F1 Aug-Oct, 27% same",0.8450517428021433,0.8136710382926557,"300 labels, no training",none,-0.0313807045094876
+b: label shift (live front pages),"F1 Aug-Oct, 27% same",0.8450517428021433,0.8190978625802483,"no labels, no training",none,-0.025953880221895043
+b: label shift (stress),"F1 Aug-Oct, 10% same",0.6697617118663839,0.6781200905338836,"300 labels, no training",none,0.008358378667499666
+b: label shift (stress),"F1 Aug-Oct, 10% same",0.6697617118663839,0.6740193914230286,"no labels, no training",none,0.004257679556644689
+c: new domain (French),French test F1,0.864321608040201,0.8632786417166317,"2000 pairs, 0.2 min",none (same architecture),-0.001042966323569261
+c: new domain (French),French test F1,0.864321608040201,0.8756265001842536,"16982 pairs, 1.5 min",none (same architecture),0.011304892144052614
+c: full retrain reference,French test F1,0.864321608040201,0.8739205526770294,"21907 pairs, 3.1 min",none (same architecture),0.009598944636828421
+d: real stream update,F1 Aug-Oct,0.9032901296111665,0.883999697114113,2786 pairs,p50 26.9 -> 26.8 ms,-0.019290432497053533
+d: real stream update,card ARI Aug-Oct,0.7490854849946035,0.7607803577546539,,,0.011694872760050434
