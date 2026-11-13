@@ -1,0 +1,12 @@
+{
+  "hardware": {
+    "train_device": "mps",
+    "cpu": "Apple M4 Max",
+    "threads": 10,
+    "torch": "2.15.0",
+    "sentence_transformers": "6.3.0",
+    "smoke": false
+  },
+  "latency_device": "cpu",
+  "m2_v1_page_p50_ms": 16.23
+}
