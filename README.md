@@ -29,6 +29,34 @@ mix), rolling model-quality metrics (F1/ROC-AUC/PR-AUC against real labels), and
 saving a dashboard and the underlying tables to `outputs/milestone3/`. Shared drift/monitoring
 functions are in `src/m3_monitoring.py`.
 
+### Continual learning (Milestone 4): `src/continual.py`
+
+Updates the deployed bi-encoder as new months of labelled pairs arrive, without forgetting older
+data and without deploying a model that got worse. One update cycle:
+
+1. **Trigger check** (Milestone 3 rules): T1 data drift or T2 F1 drop → fine-tune; T3 change in the
+   share of same-story pairs → only recalibrate the threshold (no training); nothing fired → no update.
+2. **Fine-tune with replay**: the month's pairs (minus a 20% holdout of front pages) + the same number
+   of old pairs from a 4,000-pair replay buffer (balanced by edition and label). Same training recipe as Milestone 2.
+3. **Accept/reject gate**: the new model is deployed only if it is at least as good on the holdout and loses
+   at most 0.01 F1 on the old validation data. Rejected models are logged and their weights deleted.
+4. **Versioning**: every model (v1 → v1.1 → v1.2 …) is recorded in `registry.json` with its parent,
+   threshold, calibration, data hashes, gate result and status; `Registry.rollback()` restores the previous one.
+
+```bash
+python -m src.continual --policy triggered      # real May–Oct 2026 stream, update only when a trigger fires
+python -m src.continual --policy always         # update every month   (--policy never = no-update baseline)
+python -m src.continual --mode finetune         # no replay            (--mode full = full retrain from the base model)
+python -m src.continual --drift typos           # simulated drift: typo rate grows month by month
+python -m src.continual --smoke                 # quick check that everything runs (CPU, a few minutes)
+```
+
+The starting model is Milestone 2's v1, read from `models/minilm_finetuned` (set `M3_V1=<folder>` to use another
+path). Model versions are saved in `models/cl/<run>/` (not committed). Results go to `outputs/milestone4/continual/<run>/`:
+`stream_log.csv` (before/after F1 per month, triggers, gate decision, update time, peak RAM/VRAM, model size),
+`stream.png` (metric trajectories), `registry.json` and the replay buffer. Settings are in `CL_CFG` at the top of the file.
+For human-in-the-loop / active learning, pass the newly labelled pairs to `update()` as the new batch.
+
 **`collection/`** rebuilds the data from raw sources. Raw pages go to `cache/` (not committed); tables go to `outputs/`.
 
 | Notebook | What it does |
@@ -61,6 +89,7 @@ Behind-the-Feed-Data-Challenge/
 ├── src/                         # Scripts for Milestone 2 Training & Experimentation
 │   ├── baselines.py             # TF-IDF and the pretrained MiniLM
 │   ├── build_pairs.py           # step 1–3: filter cards, build pairs, split, save
+│   ├── continual.py             # Milestone 4: continual learning (replay buffer, triggers, gate, model registry)
 │   ├── embeddings.py            # embed_headlines(), similarity()
 │   └── m2_efficiency.py         # Section 3: latency, throughput, memory, FLOPs, ONNX and int8 runs
 ├── DATA_COLLECTION.md
