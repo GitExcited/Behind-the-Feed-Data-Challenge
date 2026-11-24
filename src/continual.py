@@ -19,7 +19,9 @@ Command line (outputs go to outputs/milestone4/continual/):
     python -m src.continual --policy always             # update every month
     python -m src.continual --drift typos --policy always  # simulated drift: typo rate grows month by month
     python -m src.continual --smoke                     # tiny run to check the code works (CPU, a few minutes)
-The starting model is Milestone 2's v1 (M3_V1 env var, default models/minilm_finetuned).
+The starting model is the deployed Milestone 3 model: v2 (noise-augmented) + input sanitizer, read from
+models/minilm_robust (M4_START env var or --start-model). Use --start-model <v1 folder> --start-name v1
+--no-sanitizer to start from Milestone 2's v1 instead.
 """
 import argparse
 import hashlib
@@ -42,6 +44,7 @@ import src.robustness as R
 from src.robustness import SEED, evaluate
 
 CL_MODELS = Path(os.environ.get("CL_MODELS", R.MODELS / "cl"))
+START_MODEL = Path(os.environ.get("M4_START", R.V2_PATH))   # deployed model at the end of Milestone 3
 OUT = R.ROOT / "outputs" / "milestone4" / "continual"
 
 CL_CFG = dict(
@@ -240,18 +243,22 @@ class Registry:
         self.save()
         return prev[-1]["version"]
 
-    def init(self, weights, name, ref_df, note=""):
-        """Register the starting model (e.g. Milestone 2's v1) with a threshold and calibration fitted on ref_df."""
+    def init(self, weights, name, ref_df, sanitize=True, note=""):
+        """Register the starting model (the deployed v2 + sanitizer by default) with a threshold and calibration
+        fitted on ref_df."""
+        if not Path(weights).exists():
+            raise FileNotFoundError(f"starting model not found: {weights} (copy it there or pass --start-model)")
         self.versions = []
-        pipe = R.Pipeline(R.BiEncoder(weights, name)).fit(ref_df)
+        pipe = fit_pipeline(weights, name, ref_df, sanitize)
         self.add({"version": name, "parent": None, "kind": "initial", "weights": rel(weights), "status": "active",
-                  "threshold": pipe.threshold, "platt": platt_params(pipe.platt), "ref_hash": data_hash(ref_df),
-                  "ref_pairs": len(ref_df), "note": note})
+                  "sanitize": sanitize, "threshold": pipe.threshold, "platt": platt_params(pipe.platt),
+                  "ref_hash": data_hash(ref_df), "ref_pairs": len(ref_df), "note": note})
         return pipe
 
     def pipeline(self, name=None):
         rec = self.get(name) if name else self.active()
-        pipe = R.Pipeline(R.BiEncoder(absolute(rec["weights"]), rec["version"]))
+        pipe = R.Pipeline(R.BiEncoder(absolute(rec["weights"]), rec["version"]),
+                          sanitize_inputs=rec.get("sanitize", False), name=rec["version"])
         pipe.threshold = rec["threshold"]
         pipe.platt = make_platt(*rec["platt"])
         return pipe
@@ -267,6 +274,14 @@ class Registry:
                 A.drop_model(absolute(v["weights"]))
                 v["weights_deleted"] = True
         self.save()
+
+
+def fit_pipeline(weights, name, ref_df, sanitize):
+    """Threshold = best F1 on ref_df, as in Milestone 2. With the sanitizer on, the threshold is the one of the
+    model without it (Milestone 3: the sanitizer is an input filter and should not move the decision rule);
+    Platt calibration is then fitted on the sanitized scores."""
+    pipe = R.Pipeline(R.BiEncoder(weights, name)).fit(ref_df)
+    return R.Pipeline(pipe.scorer, sanitize_inputs=True, name=name).fit(ref_df, threshold=pipe.threshold) if sanitize else pipe
 
 
 def platt_params(platt):
@@ -344,10 +359,11 @@ def update(reg, buffer, batch, ref_df, cfg=CL_CFG, mode="replay", full_data=None
     with PeakMemory() as mem:
         info = A.finetune(start, train, ref_df, path, seed=seed, epochs=cfg["epochs"], aug_prob=cfg["aug_prob"],
                           lr=cfg["lr"], log=log)
-    cand = R.Pipeline(R.BiEncoder(path, name)).fit(ref_df)
+    cand = fit_pipeline(path, name, ref_df, cur_rec.get("sanitize", False))
     gate = gate_check(cand, cur, hold, ref_df, cfg)
     rec = reg.add({"version": name, "parent": cur_rec["version"], "kind": mode, "weights": rel(path),
-                   "status": "candidate", "threshold": cand.threshold, "platt": platt_params(cand.platt),
+                   "status": "candidate", "sanitize": cur_rec.get("sanitize", False),
+                   "threshold": cand.threshold, "platt": platt_params(cand.platt),
                    "train_hash": data_hash(train), "train_pairs": len(train), "new_pairs": len(train_new),
                    "replay_pairs": len(train) - len(train_new) if mode == "replay" else 0,
                    "ref_hash": data_hash(ref_df), "holdout_hash": data_hash(hold), "gate": gate,
@@ -387,7 +403,8 @@ def recalibrate(reg, batch, ref, log=print):
     icpt = icpt + np.log(pi_c / (1 - pi_c)) - np.log(pi_old / (1 - pi_old))
     name = reg.next_name(cur_rec["version"])
     reg.add({"version": name, "parent": cur_rec["version"], "kind": "recalibration", "weights": cur_rec["weights"],
-             "status": "candidate", "threshold": float(thr), "platt": [coef, float(icpt)],
+             "status": "candidate", "sanitize": cur_rec.get("sanitize", False),
+             "threshold": float(thr), "platt": [coef, float(icpt)],
              "estimated_prior": pi_new, "batch_hash": data_hash(batch)})
     reg.promote(name)
     log(f"  recalibrated -> {name}: estimated same-story share {pi_new:.2f}, threshold {pipe.threshold:.3f} -> {thr:.3f}")
@@ -502,7 +519,9 @@ def main():
     ap.add_argument("--policy", default="triggered", choices=["triggered", "always", "never"])
     ap.add_argument("--mode", default="replay", choices=["replay", "finetune", "full"])
     ap.add_argument("--drift", default=None, help="simulate drift with a Milestone 3 corruption, e.g. typos")
-    ap.add_argument("--start-model", default=str(R.V1_PATH))
+    ap.add_argument("--start-model", default=str(START_MODEL), help="default: v2 (models/minilm_robust)")
+    ap.add_argument("--start-name", default="v2", help="version name of the starting model (v2 -> v2.1, v2.2, ...)")
+    ap.add_argument("--no-sanitizer", action="store_true", help="score without the Milestone 3 input sanitizer")
     ap.add_argument("--tag", default=None, help="name of the output subfolder")
     ap.add_argument("--smoke", action="store_true", help="tiny run: 2 months, 300 pairs each, 1 epoch")
     a = ap.parse_args()
@@ -524,8 +543,9 @@ def main():
 
     reg = Registry(CL_MODELS / tag)
     log = lambda m: print(m, flush=True)
-    log(f"device {R.DEVICE}; start model {a.start_model}; {len(batches)} batches")
-    reg.init(a.start_model, "v1", val, note="Milestone 2 final model")
+    log(f"device {R.DEVICE}; start model {a.start_model} ({a.start_name}, sanitizer {'off' if a.no_sanitizer else 'on'}); "
+        f"{len(batches)} batches")
+    reg.init(a.start_model, a.start_name, val, sanitize=not a.no_sanitizer, note="starting model")
     buffer = ReplayBuffer(cfg["buffer_size"]).add(train)
     vocab = A.vocabulary(train)
     eval_sets = {"old_val": val, "french_val": val[val.edition == "fr-CA"]}
@@ -537,7 +557,8 @@ def main():
     buffer.save(out)
     plot_stream(log_df, out / "stream.png", title=f"policy={a.policy}, mode={a.mode}" + (f", drift={a.drift}" if a.drift else ""))
     json.dump({"device": R.DEVICE, "torch": torch.__version__, "cfg": cfg, "train_cfg": R.CFG,
-               "minutes_total": (time.perf_counter() - t0) / 60, "start_model": rel(a.start_model)},
+               "minutes_total": (time.perf_counter() - t0) / 60, "start_model": rel(a.start_model),
+               "start_name": a.start_name, "sanitizer": not a.no_sanitizer},
               open(out / "run_info.json", "w"), indent=1, default=str)
     log(f"saved to {rel(out)}")
     cols = ["batch", "before_f1", "decision", "after_holdout_f1", "eval_old_val_f1", "update_minutes"]

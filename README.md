@@ -51,8 +51,9 @@ python -m src.continual --drift typos           # simulated drift: typo rate gro
 python -m src.continual --smoke                 # quick check that everything runs (CPU, a few minutes)
 ```
 
-The starting model is Milestone 2's v1, read from `models/minilm_finetuned` (set `M3_V1=<folder>` to use another
-path). Model versions are saved in `models/cl/<run>/` (not committed). Results go to `outputs/milestone4/continual/<run>/`:
+The starting model is the deployed Milestone 3 model, **v2 + input sanitizer**, read from `models/minilm_robust`
+(weights are not in git; use `--start-model <folder>` or `M4_START=<folder>` if yours is elsewhere). Updates are named
+v2.1, v2.2, … To start from Milestone 2's v1 instead: `--start-model models/minilm_finetuned --start-name v1 --no-sanitizer`. Model versions are saved in `models/cl/<run>/` (not committed). Results go to `outputs/milestone4/continual/<run>/`:
 `stream_log.csv` (before/after F1 per month, triggers, gate decision, update time, peak RAM/VRAM, model size),
 `stream.png` (metric trajectories), `registry.json` and the replay buffer. Settings are in `CL_CFG` at the top of the file.
 For human-in-the-loop / active learning, pass the newly labelled pairs to `update()` as the new batch.
