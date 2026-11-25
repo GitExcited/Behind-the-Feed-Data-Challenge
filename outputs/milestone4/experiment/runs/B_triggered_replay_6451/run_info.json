@@ -1,0 +1,35 @@
+{
+ "device": "mps",
+ "torch": "2.15.0",
+ "minutes_total": 0.5746130027847054,
+ "cfg": {
+  "replay_ratio": 1.0,
+  "buffer_size": 4000,
+  "holdout_frac": 0.2,
+  "min_new_pairs": 200,
+  "epochs": 2,
+  "lr": null,
+  "aug_prob": 0.5,
+  "gate_tol_new": 0.0,
+  "gate_tol_old": 0.01,
+  "psi_limit": 0.2,
+  "psi_features": 2,
+  "f1_drop": 0.03,
+  "f1_windows": 2,
+  "prior_change": 0.1,
+  "keep_weights": 99
+ },
+ "train_cfg": {
+  "epochs": 3,
+  "batch_size": 32,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "max_grad_norm": 1.0,
+  "max_seq_length": 128,
+  "margin": 0.5,
+  "freeze_word_embeddings": true,
+  "patience": 1
+ },
+ "start_model": "v2 + sanitizer (models/minilm_robust)"
+}

@@ -81,10 +81,12 @@ def data_hash(df):
 
 def rel(path):
     """Paths are stored relative to the repo root so the registry works on every machine."""
-    try:
-        return Path(path).resolve().relative_to(R.ROOT).as_posix()
-    except ValueError:
-        return Path(path).as_posix()
+    for p in (Path(path).absolute(), Path(path).resolve()):   # unresolved first: models/ may hold symlinks
+        try:
+            return p.relative_to(R.ROOT).as_posix()
+        except ValueError:
+            pass
+    return Path(path).as_posix()
 
 
 def absolute(path):
@@ -97,16 +99,20 @@ def dir_mb(path):
 
 
 class PeakMemory:
-    """Peak process RAM (sampled every 0.2 s) and peak GPU memory while the block runs."""
+    """Peak process RAM (sampled every 0.2 s) and peak GPU memory while the block runs. On Apple silicon (MPS)
+    there is no peak counter, so the memory the MPS driver holds is sampled the same way as RAM."""
 
     def __enter__(self):
         self.proc, self.peak, self.stop = psutil.Process(), 0, threading.Event()
+        self.mps_peak = 0
         if R.DEVICE == "cuda":
             torch.cuda.reset_peak_memory_stats()
 
         def watch():
             while not self.stop.is_set():
                 self.peak = max(self.peak, self.proc.memory_info().rss)
+                if R.DEVICE == "mps":
+                    self.mps_peak = max(self.mps_peak, torch.mps.driver_allocated_memory())
                 time.sleep(0.2)
         self.thread = threading.Thread(target=watch, daemon=True)
         self.thread.start()
@@ -117,7 +123,8 @@ class PeakMemory:
         self.thread.join()
         self.peak = max(self.peak, self.proc.memory_info().rss)
         self.ram_mb = self.peak / 1e6
-        self.vram_mb = torch.cuda.max_memory_allocated() / 1e6 if R.DEVICE == "cuda" else np.nan
+        self.vram_mb = (torch.cuda.max_memory_allocated() / 1e6 if R.DEVICE == "cuda"
+                        else self.mps_peak / 1e6 if R.DEVICE == "mps" else np.nan)
         return False
 
 
@@ -413,12 +420,13 @@ def recalibrate(reg, batch, ref, log=print):
 
 # test-then-train stream
 def run_stream(batches, reg, buffer, ref_df, vocab, policy="triggered", mode="replay", full_data=None,
-               eval_sets=None, cfg=CL_CFG, log=print):
+               eval_sets=None, cfg=CL_CFG, log=print, seed=SEED):
     """For each (name, df) batch, in time order:
       1. before: score the batch with the serving model (it has never seen it) -> drift stats + metrics + latency
       2. triggers T1-T3 (policy 'triggered'), or always / never update
       3. update (replay fine-tune + gate) or recalibrate
       4. after: metrics of the serving model on the batch holdout and on fixed eval_sets (forgetting check)
+    seed: base training seed (update at step k uses seed + k), so runs can be repeated with different seeds.
     Returns one row per batch. ref_df grows with every holdout, so thresholds are refitted on recent data too."""
     eval_sets = eval_sets or {}
     pipe = reg.pipeline()
@@ -443,7 +451,7 @@ def run_stream(batches, reg, buffer, ref_df, vocab, policy="triggered", mode="re
         do_update = policy == "always" or (policy == "triggered" and (trig["T1_data_drift"] or trig["T2_perf_drop"]))
         do_recal = policy == "triggered" and trig["T3_balance_change"] and not do_update
         if do_update:
-            res = update(reg, buffer, df, ref_df, cfg, mode, full_data, seed=SEED + step, log=log)
+            res = update(reg, buffer, df, ref_df, cfg, mode, full_data, seed=seed + step, log=log)
         elif do_recal:
             res = recalibrate(reg, df, ref, log)
             buffer.add(df)

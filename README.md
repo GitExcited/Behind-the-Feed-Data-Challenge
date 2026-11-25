@@ -6,12 +6,42 @@ Goal: measure how visible small-town and independent local news is on Google's n
 
 How each dataset was collected: [`DATA_COLLECTION.md`](DATA_COLLECTION.md).
 
-## Notebooks
+## Setup
 
 ```bash
+python3.12 -m venv .venv && source .venv/bin/activate     # Python >= 3.10 (we use 3.12)
 pip install -r requirements.txt
 jupyter notebook
 ```
+
+`sentence-transformers` must be **6.2 or newer**: our saved models were written with 6.x and an older version cannot
+load them (`No module named sentence_transformers.base`). Training uses a CUDA GPU or Apple silicon (MPS) if there is
+one; latency is always measured on CPU.
+
+**Model weights are not in git.** Put them in `models/` (a copy or a symlink, e.g. `ln -s ~/Downloads/minilm_robust models/minilm_robust`):
+
+| Folder | Model | Made in |
+|---|---|---|
+| `models/minilm_finetuned` | **v1**: fine-tuned MiniLM bi-encoder | Milestone 2 (`milestone2_training.ipynb`) |
+| `models/minilm_robust` | **v2**: v1 recipe + noise augmentation; deployed with the input sanitizer, start model of Milestone 4 | Milestone 3 (`milestone3_robustness.ipynb`) |
+| `models/exp/cross_encoder` | fine-tuned cross-encoder (comparison only) | Milestone 2 (`milestone2_experiments.ipynb`) |
+
+The pretrained `paraphrase-multilingual-MiniLM-L12-v2` downloads into `models/` on first use. Other locations can be
+set with `M3_V1`, `M4_START` (or `--start-model`) and `CL_MODELS` (where continual-learning versions are saved).
+
+## Notebooks
+
+| Milestone | Notebook | What it does | Outputs |
+|---|---|---|---|
+| 1 | `main_findings.ipynb`, `data_report.ipynb` | Main visibility findings and the data report | `outputs/milestone1/` |
+| 2 | `milestone2_training.ipynb` | Fine-tunes the same-story model (v1) | `outputs/milestone2/` |
+| 2 | `milestone2_experiments.ipynb`, `milestone2_label_noise.ipynb` | Experiments after v1 (augmentations, cross-encoder) and the label-noise study | `outputs/milestone2/experiments/`, `label_noise/` |
+| 2 | `milestone2_efficiency.ipynb` | Training and inference efficiency (`src/m2_efficiency.py`) | `outputs/milestone2/efficiency/` |
+| 3 | `milestone3_risk.ipynb` | Part 1.3 stress tests (`src/m3_stress.py`) | `outputs/milestone3/stress/` |
+| 3 | `milestone3_robustness.ipynb` | Section 2: noise and attacks, v2, sanitizer, calibration (`src/robustness.py`) | `outputs/milestone3/` |
+| 3 | `milestone3_monitoring.ipynb` | Section 3: monitoring dashboard and alerts (`src/m3_monitoring.py`) | `outputs/milestone3/` |
+| 3 | `milestone3_adaptation.ipynb` | Section 4.3: drift, prior shift and domain shift adaptation (`src/adaptation.py`) | `outputs/milestone3/adaptation/` |
+| 4 | `milestone4_continual.ipynb` | Part 1.4: simulated drift + continual update experiment (`src/m4_experiment.py`) | `outputs/milestone4/experiment/` |
 
 **`main_findings.ipynb`** reproduces the main results from `data/`, one chart each (saved to `outputs/`):
 - own election stories shown on Local pages, by town size;
@@ -40,7 +70,7 @@ data and without deploying a model that got worse. One update cycle:
    of old pairs from a 4,000-pair replay buffer (balanced by edition and label). Same training recipe as Milestone 2.
 3. **Accept/reject gate**: the new model is deployed only if it is at least as good on the holdout and loses
    at most 0.01 F1 on the old validation data. Rejected models are logged and their weights deleted.
-4. **Versioning**: every model (v1 → v1.1 → v1.2 …) is recorded in `registry.json` with its parent,
+4. **Versioning**: every model (v2 → v2.1 → v2.2 …) is recorded in `registry.json` with its parent,
    threshold, calibration, data hashes, gate result and status; `Registry.rollback()` restores the previous one.
 
 ```bash
@@ -57,6 +87,33 @@ v2.1, v2.2, … To start from Milestone 2's v1 instead: `--start-model models/mi
 `stream_log.csv` (before/after F1 per month, triggers, gate decision, update time, peak RAM/VRAM, model size),
 `stream.png` (metric trajectories), `registry.json` and the replay buffer. Settings are in `CL_CFG` at the top of the file.
 For human-in-the-loop / active learning, pass the newly labelled pairs to `update()` as the new batch.
+
+### Continual learning experiment (Milestone 4, Part 1.4): `src/m4_experiment.py`
+
+Replays May–Oct 2026 one month at a time from v2 + sanitizer (each month is scored before any update sees it) and compares
+update strategies: no update, fine-tune without replay, replay + gate (every month or only when a trigger fires) and full
+retrain. Runs that train use 3 seeds (6450–6452), reported as mean ± std.
+
+| Part | What | Question |
+|---|---|---|
+| A | Real months, no added drift | Do we need updates on real data? |
+| B | Simulated drift: typo rate grows 0 → 30% of letters over the six months | Does replay + gate recover accuracy, and at what cost? |
+| C | One update on May–Jul labels with 10–40% wrong labels (random, or missed same-story links) | Does the gate stop updates trained on bad human labels? |
+| D | CPU page latency and model size, v2 vs updated models | Do updates change serving cost? |
+
+```bash
+python -m src.m4_experiment                 # everything, about 30 min on an Apple M4 Max laptop
+python -m src.m4_experiment --parts B C     # only some parts
+python -m src.m4_experiment --smoke         # quick check that everything runs (about 2 min)
+python -m src.m4_experiment --report        # rebuild tables and figures from saved runs, no training
+```
+
+Finished runs are cached, so an interrupted job continues where it stopped. Results go to `outputs/milestone4/experiment/`:
+`summary.csv` (one row per strategy), `per_month.csv`, `stream_logs_all.csv` (every month of every run: metrics, triggers,
+gate result, update time, peak RAM / GPU memory), `bad_labels.csv` and `bad_labels_summary.csv`, `latency_size.csv`,
+`runs/<run>/` (log, `registry.json` and settings of each run) and `figures/` (metric trajectories and per-update F1 before/after,
+update time and memory for A and B; bad labels for C). Model versions are written to `models/cl/experiment/` (not committed); only the two final models used for the
+latency check are kept. `milestone4_continual.ipynb` shows the results (set `RUN = True` in it to run everything again).
 
 **`collection/`** rebuilds the data from raw sources. Raw pages go to `cache/` (not committed); tables go to `outputs/`.
 
@@ -82,23 +139,36 @@ Behind-the-Feed-Data-Challenge/
 │       ├── train.csv            # 21,963 pairs
 │       ├── val.csv              # 2,850 pairs
 │       └── test.csv             # 2,457 pairs
-├── models/                      # Saved MiniLM-L12-v2 model
-├── outputs/                     # Milestone 1 charts + local_missingness.csv
+├── models/                      # model weights (not in git, see Setup); continual-learning versions in models/cl/
+├── outputs/
+│   ├── milestone1/              # charts + local_missingness.csv
+│   ├── milestone2/              # baselines, training, experiments, label noise, efficiency
+│   ├── milestone3/              # robustness, stress/, monitoring dashboard, adaptation/
+│   └── milestone4/experiment/   # continual learning experiment (tables, runs/, figures/)
 ├── report/
 │   ├── milestone1/              # LaTeX source and figures
-│   └── milestone2/              # efficiency.tex (Section 3)
-├── src/                         # Scripts for Milestone 2 Training & Experimentation
-│   ├── baselines.py             # TF-IDF and the pretrained MiniLM
-│   ├── build_pairs.py           # step 1–3: filter cards, build pairs, split, save
-│   ├── continual.py             # Milestone 4: continual learning (replay buffer, triggers, gate, model registry)
-│   ├── embeddings.py            # embed_headlines(), similarity()
-│   └── m2_efficiency.py         # Section 3: latency, throughput, memory, FLOPs, ONNX and int8 runs
+│   └── milestone2/              # LaTeX source, figure and compiled PDF
+├── src/
+│   ├── build_pairs.py           # M2: filter cards, build pairs, split, save
+│   ├── translate_headlines.py   # M2: EN <-> FR translations for augmentation
+│   ├── baselines.py             # M2: TF-IDF and the pretrained MiniLM
+│   ├── embeddings.py            # M2: embed_headlines(), similarity()
+│   ├── m2_common.py             # M2: shared data, metrics, scoring and training
+│   ├── m2_efficiency.py         # M2: latency, throughput, memory, FLOPs, ONNX and int8 runs
+│   ├── m3_stress.py             # M3 Part 1.3: stress-test corruptions and scoring
+│   ├── robustness.py            # M3 Section 2: corruptions, attacks, v2 training, sanitizer, calibration
+│   ├── m3_monitoring.py         # M3 Section 3: drift and monitoring functions
+│   ├── adaptation.py            # M3 Section 4.3: drift statistics, prior-shift correction, incremental fine-tuning
+│   ├── continual.py             # M4 Part 1: continual learning (replay buffer, triggers, gate, model registry)
+│   └── m4_experiment.py         # M4 Part 1.4: drift + continual update experiment
 ├── DATA_COLLECTION.md
 ├── README.md
 ├── data_report.ipynb
 ├── main_findings.ipynb
-├── milestone2_efficiency.ipynb  # Section 3: training and inference efficiency
-└── requirements.txt             # add sentence-transformers
+├── milestone2_*.ipynb           # training, experiments, label noise, efficiency
+├── milestone3_*.ipynb           # risk, robustness, monitoring, adaptation
+├── milestone4_continual.ipynb   # continual learning experiment
+└── requirements.txt
 ```
 
 ## Data

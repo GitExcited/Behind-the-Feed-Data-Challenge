@@ -1,0 +1,280 @@
+{
+ "versions": [
+  {
+   "created": "2026-11-25T13:55:15+00:00",
+   "version": "v2",
+   "parent": null,
+   "kind": "initial",
+   "weights": "models/minilm_robust",
+   "status": "archived",
+   "sanitize": true,
+   "threshold": 0.7628982067108154,
+   "platt": [
+    25.476173400878906,
+    -19.259437561035156
+   ],
+   "ref_hash": "e6c87651e9ff854a",
+   "ref_pairs": 2850,
+   "note": "starting model (Milestone 3 deployed)"
+  },
+  {
+   "created": "2026-11-25T13:55:25+00:00",
+   "version": "v2.1",
+   "parent": "v2",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_always_replay_6450/v2.1",
+   "status": "active",
+   "sanitize": true,
+   "threshold": 0.7248817086219788,
+   "platt": [
+    22.868122100830078,
+    -16.757770538330078
+   ],
+   "train_hash": "64e715d9318a3032",
+   "train_pairs": 1012,
+   "new_pairs": 506,
+   "replay_pairs": 506,
+   "ref_hash": "e6c87651e9ff854a",
+   "holdout_hash": "2f04a27417df4fb1",
+   "gate": {
+    "new_f1_current": 0.9142857142857143,
+    "new_f1_candidate": 0.9245283018867925,
+    "old_f1_current": 0.878727634194831,
+    "old_f1_candidate": 0.8817791650409676,
+    "accept": true
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6451,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.10353866458560029,
+   "best_epoch": 1,
+   "device": "mps"
+  },
+  {
+   "created": "2026-11-25T13:55:35+00:00",
+   "version": "v2.2",
+   "parent": "v2.1",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_always_replay_6450/v2.2",
+   "status": "rejected",
+   "sanitize": true,
+   "threshold": 0.715610146522522,
+   "platt": [
+    22.256017684936523,
+    -15.96829605102539
+   ],
+   "train_hash": "659e3001e72c3fc8",
+   "train_pairs": 628,
+   "new_pairs": 314,
+   "replay_pairs": 314,
+   "ref_hash": "0eacf5fd4fde0e35",
+   "holdout_hash": "11599cc73063d440",
+   "gate": {
+    "new_f1_current": 0.9491525423728814,
+    "new_f1_candidate": 0.9122807017543859,
+    "old_f1_current": 0.8834769576620457,
+    "old_f1_candidate": 0.8842819449679608,
+    "accept": false
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6452,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.07168382360056663,
+   "best_epoch": 2,
+   "device": "mps",
+   "weights_deleted": true
+  },
+  {
+   "created": "2026-11-25T13:55:43+00:00",
+   "version": "v2.3",
+   "parent": "v2.1",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_always_replay_6450/v2.3",
+   "status": "rejected",
+   "sanitize": true,
+   "threshold": 0.7964895367622375,
+   "platt": [
+    27.96755599975586,
+    -22.25445556640625
+   ],
+   "train_hash": "75685133576a3f4f",
+   "train_pairs": 564,
+   "new_pairs": 282,
+   "replay_pairs": 282,
+   "ref_hash": "178eeade2bf7a927",
+   "holdout_hash": "94b61a38bcca5aac",
+   "gate": {
+    "new_f1_current": 0.9278350515463918,
+    "new_f1_candidate": 0.9166666666666666,
+    "old_f1_current": 0.8848528877588085,
+    "old_f1_candidate": 0.8831551787688905,
+    "accept": false
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6453,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.06365380138546849,
+   "best_epoch": 1,
+   "device": "mps",
+   "weights_deleted": true
+  },
+  {
+   "created": "2026-11-25T13:55:52+00:00",
+   "version": "v2.4",
+   "parent": "v2.1",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_always_replay_6450/v2.4",
+   "status": "rejected",
+   "sanitize": true,
+   "threshold": 0.7909958362579346,
+   "platt": [
+    27.909353256225586,
+    -22.299156188964844
+   ],
+   "train_hash": "263abaf07b4cd46a",
+   "train_pairs": 708,
+   "new_pairs": 354,
+   "replay_pairs": 354,
+   "ref_hash": "247fd35d13cf2424",
+   "holdout_hash": "37d8ce92344191d0",
+   "gate": {
+    "new_f1_current": 0.9863013698630136,
+    "new_f1_candidate": 0.972972972972973,
+    "old_f1_current": 0.8863157894736842,
+    "old_f1_candidate": 0.8850371418464804,
+    "accept": false
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6454,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.0819239972353292,
+   "best_epoch": 1,
+   "device": "mps",
+   "weights_deleted": true
+  },
+  {
+   "created": "2026-11-25T13:56:02+00:00",
+   "version": "v2.5",
+   "parent": "v2.1",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_always_replay_6450/v2.5",
+   "status": "rejected",
+   "sanitize": true,
+   "threshold": 0.7628808617591858,
+   "platt": [
+    25.93811798095703,
+    -19.89472007751465
+   ],
+   "train_hash": "af4f7f82324549cf",
+   "train_pairs": 632,
+   "new_pairs": 316,
+   "replay_pairs": 316,
+   "ref_hash": "cc7cc6431b26d92a",
+   "holdout_hash": "b5438fe2613ea528",
+   "gate": {
+    "new_f1_current": 0.851063829787234,
+    "new_f1_candidate": 0.8421052631578947,
+    "old_f1_current": 0.8888128634964078,
+    "old_f1_candidate": 0.8887357905614881,
+    "accept": false
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6455,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.07688697500076766,
+   "best_epoch": 2,
+   "device": "mps",
+   "weights_deleted": true
+  }
+ ]
+}

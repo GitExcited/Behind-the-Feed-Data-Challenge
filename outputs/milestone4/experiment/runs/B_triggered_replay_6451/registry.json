@@ -1,0 +1,174 @@
+{
+ "versions": [
+  {
+   "created": "2026-11-25T13:58:50+00:00",
+   "version": "v2",
+   "parent": null,
+   "kind": "initial",
+   "weights": "models/minilm_robust",
+   "status": "archived",
+   "sanitize": true,
+   "threshold": 0.7628982067108154,
+   "platt": [
+    25.476173400878906,
+    -19.259437561035156
+   ],
+   "ref_hash": "e6c87651e9ff854a",
+   "ref_pairs": 2850,
+   "note": "starting model (Milestone 3 deployed)"
+  },
+  {
+   "created": "2026-11-25T13:59:01+00:00",
+   "version": "v2.1",
+   "parent": "v2",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_triggered_replay_6451/v2.1",
+   "status": "archived",
+   "sanitize": true,
+   "threshold": 0.7280489206314087,
+   "platt": [
+    21.732715606689453,
+    -15.685774803161621
+   ],
+   "train_hash": "8539c526676e9040",
+   "train_pairs": 584,
+   "new_pairs": 292,
+   "replay_pairs": 292,
+   "ref_hash": "e6c87651e9ff854a",
+   "holdout_hash": "705310c6c8086393",
+   "gate": {
+    "new_f1_current": 0.9253731343283582,
+    "new_f1_candidate": 0.9714285714285714,
+    "old_f1_current": 0.878727634194831,
+    "old_f1_candidate": 0.8782643631980716,
+    "accept": true
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6453,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.0710780083357046,
+   "best_epoch": 2,
+   "device": "mps"
+  },
+  {
+   "created": "2026-11-25T13:59:10+00:00",
+   "version": "v2.2",
+   "parent": "v2.1",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_triggered_replay_6451/v2.2",
+   "status": "archived",
+   "sanitize": true,
+   "threshold": 0.8172959089279175,
+   "platt": [
+    30.13405990600586,
+    -24.52904510498047
+   ],
+   "train_hash": "586821ec42910fb7",
+   "train_pairs": 564,
+   "new_pairs": 282,
+   "replay_pairs": 282,
+   "ref_hash": "84ec7fc6cb9d1ec7",
+   "holdout_hash": "91a3920637450531",
+   "gate": {
+    "new_f1_current": 0.9166666666666666,
+    "new_f1_candidate": 0.9278350515463918,
+    "old_f1_current": 0.8804934464148034,
+    "old_f1_candidate": 0.8768699654775605,
+    "accept": true
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6454,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.06608989721474548,
+   "best_epoch": 1,
+   "device": "mps"
+  },
+  {
+   "created": "2026-11-25T13:59:21+00:00",
+   "version": "v2.3",
+   "parent": "v2.2",
+   "kind": "replay",
+   "weights": "models/cl/experiment/B_triggered_replay_6451/v2.3",
+   "status": "active",
+   "sanitize": true,
+   "threshold": 0.7283037900924683,
+   "platt": [
+    21.860464096069336,
+    -16.004596710205078
+   ],
+   "train_hash": "d1091853db0502d2",
+   "train_pairs": 620,
+   "new_pairs": 310,
+   "replay_pairs": 310,
+   "ref_hash": "2cfde66c521d52c7",
+   "holdout_hash": "0f92207d21aed5b4",
+   "gate": {
+    "new_f1_current": 0.7848101265822784,
+    "new_f1_candidate": 0.8148148148148148,
+    "old_f1_current": 0.878698224852071,
+    "old_f1_candidate": 0.8829553767373811,
+    "accept": true
+   },
+   "config": {
+    "replay_ratio": 1.0,
+    "buffer_size": 4000,
+    "epochs": 2,
+    "lr": null,
+    "aug_prob": 0.5,
+    "holdout_frac": 0.2,
+    "seed": 6455,
+    "train_cfg": {
+     "epochs": 3,
+     "batch_size": 32,
+     "learning_rate": 2e-05,
+     "weight_decay": 0.01,
+     "warmup_ratio": 0.1,
+     "max_grad_norm": 1.0,
+     "max_seq_length": 128,
+     "margin": 0.5,
+     "freeze_word_embeddings": true,
+     "patience": 1
+    }
+   },
+   "update_minutes": 0.07708596458348135,
+   "best_epoch": 2,
+   "device": "mps"
+  }
+ ]
+}
